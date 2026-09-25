@@ -1,0 +1,2 @@
+.premium-map h1,.premium-map__groups h2{font-family:Georgia,serif}.premium-directory__groups{grid-template-columns:repeat(4,minmax(0,1fr))}.premium-directory__head h2{font-family:Georgia,serif;font-size:25px}.premium-map__groups a{border-bottom-style:dotted}
+@media(max-width:1000px){.premium-directory__groups{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:640px){.premium-directory__groups{grid-template-columns:repeat(2,minmax(0,1fr))}}
