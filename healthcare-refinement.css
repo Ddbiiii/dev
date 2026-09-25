@@ -1,0 +1,2 @@
+.premium-note{background:#f0f8f7;border-color:#a8c9c5}.premium-map__groups section{border-color:#176979}.premium-directory__groups a{font-size:14px}
+@media(max-width:1000px){.premium-directory__groups{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:640px){.premium-directory__groups{grid-template-columns:repeat(2,minmax(0,1fr))}}
