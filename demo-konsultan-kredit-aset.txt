@@ -1,0 +1,16 @@
+# Ilustrasi editorial lokal
+
+Ilustrasi pada rilis ini disusun dari geometri vektor, warna, pencahayaan ilustratif, dan pola yang dibuat khusus untuk paket website ini. Tidak ada foto orang, potret sintetis, atau foto stok pada aset pengganti.
+
+Gambar utama, ukuran responsif, thumbnail katalog, dan gambar tersemat memakai artwork yang sama sesuai topiknya. Semua aset disimpan lokal. Nama berkas dan rute dipertahankan. Logo perusahaan yang disediakan tetap menggunakan berkas asal.
+
+Visual merupakan ilustrasi, bukan bukti proyek, lokasi, produk komersial tertentu, atau anggota tim yang sebenarnya.
+
+FONT
+DM Sans Project Authors, SIL Open Font License 1.1.
+Sumber: https://github.com/google/fonts/tree/main/ofl/dmsans
+Teks lisensi: dm-sans-OFL.txt
+
+IKON DAN IDENTITAS
+Logo geometris, favicon, dan ikon antarmuka dibuat khusus untuk demo ini. Tidak menggunakan identitas klien nyata.
+Kode dan naskah halaman dibuat khusus untuk paket portfolio CV MULTI USAHA MANDIRI.
