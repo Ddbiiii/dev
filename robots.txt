@@ -1,0 +1,3 @@
+# Individual page metadata preserves the indexing policy of each demo.
+User-agent: *
+Allow: /
