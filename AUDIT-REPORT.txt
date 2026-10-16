@@ -1,0 +1,27 @@
+DIRAC PREMIUM: AUDIT DAN IMPLEMENTASI
+Tanggal: 11 Oktober 2026
+Sumber: dev-drc-Dirac(2).zip
+SHA-256 sumber: eaa3abc0f7efcd64c879a1d717549f0ba4ef4e64e9930c4c7309cd16e3006ea7
+
+Baseline lengkap: 1.799 file, 1.412 HTML. Versi dev: 896 file, 736 HTML.
+Semua halaman HTML dipertahankan. Perbedaan dev/dev1, endpoint, API, autentikasi dan struktur sesi dipertahankan.
+
+PERUBAHAN TERBUKTI
+1. Katalog utama kini memuat 42 demo. Lima keluarga yang belum tercantum ditambahkan berdasarkan halaman sumber yang memang ada.
+2. Pencarian, enam kategori, urutan nama, jumlah hasil, reset, dan hasil kosong bekerja pada pengujian controller.
+3. Preview memakai aset sumber yang relevan. Visual konseptual diberi label ilustrasi, bukan screenshot.
+4. Tiap keluarga mendapat penyempurnaan sesuai identitasnya. Fokus keyboard, skip links, target sentuh, navigasi, dan ukuran konten diperbaiki.
+5. Semua dependensi CSS/JavaScript frontend lokal di-inline. Blok defer dipindahkan ke ekor dokumen dalam urutan semula. Tidak ada framework, CDN atau build step baru.
+6. Referensi katalog lokal dan sitemap disesuaikan dengan isi masing-masing paket. Host preview tidak lagi membentuk subdomain katalog yang tidak ada.
+7. Error awal website.html direproduksi: binding searchInput memanggil addEventListener pada null. Tiga lokasi inisialisasi kini memeriksa keberadaan empat kontrol toko. Fungsi toko tetap tersedia bila kontrol tersebut ada. Data parfum dan kontrak backend tidak dihapus.
+8. CSS/JS sumber yang sudah tertanam, metadata kemasan usang, laporan/generator lama, duplikat byte dan media yang terbukti tidak lagi direferensikan dikeluarkan dari distribusi. Lisensi dipertahankan.
+9. Hash CSP SHA-512 dihitung ulang tanpa menambahkan unsafe-inline atau unsafe-eval. Sepuluh script keamanan terpilih per versi tetap byte-identik.
+
+DAFTAR FILE
+CHANGELOG.csv memuat nama/path setiap file berubah, ditambahkan, dihapus dan tidak berubah, serta hash sebelum/sesudah.
+ASSET-MANIFEST.csv memuat alasan setiap keputusan aset.
+FILE-INVENTORY.json memuat daftar file dan hash akhir, dengan pengecualian hash dirinya sendiri untuk menghindari referensi rekursif.
+Inventory pendamping di luar ZIP mencatat SHA-256 SEMUA anggota ZIP termasuk FILE-INVENTORY.json.
+
+BATAS
+Tidak ada klaim lulus visual semua halaman, WCAG AA, Lighthouse, Core Web Vitals, atau integrasi backend. Lihat QA-REPORT.txt dan DEPLOYMENT.txt.

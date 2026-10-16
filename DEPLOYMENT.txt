@@ -1,0 +1,29 @@
+DIRAC PREMIUM: DEPLOYMENT dev
+
+1. Ekstrak DIRAC-PREMIUM-FINAL.zip. Hanya ada dev dan dev1.
+2. Pilih SATU versi untuk satu document root. Jangan mencampur keduanya.
+3. Folder 001,002,... adalah batch upload, bukan path URL.
+4. Salin ISI setiap batch ke document root yang sama. Jangan membuat /001/index.html sebagai entry publik.
+   Alternatif Python: python dev/001/MERGE-BATCHES.py dev deploy-dev
+   Lokasi MERGE-BATCHES.py dapat berada di batch lain; cari namanya dalam FILE-INVENTORY.json.
+5. Dari document root gabungan jalankan python VERIFY-FILES.py. Semua hash harus cocok.
+6. Entry publik statis: index.html. Koleksi lokal berisi 21 demo. Sitemap: sitemap.html.
+7. website.html adalah katalog yang memakai shell autentikasi/layanan DIRAC. Autentikasi tidak dihapus. Gunakan hanya pada ekosistem domain dan backend yang sudah sesuai.
+8. Untuk GitHub Pages, unggah file gabungan ke root cabang penerbitan atau folder /docs yang dipilih dalam Settings > Pages. Pastikan index.html ada tepat di folder tersebut. Aset dan HTML harus tetap sejajar.
+9. Untuk hosting statis lain, jadikan direktori gabungan sebagai publish root. Tidak ada npm install, build, ENV atau tabel baru.
+10. Setelah upload, buka index.html, sebuah demo, sitemap, font dan gambar; periksa status 200 serta MIME. Uji kembali menu mobile, keyboard, pencarian, filter dan formulir pada browser nyata.
+
+ROUTING DAN PORTAL
+Pada localhost atau host preview, katalog menampilkan koleksi yang tersedia lokal. Jangan menebak alamat dev/dev1 pada github.io atau pages.dev.
+Pada domain perusahaan yang memenuhi konfigurasi sumber, router tetap mendukung dev.<domain> dan dev1.<domain> untuk katalog lengkap.
+Katalog produksi website.html memerlukan autentikasi, API, origin, cookie, halaman aplikasi dan aset perdagangan yang sudah disediakan hosting asal. ZIP ini tidak berisi backend tersebut.
+Jangan menonaktifkan auth/CSP agar portal tampak berhasil pada preview. Gunakan index.html untuk demo statis.
+Jangan menempelkan CSP dari laporan lama. Hash telah diselaraskan dengan HTML akhir. Jika mengubah style/script inline, hash harus dihitung ulang.
+Canonical relatif dan kebijakan robots sumber dipertahankan karena domain akhir belum ditentukan. Konfirmasi URL final sebelum membuat canonical/sitemap.xml absolut.
+
+JUMLAH
+880 file termasuk dokumentasi, 9 batch, maksimal 100 file per batch. HTML 736.
+FILE-INVENTORY.json memberi pemetaan nama file ke batch. Inventory pendamping memberi hash semua anggota ZIP.
+
+BATAS PENERIMAAN
+Browser visual, Lighthouse/CWV dan integrasi produksi masih perlu verifikasi. Lihat QA-REPORT.txt. Harga Rp20 juta merupakan target mutu pengguna, bukan valuasi yang dibuktikan oleh pengujian ini.

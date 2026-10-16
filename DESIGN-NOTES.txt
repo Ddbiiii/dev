@@ -1,0 +1,108 @@
+# Dev: public-demo design and interaction implementation
+
+Scope: 713 public demo HTML pages across 21 families, plus `index.html` and `sitemap.html`. No protected portal HTML or `website.html` was changed by this workstream. The exact per-file coverage is recorded in `dev-design-coverage.json`.
+
+## Implemented changes
+
+All 21 existing identities retain their logos, original local media, palette, navigation, and page inventory. Family-specific responsive CSS adjusts composition, typography, image ratios, data hierarchy, and small-screen reflow. Existing functionality was preserved. The narrower common layer only supplies keyboard focus, touch-target, wrapping, reduced-motion, and form-readability details.
+
+| Family | HTML pages | Specific presentation changes |
+|---|---:|---|
+| resort | 32 | Serif hospitality, asymmetric image pairing, narrower hero copy, flexible stay rows. |
+| fashion | 32 | Graphic merchandise presentation, product-image borders, consistent price alignment. |
+| legal | 40 | Publication-like hero, longer-form reading measure, tighter practice hierarchy. |
+| northline | 33 | Route search, aligned operational metrics and lane spacing. |
+| lumora | 33 | Aubergine and paper palette, no decorative glow or circular pseudo-elements. |
+| interior | 32 | Architectural image pacing and material captions, refined split hero. |
+| publication | 33 | Readable article measure, article metadata, precise section rules. |
+| automotive | 32 | Technical metric rail, separated specifications, readable model actions. |
+| academy | 35 | Creative typography with clearer programme hierarchy and unrotated artwork sticker. |
+| dirac | 37 | Engineering palette, focused project hierarchy and readable service information. |
+| mum | 37 | Industrial imagery with aligned project metadata and simpler service cells. |
+| impact | 33 | Evidence context and separated metrics with legible labels. |
+| nawasena | 33 | Task-oriented service rows, high-contrast search boundary and explicit service labels. |
+| emberline | 33 | Numbered energy-service task list with amber wayfinding. |
+| culinary | 32 | Food photography, measured serif headlines, aligned menu prices, comfortable mobile action bar. |
+| lumenfold | 33 | Research notebook register, margin labels and responsive evidence rows. |
+| healthcare | 38 | Task-led heading, readable quick-find rows, modest corners and no heavy hero shadow. |
+| gridora | 33 | Search-led hierarchy, property thumbnail framing, clearer results and panels. |
+| vantara | 38 | Context-first role discovery, restrained panel tones and unrotated graphic stamp. |
+| konsultan | 32 | Green consulting identity with clearer priority-led copy and evidence sections. |
+| ruangsela | 32 | Artwork-led museum composition, editorial captions, differentiated collection labels. |
+
+Markup improvements include 137 static skip links with valid targets, 1,284 current-page markers, and 108 async image-decoding attributes. The five concept families without consistent entry context receive 177 clear illustrative-content labels. Ten homepage headlines were rewritten to describe concrete tasks or offerings. Two concept CTAs were made explicitly exploratory. Four empty testimonial placeholders were removed because they supplied no customer evidence or useful action. The exact copy-change pages are in `dev-copy-adjustments.json`.
+
+The public index now includes a real existing interior image as a featured collection sample, local preview assets for 15 formerly letter-only entries, actual per-family page counts, a category selector, text search, a resettable empty state, and a deployment-aware total. It shows the 21 local sites on independent previews. The 42-site combined collection becomes available through the existing validated cross-host routing context. Peer links have no guessed static href and stay hidden until their route is available. The sitemap follows the same local availability rules. The original logos remain unchanged.
+
+Files outside the 713-family manifest changed in this workstream: `index.html`, `sitemap.html`, `catalog-refinement.css`, `catalog-refinement.js`, `catalog-shards.js`, `catalog-sitemap.js`. No assets were deleted or converted. New inline design code requires the root packaging pass to recompute CSP hashes after all external CSS/JS has been inlined.
+
+## Verification actually completed
+
+- Parsed all 713 family pages and compared them to the supplied baseline. Every existing inline script block remained byte-identical on all 713 pages.
+- No newly introduced duplicate IDs, missing skip-link targets, or missing referenced image files on those pages.
+- Index inventory: 42 total records, 21 local records; every local demo destination exists.
+- Executed the actual catalogue filter code in a minimal DOM harness: local availability, no-result state, reset/focus, category selection, brand search, and combined-collection event all passed.
+- Executed actual route-resolution functions for localhost, GitHub preview, unavailable peer routes, local relative routes, and explicit base-domain configuration. Eleven functional assertions passed.
+- `node --check` passed for the three modified catalogue JavaScript files.
+
+These checks are recorded in `dev-source-qa.json` and `dev-catalog-qa.json`. The DOM harness is not a real browser. Chromium/WebKit/Firefox executables were unavailable and browser download failed in the environment. Therefore no screenshot, rendered layout, browser console, real-device viewport pass, Lighthouse score, WCAG conformance, or Core Web Vitals result is claimed here. The scoped CSS includes mobile reflow, but its visual result still needs the root report's explicit browser limitation. Global HTML/dependency/CSP/HTTP/ZIP testing belongs to the root final verification.
+
+
+# Audit dan implementasi katalog website DIRAC
+
+Cakupan: `work/dev/website.html` dan `work/dev1/website.html`, berikut aset pratinjau katalog lokal yang direferensikan. Tidak ada perubahan halaman demo lain oleh pekerjaan ini.
+
+## Temuan awal
+
+- Katalog pelanggan hanya menampilkan 37 demo, sementara katalog publik memuat 42. Lima keluarga yang sudah tersedia tidak dapat ditemukan melalui katalog pelanggan.
+- Tidak ada pencarian, filter industri, urutan nama, atau kondisi hasil kosong dalam katalog pelanggan.
+- Hero memuat angka yang tidak konsisten: 37 demo, 27 desain, dan klaim 700+ halaman. Informasi hosting teknis menempati ruang utama pelanggan.
+- Sebagian besar thumbnail adalah SVG inline sederhana berupa lingkaran dan nama brand. Label `LIVE DEV` tidak menjelaskan bahwa media merupakan ilustrasi konsep.
+- Halaman menyertakan sistem sesi pelanggan, CSRF, validasi input, menu, tema, dan kontrak API yang kompleks. Katalog tetap harus mengikuti otorisasi asli.
+
+## Perubahan implementasi
+
+- Menata ulang katalog menjadi halaman editorial berwarna arang dan aksen zaitun terang, dengan mode terang yang mengikuti pengaturan tema asli.
+- Memisahkan hierarki visual hero, koleksi, panduan penyusunan brief, konsultasi, dan FAQ. CTA konsultasi tetap menuju `tiket-bantuan.html` yang sudah tersedia.
+- Menambahkan pencarian lokal dengan debounce 100 ms, enam kelompok industri, urutan koleksi/nama, jumlah hasil, reset, dan kondisi hasil kosong.
+- Mempertahankan 37 kartu asli beserta tujuan demo dan identitasnya. Menambahkan lima kartu dari data katalog publik yang benar-benar tersedia: Temu Warga, Pace Union, Sela House, Neraca Bureau, dan Rona Conservatory.
+- Mengubah jumlah koleksi menjadi 42. Pembagian kategori aktual: bisnis 8, ruang 5, gaya hidup 7, budaya 11, publik 8, industri 3.
+- Memakai ilustrasi sumber yang relevan pada 21 thumbnail yang sebelumnya berupa lingkaran. Lima thumbnail lain kini memakai tipografi, headline, dan palet dari halaman sumber. Semua dilabeli `ILUSTRASI KONSEP`, bukan screenshot browser.
+- Mengeluarkan media inline yang diubah menjadi aset lokal. Seluruh aset yang ditambahkan direferensikan dan tersedia pada versi masing-masing. Nama pratinjau tidak bergantung pada folder batch.
+- Memakai font DM Sans lokal dengan lisensi sumber. Versi dev1 menggunakan bobot 400/700 yang sudah tersedia; tidak ada referensi ke bobot 500 yang tidak tersedia.
+- Menambahkan label input, status hasil `aria-live`, nama tautan demo yang menyebut brand/tab baru, fokus keyboard, target interaksi minimal 44 px, dan penyesuaian reduced motion.
+- Mengubah elemen badan menu dari `main` menjadi `div` dengan ID/kelas tetap, sehingga hanya konten katalog menjadi landmark utama. Mengganti emoji tombol tema dengan ikon SVG sederhana tanpa mengubah tombol atau handler asli.
+- Memperbarui judul dan deskripsi metadata agar sesuai jumlah koleksi dan isi yang ditampilkan.
+
+## Perlindungan regresi
+
+Seluruh blok script asli dipertahankan. Hanya isi peta `demoOwners` dalam `dirac-corporate-footer-js` yang mendapat lima entri tujuan dev1 yang terverifikasi. Algoritme pemilihan host tidak diubah. Blok tambahan `dirac-catalog-discovery-20261011` menangani pencarian/filter lokal.
+
+Blok keamanan, sesi, CSRF, timeout, validasi input, preferensi, API, dan seluruh script asli lainnya tetap identik terhadap baseline saat pemeriksaan subtask. Tidak ada bypass gate, akun tiruan, endpoint pengganti, atau perubahan kontrak checkout. Hash CSP belum dihitung dalam subtask ini; root menjalankan perhitungan akhir setelah inlining global.
+
+## Pemeriksaan yang dijalankan
+
+- Parsing lxml: 42 kartu per versi, 27 ID unik dalam katalog, tidak ada ID katalog duplikat, tidak ada gambar katalog yang hilang.
+- Node `--check`: script discovery baru valid secara sintaks.
+- Fixture DOM minimal di Node VM: 15 pemeriksaan per versi lulus. Meliputi jumlah awal, enam jumlah filter, pencarian tanpa peka kapital, kombinasi filter/pencarian, kondisi kosong, reset/fokus, query tak tepercaya, dan kedua urutan.
+- Perbandingan script terhadap baseline: tidak ada script dihapus; satu script asli berubah hanya untuk memperluas peta pemilik demo; satu script baru ditambahkan.
+- Audit aset tambahan: 23 file `dirac-catalog-preview-*` pada dev dan 24 pada dev1, seluruhnya direferensikan. Media sumber yang sudah lokal digunakan tanpa salinan tambahan.
+- Ilustrasi raster sumber diperiksa melalui lembar kontak. Media ini adalah ilustrasi, bukan foto atau screenshot.
+
+## Batas pemeriksaan
+
+Tidak tersedia executable Chromium, WebKit, atau Firefox pada runtime. Karena itu laporan subtask tidak mengklaim rendering browser, screenshot katalog, pengujian layout semua viewport, skor Lighthouse, Core Web Vitals, atau WCAG penuh. Breakpoint CSS dibuat untuk desktop/tablet/mobile, tetapi pemeriksaan visual browser tetap menjadi batas yang harus dinyatakan secara terbuka. Pengujian sesi nyata memerlukan backend dan akun yang sah; gate produksi tidak dilemahkan untuk memperoleh preview.
+
+## Selektor untuk QA lanjutan
+
+- `#websiteCatalog`, `#diracCatalogGrid`, `.dw-demo-card`
+- `#diracCatalogSearch`, `#diracCatalogSort`
+- `[data-catalog-category]`, `[data-catalog-group]`
+- `#diracCatalogResults`, `#diracCatalogReset`
+- `#diracCatalogEmpty`, `#diracCatalogEmptyReset`
+- `a[data-dirac-demo-path]`
+
+Manifest rinci: `catalog-asset-extraction.json`, `catalog-preview-improvements.json`, `catalog-authored-preview-manifest.json`. Hasil fixture: `catalog-functional-tests.json`. Perbandingan script: `catalog-script-regression.json`.
+
+
+Catatan integrasi final: perbaikan initializer toko terverifikasi diterapkan setelah laporan katalog. Hash CSP diperbarui. Script keamanan terpilih tetap identik. CSS/JS yang disebut sebagai file sumber kini tertanam dalam HTML.

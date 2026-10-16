@@ -1,0 +1,41 @@
+DIRAC PREMIUM: QA dev
+
+CAKUPAN STATIS TERUJI
+HTML: 736
+Referensi literal diperiksa: 54943
+Referensi internal hilang: 0
+Referensi CSS/JS eksternal: 0
+ID duplikat: 0
+Fragmen statis rusak: 0
+Perbedaan kapitalisasi path: 0
+Encoding URL cacat terdeteksi: 0
+Media/font diperiksa: 123; rusak: 0
+Script keamanan dibandingkan byte: 10; berubah: 0
+CSP script/style tidak terdaftar: 0/0; hash usang: 0
+
+KEDUA VERSI
+JavaScript: 4.492 occurrence, 166 body unik dikompilasi, 0 error sintaks.
+CSS: 7.617 blok, 210 body unik diperiksa keseimbangan delimiter/string/comment, 0 masalah. Ini bukan validasi grammar CSS penuh.
+Inlining: 1.412 HTML dan 1.400 blok defer dibandingkan isi dan urutannya, 0 kegagalan.
+Controller katalog dan routing: 62/62 tes Node VM lulus.
+Regresi initializer toko: 18/18 tes lulus; error baseline direproduksi, jalur tanpa toko tidak mengaktifkan keranjang parfum lama.
+Transformasi inlining: 5/5 fixture terisolasi lulus.
+Pengujian tambahan keluarga dan katalog dicatat dalam DESIGN-NOTES.txt. Jangan menjumlahkan kelompok tes yang saling tumpang tindih sebagai cakupan browser.
+HTTP pra-kemasan: 1664 file aktual, 1664 HTTP 200, 0 kegagalan; MIME dan hash byte sesuai. Kontrol path tidak ada: HTTP 404.
+
+BELUM TERVERIFIKASI
+- Rendering browser pada 320,375,390,430,768,1024,1280,1440,1920 px: belum diuji.
+- Chromium, WebKit, Firefox: executable tidak tersedia. Unduhan Chromium tidak menghasilkan arsip valid. Browser cloud tidak menjangkau server lokal.
+- Screenshot visual, overflow terukur, console/network browser, keyboard nyata dan alat bantu: belum diuji.
+- Lighthouse Performance/Accessibility/Best Practices/SEO dan LCP/INP/CLS: tidak diukur.
+- Kepatuhan WCAG 2.2 AA dan validitas grammar HTML/CSS penuh: belum disertifikasi.
+- Backend, sesi pengguna, pembayaran, CORS, cookie dan response headers produksi: tidak diuji.
+
+DEPENDENSI YANG TIDAK TERMASUK PAKET
+website.html membawa shell aplikasi produksi. Pada dev1 terdapat 21 href menuju 12 nama halaman aplikasi yang tidak disertakan. Ini bukan tautan demo lokal.
+Dataset toko warisan memuat 393 baris dan 392 nama gambar produk yang tidak disertakan per versi. Halaman katalog tidak memiliki kontrol toko atau pemicu produk; guard mencegah inisialisasi toko itu. Jangan memakai paket demo sebagai pengganti seluruh aplikasi commerce.
+CSP dinamis mempertahankan batas sumber asli. frame-ancestors pada meta tidak menegakkan anti-framing; hosting produksi perlu header HTTP yang sesuai. Override domain preview bukan bukti integrasi portal berfungsi.
+
+STATUS
+Uji statis dan HTTP yang tercantum lulus. Validasi penerimaan visual/performa/backend masih terbuka. Paket tidak diklaim memenuhi seluruh kriteria produksi Rp20 juta.
+Laporan pengiriman pendamping mencatat uji ulang ZIP final setelah ekstraksi dan angka kemasan tepat.

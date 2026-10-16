@@ -1,0 +1,29 @@
+# DIRAC: benchmark dan keputusan desain
+
+Tanggal penelusuran: 11 Oktober 2026. Metode: pembacaan halaman publik resmi melalui layanan penelusuran web. Bukti di bawah berasal dari struktur konten dan kontrol yang tersedia dalam hasil retrieval. Ukuran CSS, rasio grid dalam piksel, breakpoint, kontras, durasi animasi, serta kepatuhan aksesibilitas situs referensi tidak diukur. Tidak ada kode atau aset referensi yang disalin.
+
+| Referensi resmi | Implementasi yang terbaca | Prinsip yang diturunkan | Penerapan yang relevan untuk DIRAC |
+|---|---|---|---|
+| [Apple](https://www.apple.com/) | Navigasi berdasarkan kelompok produk; bagian produk mempunyai judul singkat, visual produk berdeskripsi, dan pasangan CTA eksplorasi serta pembelian. | Satu fokus informasi per bagian; bedakan tahap mengenal dan mengambil tindakan. | Katalog mempunyai satu judul utama yang spesifik. Tindakan membuka demo dibedakan dari memilih produk atau konsultasi. Foto/preview mendapat prioritas dibanding dekorasi. |
+| [Stripe](https://stripe.com/au) | Navigasi memisahkan produk, solusi, pengembang, sumber daya, serta harga. Bagian lanjutan mengelompokkan kebutuhan bisnis dan jalur integrasi. CTA mandiri serta kontak penjualan tersedia. | Kelompokkan informasi berdasarkan pekerjaan pengguna, lalu tampilkan rincian setelah orientasi awal. | Kategori demo dan pencarian mendahului detail pemesanan. Label kategori memakai bahasa industri yang konsisten. Integrasi backend yang ada tidak digantikan simulasi. |
+| [Linear](https://linear.app/) | Tautan lompat ke konten, navigasi produk/sumber daya, ilustrasi antarmuka yang memperlihatkan status pekerjaan, bagian menurut alur intake, planning, dan automation. | Preview harus menerangkan cara produk bekerja. Status dan label tindakan perlu konsisten. | Pertahankan preview situs yang berbeda per industri. Tambahkan fokus keyboard, state filter terpilih, jumlah hasil aktual, dan pesan kosong yang membantu. |
+| [Vercel](https://vercel.com/) | Tautan lompat ke konten; menu mengelompokkan produk/platform/tools dan sumber daya; CTA deploy serta sales terpisah; judul bagian teknis langsung menyebut fungsi. | Navigasi berkelompok mengurangi beban membaca; label teknis harus jelas dan singkat. | Header ringkas. Informasi deployment disimpan dalam dokumentasi yang dapat ditindaklanjuti. Jangan memasukkan detail debugging ke alur pembeli. |
+| [Airbnb](https://www.airbnb.com/) | Kategori homes/experiences/services; pencarian berdasarkan tempat, tanggal, dan tamu; kelompok inspirasi dengan tab; tautan bantuan dan akses akun. Retrieval menyatakan sebagian pengalaman memerlukan JavaScript. | Jadikan pencarian dan parameter pemilihan sebagai bagian utama pengalaman katalog. | Pencarian katalog menggunakan data demo yang benar. Filter kategori dan reset harus saling konsisten. Jumlah hasil serta state tanpa hasil memberi umpan balik. Tidak meniru layout spesifik Airbnb. |
+| [Notion](https://www.notion.com/) | Navigasi merangkum fungsi capture/find/automate, sumber daya terkelompok, CTA mencoba dan meminta demo, serta contoh penggunaan spesifik. | Struktur konten memandu pembaca dari manfaat ke contoh penggunaan. | Jelaskan cakupan situs statis dengan kata konkret. Gunakan judul section sesuai tugas dan hindari klaim umum yang tidak dapat dibuktikan. |
+| [Framer](https://www.framer.com/) | Halaman menampilkan preview eksplorasi desain, antarmuka CMS, penjelasan fitur, dan CTA memulai. | Preview visual perlu terkait dengan kemampuan nyata dan tidak sekadar hiasan. | Pertahankan perbedaan komposisi family demo. Motion hanya membantu perubahan state dan harus menghormati reduced motion. Motion situs referensi sendiri belum diukur. |
+| [Awwwards, mobile excellence guidelines](https://www.awwwards.com/mobile-excellence-guidelines.pdf) | Hasil pencarian dokumen resmi mencakup usability, performance, best practices, pencarian yang terlihat, dan ukuran konten yang sesuai layar. Halaman utama Awwwards gagal dibaca. | Mutu visual dinilai bersama kegunaan serta performa, bukan jumlah efek. | Gunakan matriks viewport 320–1920 px, pemeriksaan overflow, ukuran target, kestabilan media, dan keterbatasan pengujian yang jujur. Dokumen ini hanya terverifikasi melalui retrieval hasil pencarian, bukan audit visual PDF. |
+
+Kolom prinsip dan penerapan merupakan inferensi desain untuk proyek ini. Kolom tersebut bukan klaim bahwa DIRAC telah lulus semua pengujian. Implementasi aktual dan cakupan verifikasi dicatat terpisah dalam laporan perubahan dan QA.
+
+## Aturan yang diturunkan untuk implementasi
+
+1. Memakai tipografi, warna, dan komposisi asli setiap keluarga demo. Memperbaiki hirarki serta ritme jarak tanpa menyamakan semua industri.
+2. Memperjelas tindakan utama katalog dan membuat hasil pencarian/filter dapat dipahami dengan keyboard maupun pembaca layar.
+3. Menggunakan batas konten dan ukuran huruf yang adaptif. Menjaga judul panjang serta media tetap berada di viewport sempit.
+4. Mempertahankan satu tujuan pada setiap bagian. Mengurangi dekorasi berulang yang tidak mengkomunikasikan produk.
+5. Menjadikan keadaan fokus, aktif, kosong, dan error sebagai bagian dari desain, sambil mempertahankan autentikasi dan endpoint asli.
+6. Menguji performa dan aksesibilitas bila alat tersedia. Skor, visual review, atau Core Web Vitals tidak boleh disimpulkan hanya dari inspeksi kode.
+
+## Batas observasi
+
+Pembacaan halaman publik menunjukkan arsitektur informasi, teks, label kontrol, dan deskripsi gambar. Rendering desktop/mobile langsung untuk referensi belum dilakukan. Karena itu laporan ini tidak mengklaim pengukuran whitespace, grid, cropping, timing motion, responsive behavior, contrast ratio, atau status WCAG dari situs referensi. Semua itu adalah kriteria implementasi DIRAC yang membutuhkan verifikasi tersendiri.

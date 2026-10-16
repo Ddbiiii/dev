@@ -1,0 +1,5289 @@
+{
+  "version": "dev",
+  "file_count": 880,
+  "html": 736,
+  "batch_count": 9,
+  "self_hash_note": "The self record has no hash. The external complete ZIP inventory supplies it; ZIP CRC additionally verifies every member.",
+  "files": [
+    {
+      "file": "ASSET-MANIFEST.csv",
+      "batch": "001",
+      "bytes": 45542,
+      "sha256": "88500008acdf8381ba2d7bf6282dd9e71338e00796886bfd2c2e20b6244c938a"
+    },
+    {
+      "file": "AUDIT-REPORT.txt",
+      "batch": "001",
+      "bytes": 2388,
+      "sha256": "53dee82cb270d5d7fedf25f7730fb6c413d2d051b5c1e4e8d9c98168ebb5ce3a"
+    },
+    {
+      "file": "BENCHMARKS.txt",
+      "batch": "001",
+      "bytes": 5792,
+      "sha256": "469859ed497a138b1122acef53087059be54fb4349f5955219a8a1260e73e366"
+    },
+    {
+      "file": "Body.woff",
+      "batch": "001",
+      "bytes": 379400,
+      "sha256": "a6ca48971d9d2c970e447f3ca648b2b7b43bb49e822e948eff9ce1afee38a4b4"
+    },
+    {
+      "file": "CHANGELOG.csv",
+      "batch": "001",
+      "bytes": 367844,
+      "sha256": "ebe4b5a2725ff193ae2f64f7f326f8cd918070a9023db8a095e9b7a83aeb7f58"
+    },
+    {
+      "file": "DEPLOYMENT.txt",
+      "batch": "001",
+      "bytes": 2697,
+      "sha256": "f37a2a4fc569efa832cd05f9d7ba478fd196173bb09e28b5955becf0fa2e7349"
+    },
+    {
+      "file": "DESIGN-NOTES.txt",
+      "batch": "001",
+      "bytes": 11563,
+      "sha256": "3403ccbe900e47ea2eee4b1bcd7d6a0733982fe8c1b147c1defcd5f81592dba0"
+    },
+    {
+      "file": "DejaVuSans.woff",
+      "batch": "001",
+      "bytes": 379400,
+      "sha256": "5f49d19fa268c0e5e27e2abbd044a4f920720c7eae8bc0c597bbce476253269a"
+    },
+    {
+      "file": "Display.woff",
+      "batch": "001",
+      "bytes": 211260,
+      "sha256": "006f8e1e8c459535ec9eaa60b8e146aada95ee4fb2a5988fd2accf5d21a5887b"
+    },
+    {
+      "file": "FILE-INVENTORY.json",
+      "batch": "001",
+      "bytes": null,
+      "sha256": null
+    },
+    {
+      "file": "MERGE-BATCHES.py",
+      "batch": "001",
+      "bytes": 1097,
+      "sha256": "38487d79cd36956f36d3dae9ad8845c177b749f84295d37e9ef36c1f69372a20"
+    },
+    {
+      "file": "Mono.woff",
+      "batch": "001",
+      "bytes": 202180,
+      "sha256": "6dbee4d864762f48e789c820d3eb095af27c29152ae42810aa5b74c5e18ebe6e"
+    },
+    {
+      "file": "NimbusRoman-Regular.woff",
+      "batch": "001",
+      "bytes": 74728,
+      "sha256": "2ee657ace57ec083edf357e47d7d15d2731f108adda565f2604b83b49dd38ae5"
+    },
+    {
+      "file": "NimbusSansNarrow-Regular.woff",
+      "batch": "001",
+      "bytes": 58748,
+      "sha256": "910c1bf54812a12b4c72527acfc8a1f5fa5ab548a547ead878036708e3526df0"
+    },
+    {
+      "file": "P052-Italic.woff",
+      "batch": "001",
+      "bytes": 84464,
+      "sha256": "decb36241e31b651314d1c43f5f2c2317a9e6077aa5ef7d6495f8d5a38d82c82"
+    },
+    {
+      "file": "P052-Roman.woff",
+      "batch": "001",
+      "bytes": 83428,
+      "sha256": "35532c0e298f93e20615534eb046a2e95960d69cfece02c53ce2036ed131a4cb"
+    },
+    {
+      "file": "QA-REPORT.txt",
+      "batch": "001",
+      "bytes": 2803,
+      "sha256": "a2d3552c33fabb8b4d4a5921a4739483625d6b83b6274928a8b1994452291bdc"
+    },
+    {
+      "file": "TEST-EVIDENCE.json",
+      "batch": "001",
+      "bytes": 18946,
+      "sha256": "e3f80940ac42e63f32d631fde3446276b713330b3efddde96d249ee86636531d"
+    },
+    {
+      "file": "URWGothic-Demi.woff",
+      "batch": "001",
+      "bytes": 61040,
+      "sha256": "9f4269b8cbddd49ca08e055ddacd85c6b74ccff27c819a991011cc8b0fd62de3"
+    },
+    {
+      "file": "VERIFY-FILES.py",
+      "batch": "001",
+      "bytes": 730,
+      "sha256": "083312c37f45241647f34293ff7dd61ec34784cab411f85e2ca977d12beddb26"
+    },
+    {
+      "file": "academy-faculty-kirana.html",
+      "batch": "001",
+      "bytes": 45883,
+      "sha256": "0a8de199a9a2c8371641bd5b7addd9831ee8d908d08f5e5110c899afacba3951"
+    },
+    {
+      "file": "academy-faculty-nala.html",
+      "batch": "001",
+      "bytes": 45908,
+      "sha256": "0a3089efa97b52d7ef0dd9d0f0df66149eb2b9c9eb9ff9b6ea18d53a992a4d6c"
+    },
+    {
+      "file": "academy-sitemap.html",
+      "batch": "001",
+      "bytes": 48001,
+      "sha256": "0ee35c6b1ad3f5621a9bcdd0efd6b24fa7a0a11cdf0b91721608994afd59a432"
+    },
+    {
+      "file": "admissions.html",
+      "batch": "001",
+      "bytes": 46447,
+      "sha256": "bd996a3fa031ca863230cb91fb7d603ea77653053b3c0d93573ef3ecb4fa7f88"
+    },
+    {
+      "file": "alumni.html",
+      "batch": "001",
+      "bytes": 46107,
+      "sha256": "1c7b8d0147de45b669a6ff39866a2b06d055c88e9265eae473fc49d4c9d25576"
+    },
+    {
+      "file": "analysis.html",
+      "batch": "001",
+      "bytes": 50550,
+      "sha256": "10ec2dbbc15fda86238470162483446f3d6a5a430e6ae147fdec103428452686"
+    },
+    {
+      "file": "annual-report.html",
+      "batch": "001",
+      "bytes": 46664,
+      "sha256": "b12df2ef93bd952690ff9a40ee62d2a96d057e484645a6f397c457c52914f3e4"
+    },
+    {
+      "file": "apex.html",
+      "batch": "001",
+      "bytes": 41681,
+      "sha256": "64f52e3360c0ff8dd7abfed99278f27c50f3fcb4df504397460d88a4301394c2"
+    },
+    {
+      "file": "apply.html",
+      "batch": "001",
+      "bytes": 45907,
+      "sha256": "9abbefa0a71f32bb16d6db05ef7f9b8fd15102058f117c795cf47cc29d99c03c"
+    },
+    {
+      "file": "appointment.html",
+      "batch": "001",
+      "bytes": 47812,
+      "sha256": "5ceb04b551e1abf72f955d9e204931390e4e8e62213e215544f838db31047e3c"
+    },
+    {
+      "file": "archive.html",
+      "batch": "001",
+      "bytes": 48457,
+      "sha256": "d5f8b3707ebfdc90f2e860103e041a61a158fa6a9456b47fb1eb3ec856216f00"
+    },
+    {
+      "file": "article-detail.html",
+      "batch": "001",
+      "bytes": 47541,
+      "sha256": "11e2a49cff1c3eb7e2b8c83eba8b03a704950addb704f9e102491997024836d7"
+    },
+    {
+      "file": "article.html",
+      "batch": "001",
+      "bytes": 50973,
+      "sha256": "6b2efb55811b98a06ce4a634dcb9773d30d40f43ccb86dbb3803cb8f1c7984d7"
+    },
+    {
+      "file": "author.html",
+      "batch": "001",
+      "bytes": 48194,
+      "sha256": "256a7239057485344cf68664d2aa5ddad9d52df7917cb02343eb725449b28ca4"
+    },
+    {
+      "file": "authors.html",
+      "batch": "001",
+      "bytes": 48725,
+      "sha256": "2104726ad4153d49ecdc84259f9dea9e7e8dd2bc07a3283d9dcc4e5717853f63"
+    },
+    {
+      "file": "automotive-404.html",
+      "batch": "001",
+      "bytes": 40581,
+      "sha256": "0f1e9380f0a956281999d3983f0207cad6225126cc8a751197792c5d2fe06f93"
+    },
+    {
+      "file": "automotive-cabin.html",
+      "batch": "001",
+      "bytes": 40985,
+      "sha256": "5672125cfed5ef7e5f86469f1e78088c4c276f1ff9ef6b33334613c404647118"
+    },
+    {
+      "file": "automotive-contact.html",
+      "batch": "001",
+      "bytes": 40952,
+      "sha256": "c85c3d9066146d965e431a1c80b55b9a257c66f1e21bb7590f0788adbefae2db"
+    },
+    {
+      "file": "automotive-delivery.html",
+      "batch": "001",
+      "bytes": 41179,
+      "sha256": "5785a4edf701b8afe5f9349076d08bd334502fe0e0fcf5d45c6edb00ae218131"
+    },
+    {
+      "file": "automotive-faq.html",
+      "batch": "001",
+      "bytes": 40908,
+      "sha256": "1671516047069d7893b64ae9745953ac8972964a325ea7b154d1a9dd64f1b54d"
+    },
+    {
+      "file": "automotive-home-charging.html",
+      "batch": "001",
+      "bytes": 41222,
+      "sha256": "25219bc051e9d351c227afcc4e74d815d3d024f94d64112014d32360971ff505"
+    },
+    {
+      "file": "automotive-index.html",
+      "batch": "001",
+      "bytes": 42396,
+      "sha256": "cffbd526e254e8fdb4e4de2a5000ee44a2cd997cd8155f7de281ca935ab814a2"
+    },
+    {
+      "file": "automotive-mark.svg",
+      "batch": "001",
+      "bytes": 253,
+      "sha256": "17acde576c5c1b66b6e300ff92c61cb8e29d3d2dadbfe66586d3da6064a1a5f2"
+    },
+    {
+      "file": "automotive-material-notes.html",
+      "batch": "001",
+      "bytes": 41074,
+      "sha256": "57508535ad015224bc985590df6c233fece9f5b8b2faecd9f6ae0435fbc4a43a"
+    },
+    {
+      "file": "automotive-ownership-costs.html",
+      "batch": "001",
+      "bytes": 41088,
+      "sha256": "869bfb0d1bb8b27c9166c5d3f06573cd44f4892c29ce6ae6840af16e13ef833c"
+    },
+    {
+      "file": "automotive-privacy.html",
+      "batch": "001",
+      "bytes": 40712,
+      "sha256": "a86b2fa98ea8a9bf4880548f80da2101c990f403e0a9d031e56fd97d7ad79a6e"
+    },
+    {
+      "file": "automotive-range-planning.html",
+      "batch": "001",
+      "bytes": 41235,
+      "sha256": "995e20e839dab6669d53894739b6cedcd5c01fdff2a5b31b1785ed4c35c50049"
+    },
+    {
+      "file": "automotive-software.html",
+      "batch": "001",
+      "bytes": 41054,
+      "sha256": "173b83aa356143c3ff28de74571e0b9e3900e560108a1773810bf33a75cb2d2e"
+    },
+    {
+      "file": "automotive-stories.html",
+      "batch": "001",
+      "bytes": 40908,
+      "sha256": "25fe452ac93934a51d0bf5fc3d3a9c3b3d022c9b87b8f1cadaffa69815d00760"
+    },
+    {
+      "file": "automotive-terms.html",
+      "batch": "001",
+      "bytes": 40622,
+      "sha256": "98b74aaea56bbfa5f33698b89cbc4c203abb1075921aa8128636441f32652868"
+    },
+    {
+      "file": "automotive-test-drive-checklist.html",
+      "batch": "001",
+      "bytes": 41099,
+      "sha256": "f5c3709680f0e34cf4937745ebc4dfebcf2c36e9bf0d112d745ea3da58254801"
+    },
+    {
+      "file": "bag.html",
+      "batch": "001",
+      "bytes": 45693,
+      "sha256": "5f006fe391cdd45a33015cc4b393d31141105f5f4a6ba51ce06e3e638721dca0"
+    },
+    {
+      "file": "battery.html",
+      "batch": "001",
+      "bytes": 41049,
+      "sha256": "1102a881151ce221e6d7f6008031fee3f780b4bc78b8c77e90fb5a48a9492eb0"
+    },
+    {
+      "file": "campaign-detail.html",
+      "batch": "001",
+      "bytes": 46736,
+      "sha256": "0ba822767fa708bcda00dcdfda87f0ff20a9b6948c3fd2a7f6e440acd698f52e"
+    },
+    {
+      "file": "campaign.html",
+      "batch": "001",
+      "bytes": 45997,
+      "sha256": "80b1592da8413a497ceb4a81a799a3fc2d04c93bc6710e22f6c8c87596377067"
+    },
+    {
+      "file": "campaign.svg",
+      "batch": "001",
+      "bytes": 2488,
+      "sha256": "8b579569738d1030e1d2c8610bd65f8b810101e95b1a6ab9fb39477dfcdcaf10"
+    },
+    {
+      "file": "campaigns.html",
+      "batch": "001",
+      "bytes": 46411,
+      "sha256": "aab9160f8b0ad806164e661893de7aa3ec99d6f728e5f7991fed31b7cd935b40"
+    },
+    {
+      "file": "campus.html",
+      "batch": "001",
+      "bytes": 46311,
+      "sha256": "c19e8da34d0addc95a5b1591a27fa7729d39ccd18d8de9f64b76f6788a9c5cf3"
+    },
+    {
+      "file": "campus.svg",
+      "batch": "001",
+      "bytes": 6111,
+      "sha256": "682d7873afd71a6fb47f4e418ed523580e376d48ef7dbc97d6a4901c258497ad"
+    },
+    {
+      "file": "career-detail.html",
+      "batch": "001",
+      "bytes": 49773,
+      "sha256": "6fb6de656154f563a35bcf4098383e2f543df73cffa6f873edf7c2d804a06805"
+    },
+    {
+      "file": "career-outcomes.html",
+      "batch": "001",
+      "bytes": 46160,
+      "sha256": "bfa1f5b63026f8c2fb9ffa0199e90cf4cd58a79e7eda320f222e64f1bc029d2d"
+    },
+    {
+      "file": "catalog-image-06f1d910006b29.webp",
+      "batch": "001",
+      "bytes": 2128,
+      "sha256": "64fde8476126660e3c70048a98ed4fd212c8b4008369ba0f95fef41ced440d3c"
+    },
+    {
+      "file": "catalog-image-0930f00eac9ba4.webp",
+      "batch": "001",
+      "bytes": 2222,
+      "sha256": "2fdcbc9cd32573006f96b944fd48d5ca40192ceb6fd7fbfaee1b7ef180afa1a8"
+    },
+    {
+      "file": "catalog-image-16d81a1d4dd897.webp",
+      "batch": "001",
+      "bytes": 4862,
+      "sha256": "d92f0a03e8ff21e4907f648847dc94e90ed0dccd1591a46eb1af63e45d5c0f86"
+    },
+    {
+      "file": "catalog-image-18ee1b0f3c228f.webp",
+      "batch": "001",
+      "bytes": 2484,
+      "sha256": "bdbd77e44dfa4dba1024866c8ef86171206a9010dfe7427ba997fcbfd73fc9bc"
+    },
+    {
+      "file": "catalog-image-228447f2e95b59.webp",
+      "batch": "001",
+      "bytes": 3716,
+      "sha256": "5931f3d1624ea2b7c834572540a4c1b1b5db4986e971f4fdd608b889afd058a9"
+    },
+    {
+      "file": "catalog-image-41813f98ee5ac2.webp",
+      "batch": "001",
+      "bytes": 6608,
+      "sha256": "923be2fd11821f92fd3f62f3087510472ccb11f9717ff3f466d4fe28b623399e"
+    },
+    {
+      "file": "catalog-image-62bef816fafbf5.webp",
+      "batch": "001",
+      "bytes": 2438,
+      "sha256": "20122c0870e53e94b3499b37c13db22eaec808b9b650cdbbfb449e44922de3ef"
+    },
+    {
+      "file": "catalog-image-8dea174ea3ee98.webp",
+      "batch": "001",
+      "bytes": 2830,
+      "sha256": "e776b65cc0ee24fbd4aa0a43b7507956347addff056b90a50c403413580f3f99"
+    },
+    {
+      "file": "catalog-image-8fba466a52816b.webp",
+      "batch": "001",
+      "bytes": 4156,
+      "sha256": "11e8f79025c5b484fbd50dcf33128f1f5c213b7b4f7b5ee2f381e6ca613b1a49"
+    },
+    {
+      "file": "catalog-image-bb44a473e72b12.webp",
+      "batch": "001",
+      "bytes": 1374,
+      "sha256": "471ff9331f1174ac5df5c454bed0b7eea9ef127e81e6d08afea52576824d5e56"
+    },
+    {
+      "file": "catalog-image-bf9ab50e29eb2c.webp",
+      "batch": "001",
+      "bytes": 4160,
+      "sha256": "76d8295c0c257a3ecae0c716e3ee9489e47d74f37b3000b32987b9777bff0bfe"
+    },
+    {
+      "file": "catalog-image-f9ffde6b7ab480.webp",
+      "batch": "001",
+      "bytes": 8650,
+      "sha256": "1af62c416639c3192f9dab7bd6e3bdecfd66b0f6dbf4a6e69a19d3e1c63b044a"
+    },
+    {
+      "file": "category.html",
+      "batch": "001",
+      "bytes": 46594,
+      "sha256": "3524c271663602a18a853ac94e2a8907a0eb210163ffc4803842f00568cc04ce"
+    },
+    {
+      "file": "charging.html",
+      "batch": "001",
+      "bytes": 40974,
+      "sha256": "71f60e8994c783e46cd75fc07fa01dfbd33add6a7cff276f92b2d601f569f612"
+    },
+    {
+      "file": "chef.html",
+      "batch": "001",
+      "bytes": 42570,
+      "sha256": "433d54daf3d3a2a837b9841b8be13abe641e1bb53e18982bad7f24a7c7225fde"
+    },
+    {
+      "file": "chef.svg",
+      "batch": "001",
+      "bytes": 5443,
+      "sha256": "11907bfeab5012921796e9a4fc13631bf03a306faca0829a8a461d57067d7a41"
+    },
+    {
+      "file": "clinic-mark.svg",
+      "batch": "001",
+      "bytes": 2728,
+      "sha256": "98b77a2c8c7df8b623ca11ab269a143a115235d7e7d1ce38af2b7e1e6501c3cc"
+    },
+    {
+      "file": "collection-detail.html",
+      "batch": "001",
+      "bytes": 47198,
+      "sha256": "6eb3d65b568ab0f3b0322ec4da721e347fb22832f776e7dc9c01096c16f9671d"
+    },
+    {
+      "file": "collection.html",
+      "batch": "001",
+      "bytes": 46200,
+      "sha256": "fda32af12c49917e6b3567922b01a0f761564ab894e504135eb9e03f5850aec1"
+    },
+    {
+      "file": "compare.html",
+      "batch": "001",
+      "bytes": 41313,
+      "sha256": "fc53d200f0e4d66ce6d03b2b5461ad3e8621663661b31a6dbaa07f5793dd53d2"
+    },
+    {
+      "file": "configure.html",
+      "batch": "001",
+      "bytes": 41400,
+      "sha256": "6756f72aef999668f4cf0a62f0f136a9fea36876cd427006d59734c055f0c9cd"
+    },
+    {
+      "file": "corrections.html",
+      "batch": "001",
+      "bytes": 48079,
+      "sha256": "392960e7b9ce0d5a0517dca91747175a1a32bd3dc9f06abeca740e09aed5e583"
+    },
+    {
+      "file": "culture.html",
+      "batch": "001",
+      "bytes": 49102,
+      "sha256": "9572fad094dfc2899371599662b5b208c3bd7635049990036be1b88a00c46f8f"
+    },
+    {
+      "file": "dashboard.html",
+      "batch": "001",
+      "bytes": 7399,
+      "sha256": "e25b1ea5d44fccf158267a8ba68fa506242acb953eca801e04cc904e3101bd06"
+    },
+    {
+      "file": "data.html",
+      "batch": "001",
+      "bytes": 49036,
+      "sha256": "b96ceca1c9189b72e522523158388d22b0ca397687db5b8faae7e10209c0c246"
+    },
+    {
+      "file": "demo-dirac-favicon.svg",
+      "batch": "001",
+      "bytes": 257,
+      "sha256": "2f82368af491f2f15f9c440ba93111f62fe5a83cf8643bf6d794c8216caeb3ed"
+    },
+    {
+      "file": "demo-dirac-office.jpg",
+      "batch": "001",
+      "bytes": 95192,
+      "sha256": "2c5c5c5ee0aaf64102ff6ac89a83275a0351aec514f262e4d2e6366f6fcffb39"
+    },
+    {
+      "file": "demo-dirac-server.jpg",
+      "batch": "001",
+      "bytes": 85634,
+      "sha256": "fd7f0264675208c9db3a409aac8580836603c408d93547fa6190dc11bed515f1"
+    },
+    {
+      "file": "demo-dirac-software.jpg",
+      "batch": "001",
+      "bytes": 57672,
+      "sha256": "c38ef11944afa376c5c94d7780221f400b6a053b02d1f662618ee8eaebcefe44"
+    },
+    {
+      "file": "demo-dirac-team.jpg",
+      "batch": "001",
+      "bytes": 97147,
+      "sha256": "6947dda8732abaf5f3b98e73a50e6b77e2529038e99789a1586a58047558206c"
+    },
+    {
+      "file": "demo-interior-cormorant-garamond-500-latin.woff2",
+      "batch": "001",
+      "bytes": 21248,
+      "sha256": "cf26426221c7cfdc2d668f0a2bd580b657f1e3d1aa453762e0f374ad0e239da3"
+    },
+    {
+      "file": "demo-interior-cormorant-garamond-OFL.txt",
+      "batch": "001",
+      "bytes": 4387,
+      "sha256": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956"
+    },
+    {
+      "file": "demo-interior-dm-sans-400-latin.woff2",
+      "batch": "001",
+      "bytes": 14572,
+      "sha256": "87eb37b70cc162e5cceeb6685707663d1921a14f3158a91a686b6f0564b03c2d"
+    },
+    {
+      "file": "demo-interior-dm-sans-500-latin.woff2",
+      "batch": "001",
+      "bytes": 14812,
+      "sha256": "9235f7e6625287838a4cc0cb4837849be641fb19633d98478d9e10169228b431"
+    },
+    {
+      "file": "demo-interior-dm-sans-700-latin.woff2",
+      "batch": "001",
+      "bytes": 14720,
+      "sha256": "2a3be4f5cc7cbe248f148fb34761f51910ce7d52ec03b3dd6b7477bacdf77bd2"
+    },
+    {
+      "file": "demo-interior-dm-sans-OFL.txt",
+      "batch": "001",
+      "bytes": 4389,
+      "sha256": "2af94f4fb533be8fa23282eb33e08ca311ddf47c2f32777e2040b282deeec65c"
+    },
+    {
+      "file": "demo-interior-favicon.svg",
+      "batch": "001",
+      "bytes": 241,
+      "sha256": "7897dc2a076c0397ed6ed4364b84160ac350491f8c56f50841733f920b7312bb"
+    },
+    {
+      "file": "demo-interior-kredit-aset.txt",
+      "batch": "001",
+      "bytes": 1137,
+      "sha256": "6b5b14930fea3e409f507b0c1347cb1b83ffeb6aa6668359e9c382fc89b81af4"
+    },
+    {
+      "file": "demo-interior-mum-interior-detail-640.webp",
+      "batch": "001",
+      "bytes": 16778,
+      "sha256": "e3a1d43f17f4e1d3d737d831786c005fd4779497d7c37faa37da52890f0eecee"
+    },
+    {
+      "file": "demo-interior-mum-interior-detail.webp",
+      "batch": "002",
+      "bytes": 27546,
+      "sha256": "3bbbaf2bfbe2a118974ff1a5aa854d3ca276d58d9825f52ba2ae7feaff9eb944"
+    },
+    {
+      "file": "demo-interior-mum-interior-home-640.webp",
+      "batch": "002",
+      "bytes": 12900,
+      "sha256": "29fcc840d64212c1f1e6f2376871dda808cd92037be6373efec006f256be981a"
+    },
+    {
+      "file": "demo-interior-mum-interior-home.webp",
+      "batch": "002",
+      "bytes": 32488,
+      "sha256": "afde8dc58a4336099448d405d87b1e997669b20ecdb275b14092008eeac76fbb"
+    },
+    {
+      "file": "demo-interior-mum-interior-hotel-640.webp",
+      "batch": "002",
+      "bytes": 12900,
+      "sha256": "a9a65a3cd749b67b0b2ac535fe9db430139262b758a9ab0e821f5ed7fd8f0719"
+    },
+    {
+      "file": "demo-interior-mum-interior-hotel.webp",
+      "batch": "002",
+      "bytes": 21782,
+      "sha256": "f040958085fa8b3690d4a16245d4873491ee2e09e3a40854045467f0b8db9493"
+    },
+    {
+      "file": "demo-interior-mum-interior-office-640.webp",
+      "batch": "002",
+      "bytes": 15768,
+      "sha256": "735c4c0a93ffc515aee45fd837a9cb122e285757e65c6a719f5f10b4922fc757"
+    },
+    {
+      "file": "demo-interior-mum-interior-office.webp",
+      "batch": "002",
+      "bytes": 27542,
+      "sha256": "63b670727dbfdbd3fd7ac081fcc9dede5b67924eb9344a6c9349ed9905d5c6a6"
+    },
+    {
+      "file": "demo-interior-mum-interior-restaurant-640.webp",
+      "batch": "002",
+      "bytes": 17622,
+      "sha256": "a8c6721b7bcade12772e0641ffab22ce7bb3f3ac90287b53b4fd95b2c7049311"
+    },
+    {
+      "file": "demo-interior-mum-interior-restaurant.webp",
+      "batch": "002",
+      "bytes": 26994,
+      "sha256": "86e8758153255571b9952c1cfd1596cf536fb405823726e037bbd22bfcb109aa"
+    },
+    {
+      "file": "demo-interior-mum-interior-retail-640.webp",
+      "batch": "002",
+      "bytes": 10726,
+      "sha256": "cfc51e4de3cfef131293d45b9c96e9995516a51b444b753033073c53e0771b13"
+    },
+    {
+      "file": "demo-interior-mum-interior-retail.webp",
+      "batch": "002",
+      "bytes": 18248,
+      "sha256": "d5089225752ac082b95a54578a66333ddf563698456a994f734828da80f68af9"
+    },
+    {
+      "file": "demo-katalog-KREDIT-SHELL.txt",
+      "batch": "002",
+      "bytes": 1114,
+      "sha256": "de995f5181f38b9d0ce0d8f804b25feebf00d634b4674209428d45ac40fbbd68"
+    },
+    {
+      "file": "demo-katalog-dm-sans-OFL.txt",
+      "batch": "002",
+      "bytes": 4389,
+      "sha256": "2af94f4fb533be8fa23282eb33e08ca311ddf47c2f32777e2040b282deeec65c"
+    },
+    {
+      "file": "demo-katalog-favicon.svg",
+      "batch": "002",
+      "bytes": 236,
+      "sha256": "af140b8117f55cd19b7068d74506d4819d39516e454e19fcea40e5a2d0b45d3a"
+    },
+    {
+      "file": "demo-katalog-konsultan.webp",
+      "batch": "002",
+      "bytes": 29912,
+      "sha256": "089131c063e6a4cd54ec6f188e2f64cc1585c2e7a277dd9876a76d565233187a"
+    },
+    {
+      "file": "demo-katalog-kredit-aset.txt",
+      "batch": "002",
+      "bytes": 5978,
+      "sha256": "081de645be83ba143adb634c3d40453e76d348e58756ca402ab6c57eeb3abfd5"
+    },
+    {
+      "file": "demo-katalog-pengadaan.jpg",
+      "batch": "002",
+      "bytes": 132990,
+      "sha256": "eb78111efc3dcffe0c78264de97c10f316b5df54f1f70eebd6dcd32a4cf10f51"
+    },
+    {
+      "file": "demo-konsultan-dirac-consulting-meeting-640.webp",
+      "batch": "002",
+      "bytes": 12620,
+      "sha256": "0506bac45e936a2d76d22ae5e99c75fcfa3f5a97f0f571d9f0ed0df5dfd842da"
+    },
+    {
+      "file": "demo-konsultan-dirac-consulting-operations.webp",
+      "batch": "002",
+      "bytes": 20574,
+      "sha256": "019c5bd28b0df5f2a3432013d3f44b12a10bbb6964fdc099b156792289256c34"
+    },
+    {
+      "file": "demo-konsultan-dirac-consulting-research-640.webp",
+      "batch": "002",
+      "bytes": 19306,
+      "sha256": "bb2e415d136849ff042e8d552cce3cda52052aeee254c607cf47435f9fade0fa"
+    },
+    {
+      "file": "demo-konsultan-dirac-consulting-research.webp",
+      "batch": "002",
+      "bytes": 30478,
+      "sha256": "65e9a081973a7716f36e6923891a0b9f55c291c55164625aeb9c7efd98f477a6"
+    },
+    {
+      "file": "demo-konsultan-dirac-consulting-strategy-640.webp",
+      "batch": "002",
+      "bytes": 17868,
+      "sha256": "45f1aeab4ac64879747c8a9f70e1ab950a2037f3b77aff09b47fd1e87dbf71d2"
+    },
+    {
+      "file": "demo-konsultan-dirac-consulting-strategy.webp",
+      "batch": "002",
+      "bytes": 31130,
+      "sha256": "65c4e0f3eee91e32496ebe82e1c48b31e212e0aef4169669132b2fad49fa9145"
+    },
+    {
+      "file": "demo-konsultan-dm-sans-OFL.txt",
+      "batch": "002",
+      "bytes": 4389,
+      "sha256": "2af94f4fb533be8fa23282eb33e08ca311ddf47c2f32777e2040b282deeec65c"
+    },
+    {
+      "file": "demo-konsultan-favicon.svg",
+      "batch": "002",
+      "bytes": 263,
+      "sha256": "526b5eb1945b6280e4a1ecbf37586a47dcfc394150918cbed1b5275bad4974bb"
+    },
+    {
+      "file": "demo-konsultan-kredit-aset.txt",
+      "batch": "002",
+      "bytes": 970,
+      "sha256": "a4fdbe8ebd41fb93fe36314aa8f20e34062e1b6d208b769cb830a73e7959c7fa"
+    },
+    {
+      "file": "demo-mum-construction.jpg",
+      "batch": "002",
+      "bytes": 56674,
+      "sha256": "2cfc400deb95a0a408a4ac1370c5d4256b21e23d805717f36b57ee7c25d4be9d"
+    },
+    {
+      "file": "demo-mum-favicon.svg",
+      "batch": "002",
+      "bytes": 222,
+      "sha256": "e48c63a6fb409aaa4b1bd67e94193f52ef65eeda9b0ecadc3e2673b1044bce33"
+    },
+    {
+      "file": "demo-mum-warehouse.jpg",
+      "batch": "002",
+      "bytes": 99860,
+      "sha256": "5afb7b0b9f080e0ae1fdb10170b261bcef5dd1d4d1bfe01b65c5784c2b2d9b70"
+    },
+    {
+      "file": "demo-pemetaan-aset.txt",
+      "batch": "002",
+      "bytes": 6002,
+      "sha256": "d5f3e2425448a73b3c959d3c882581d01dca42c5fb79c16c47fa17a86e6c6f02"
+    },
+    {
+      "file": "design.html",
+      "batch": "002",
+      "bytes": 40960,
+      "sha256": "9aa4f7d0fd973468737cd73110466088fa87d7e95aa5506b97753c74a3dc2884"
+    },
+    {
+      "file": "destination.html",
+      "batch": "002",
+      "bytes": 42754,
+      "sha256": "9207a0ec0fde91b31e5ed1efcbf7ed84f394666a068c5cfe35448c6b660e9295"
+    },
+    {
+      "file": "detail-domain.html",
+      "batch": "002",
+      "bytes": 7395,
+      "sha256": "2b9d4d46f059314b8b2fd165271abd1f53acff74b7fc4c1dadcfd818e95b44c4"
+    },
+    {
+      "file": "detail-parfum.html",
+      "batch": "002",
+      "bytes": 7395,
+      "sha256": "1f15d5911b2392493d6bf0a45c984cc43f1e1d511877449b83a1e1eced5c0ff7"
+    },
+    {
+      "file": "detail-project.html",
+      "batch": "002",
+      "bytes": 7396,
+      "sha256": "593bc51e6f8ddf22863ee475b0ab3c6bb74e122e89c286b70cbe736a3014dd31"
+    },
+    {
+      "file": "detail-tiket.html",
+      "batch": "002",
+      "bytes": 7450,
+      "sha256": "cacc0037e6804460a511ab0b69d2933d6d5f2eeca4eaf36386c9cc70ea7cefe0"
+    },
+    {
+      "file": "dining.html",
+      "batch": "002",
+      "bytes": 42671,
+      "sha256": "7d2640c84a11d9e571a655361f4c5a8ed8eda30916a45da22fdb4e3b7629cd92"
+    },
+    {
+      "file": "dining.jpg",
+      "batch": "002",
+      "bytes": 95051,
+      "sha256": "7196f88580729b92230ef9b5fdba41a9ff46c84b1b9c0a250ae548fc1ff3f751"
+    },
+    {
+      "file": "dirac-404.html",
+      "batch": "002",
+      "bytes": 286919,
+      "sha256": "cd208741e1c6401c224794573081a9113448c9c5247fb0300601d3dce1bad669"
+    },
+    {
+      "file": "dirac-about.html",
+      "batch": "002",
+      "bytes": 291452,
+      "sha256": "247e769c306daea5660c6171ab39f68f30019ac3e0fb24f5feeecff4413091c0"
+    },
+    {
+      "file": "dirac-blog-dashboard-yang-membantu-keputusan-operasional.html",
+      "batch": "002",
+      "bytes": 294331,
+      "sha256": "81ce14273357c7fceff44a8a72cb17f129f9817ead8533a9806da97c04c7e142"
+    },
+    {
+      "file": "dirac-blog-integrasi-api-menghubungkan-sistem-tanpa-mengganti-semuanya.html",
+      "batch": "002",
+      "bytes": 294490,
+      "sha256": "46e85e0119fd8111d8076136ac78058972b1977bb31efcc8b255d4e5abc402e5"
+    },
+    {
+      "file": "dirac-blog-kapan-bisnis-anda-membutuhkan-software-kustom.html",
+      "batch": "002",
+      "bytes": 294398,
+      "sha256": "2a0196f2b626d2ef61a998b251cb3516f9fea24687ead5cbf6962d235bc46317"
+    },
+    {
+      "file": "dirac-blog-mvp-yang-berguna-memilih-fitur-pertama-dengan-tepat.html",
+      "batch": "002",
+      "bytes": 294438,
+      "sha256": "ebcae36cb7efdafdf48ccc1177f0fc7de00969920f96f83416968e22095b419c"
+    },
+    {
+      "file": "dirac-blog-setelah-go-live-menyiapkan-pemeliharaan-produk.html",
+      "batch": "002",
+      "bytes": 294350,
+      "sha256": "8bc464d210e7cf200cee36fd4d8dd28995521a1ad44120806c5ac82e54620355"
+    },
+    {
+      "file": "dirac-blog-transformasi-digital-dimulai-dari-proses-bukan-aplikasi.html",
+      "batch": "002",
+      "bytes": 294454,
+      "sha256": "a069238700e5f1f254420513bd06c0bb61df75202591041996fca668509ed193"
+    },
+    {
+      "file": "dirac-blog.html",
+      "batch": "002",
+      "bytes": 296530,
+      "sha256": "c8b2a075725722762e097bdac4105e0f2b6e19ab7d9a7793ae3b644c490f2ee4"
+    },
+    {
+      "file": "dirac-career-full-stack-engineer.html",
+      "batch": "002",
+      "bytes": 288357,
+      "sha256": "3d5f31187d29cd19de32b44b4c2ec049557d34af7f795f06ac84edbf50773639"
+    },
+    {
+      "file": "dirac-career-project-manager.html",
+      "batch": "002",
+      "bytes": 288314,
+      "sha256": "46d93a158c89d05e02b8df8c98d813e61f2f6f7bf34f6ce22606b0db27076ec3"
+    },
+    {
+      "file": "dirac-career-qa-engineer.html",
+      "batch": "002",
+      "bytes": 288275,
+      "sha256": "b67a7b65be314696c20757094f7743ed7e18e2ef7d83d572c2c09bccebbb4745"
+    },
+    {
+      "file": "dirac-career-ui-ux-designer.html",
+      "batch": "002",
+      "bytes": 288306,
+      "sha256": "4df6d1347dfe8c36188eabe64f3729167fa3c5e959b6a3fccd739265067af310"
+    },
+    {
+      "file": "dirac-career.html",
+      "batch": "002",
+      "bytes": 290725,
+      "sha256": "831fe2736cf707d54b48a971d61578cd07e07b74ef564840443c8330031598c7"
+    },
+    {
+      "file": "dirac-catalog-preview-afterframe.webp",
+      "batch": "002",
+      "bytes": 20378,
+      "sha256": "cadb17bd545068e1e9da867d9005e180185acddbe8dc72c44038cacdd056aa11"
+    },
+    {
+      "file": "dirac-catalog-preview-auralis.svg",
+      "batch": "002",
+      "bytes": 10435,
+      "sha256": "2ac32bd30ad2aa3132dd251277fc04c8c336d777d4fee9ff5f161c63a49e9a30"
+    },
+    {
+      "file": "dirac-catalog-preview-aurel.webp",
+      "batch": "002",
+      "bytes": 36338,
+      "sha256": "35e750bd912e504f446509c1a2193587bde720bc2375c133a57e37f3773e3d5e"
+    },
+    {
+      "file": "dirac-catalog-preview-automotive.svg",
+      "batch": "002",
+      "bytes": 853,
+      "sha256": "6e5c42d5d4570111721432dbb553b23e37696e3ee097e64cdb2841f487178ceb"
+    },
+    {
+      "file": "dirac-catalog-preview-axiom.webp",
+      "batch": "002",
+      "bytes": 19360,
+      "sha256": "796c88a5807bfb7c6cfad222e1cd03ed81bc528bb83e2615c51532361e3b8d58"
+    },
+    {
+      "file": "dirac-catalog-preview-buka.svg",
+      "batch": "002",
+      "bytes": 742,
+      "sha256": "f10b8fe6214f8bb598e669f95713c0132ae64a50b1ae7f00cef399ed2657cc79"
+    },
+    {
+      "file": "dirac-catalog-preview-festival.svg",
+      "batch": "002",
+      "bytes": 3076,
+      "sha256": "e1c6fb1520c539609026416a8b90b815477e7392ab95a0b39ede3d55b556049b"
+    },
+    {
+      "file": "dirac-catalog-preview-forme.webp",
+      "batch": "002",
+      "bytes": 21208,
+      "sha256": "a6c3d4da627dba961fb531152b6f834a7dd95ee151497f4eea3989a4ad3d230e"
+    },
+    {
+      "file": "dirac-catalog-preview-kerf.webp",
+      "batch": "002",
+      "bytes": 42956,
+      "sha256": "90a273b043c270c57250400093f5b8562a407dbb8e7ec06722e6cd06b0925ce4"
+    },
+    {
+      "file": "dirac-catalog-preview-lumenreel.svg",
+      "batch": "002",
+      "bytes": 6548,
+      "sha256": "ef0db71c654a2ae44abd29ec41c6b44d04458384a6329eee204901f772bd7437"
+    },
+    {
+      "file": "dirac-catalog-preview-meridianair.svg",
+      "batch": "002",
+      "bytes": 3650,
+      "sha256": "608faa3f67dfc30c7764e76503322fc4691e8484f75a1a9ddc27893acd2b747c"
+    },
+    {
+      "file": "dirac-catalog-preview-morrowglass.svg",
+      "batch": "002",
+      "bytes": 2390,
+      "sha256": "8a9e7c61351f5238f33d548f285b2d4d75f149917cf938114234fcf3d5b57cef"
+    },
+    {
+      "file": "dirac-catalog-preview-nawasena.svg",
+      "batch": "002",
+      "bytes": 1019,
+      "sha256": "2ace4702e8b4a7b495c7ea847f311004c422d227d262b0c8c79565a4881ca73b"
+    },
+    {
+      "file": "dirac-catalog-preview-neracabureau.webp",
+      "batch": "002",
+      "bytes": 48388,
+      "sha256": "532ef807a6d83ccf66e50a505baeaee3e5e6f0fcc17c24b7bd5513dc3f6290b9"
+    },
+    {
+      "file": "dirac-catalog-preview-offset.svg",
+      "batch": "002",
+      "bytes": 1040,
+      "sha256": "b01d5efce90074546742e82b533de85a27cef00cfda12b026920a00e646ddd23"
+    },
+    {
+      "file": "dirac-catalog-preview-paceunion.webp",
+      "batch": "002",
+      "bytes": 27592,
+      "sha256": "0a105cda47e819ba06676c51a2c35473c8daa6f88ebbb4612b45069ef05862c7"
+    },
+    {
+      "file": "dirac-catalog-preview-ronaconservatory.webp",
+      "batch": "002",
+      "bytes": 46736,
+      "sha256": "e3c1c4ebbce369ecbc8ff12d462ad249808957783746aacf9586d52f2b4e2aac"
+    },
+    {
+      "file": "dirac-catalog-preview-sela.webp",
+      "batch": "002",
+      "bytes": 66082,
+      "sha256": "976f0b3a37fb272c8e6b218e994e1be1b610534fb17e08913c4034cb9d7f9618"
+    },
+    {
+      "file": "dirac-catalog-preview-selahouse.webp",
+      "batch": "002",
+      "bytes": 65286,
+      "sha256": "9f54b64f219effed7518e84edfef0543f970772f9bde82f533f5c5f96662bb67"
+    },
+    {
+      "file": "dirac-catalog-preview-struktur.webp",
+      "batch": "002",
+      "bytes": 17940,
+      "sha256": "6138af3aaf080409a6acc369b1ec03cfab890a05797fc888dab9be0fc3807ff7"
+    },
+    {
+      "file": "dirac-catalog-preview-temuwarga.webp",
+      "batch": "002",
+      "bytes": 32642,
+      "sha256": "dae10b5246833211120950242edbd39bc5bb4a70e8dc7ede04da49cdd18fbf5e"
+    },
+    {
+      "file": "dirac-catalog-preview-terra.svg",
+      "batch": "002",
+      "bytes": 1153,
+      "sha256": "091a582708f96c95c90dbcc87ff36c76b955f695dc83343562a878d45ee3b5e9"
+    },
+    {
+      "file": "dirac-catalog-preview-varelta.svg",
+      "batch": "002",
+      "bytes": 2627,
+      "sha256": "089f987c5f11bb1ed1b9d49dc802e8500fb34bb6736c96794304a0cb90852385"
+    },
+    {
+      "file": "dirac-clients.html",
+      "batch": "002",
+      "bytes": 288275,
+      "sha256": "e1ba6984ca9550abb05cd89b4a366c0fc91cb14e5598ece3e3bb233c1dc0d727"
+    },
+    {
+      "file": "dirac-contact.html",
+      "batch": "002",
+      "bytes": 293196,
+      "sha256": "30365a47de69b79167ea2e8cb49dba866803afa6fa1ec92207d6843cd2701e40"
+    },
+    {
+      "file": "dirac-credits.html",
+      "batch": "002",
+      "bytes": 75045,
+      "sha256": "a8bc394802b14261615eaed8b0ddff98097124bd114e4783626145f6d9f4cebd"
+    },
+    {
+      "file": "dirac-index.html",
+      "batch": "002",
+      "bytes": 315927,
+      "sha256": "c5bda71e44d07b2e678d1d11bf1685b789d4ec13e55886fe8b74157a352f77ba"
+    },
+    {
+      "file": "dirac-portfolio-inventori-terpadu-untuk-tiga-gudang.html",
+      "batch": "002",
+      "bytes": 293230,
+      "sha256": "9b344917d35cfe3fb8616e59d781aaf2af9e6feecab033e7e278d53412072c80"
+    },
+    {
+      "file": "dirac-portfolio-katalog-terhubung-lintas-platform.html",
+      "batch": "002",
+      "bytes": 293215,
+      "sha256": "f1483406d201229272fcfa8257f79fff58e6df91e11864b14a5f3713d254577b"
+    },
+    {
+      "file": "dirac-portfolio-operasional-teknisi-dalam-genggaman.html",
+      "batch": "002",
+      "bytes": 293221,
+      "sha256": "6c5d96bcec84dde860a16f6fe887c7b49f43f2c7c3b7d09d3e20022769eabdd2"
+    },
+    {
+      "file": "dirac-portfolio-persetujuan-pembelian-tanpa-batas.html",
+      "batch": "002",
+      "bytes": 293199,
+      "sha256": "5011ae779ee0ffb0b1f3985625dc57f78198401ecf6d064fbcf69b474c9a105f"
+    },
+    {
+      "file": "dirac-portfolio-portal-pelanggan-pengalaman-baru.html",
+      "batch": "002",
+      "bytes": 293219,
+      "sha256": "a9b8bd02e20bda1a6117f5410a797d3befbb659b6819aecf8be0822abb347178"
+    },
+    {
+      "file": "dirac-portfolio-satu-dashboard-seluruh-cabang.html",
+      "batch": "002",
+      "bytes": 293180,
+      "sha256": "c1cb176ff1afcd862ea724f4ec4dc7d521e44894e9c6a0af80dbcd9c66f0c46f"
+    },
+    {
+      "file": "dirac-portfolio.html",
+      "batch": "002",
+      "bytes": 294193,
+      "sha256": "cb38016aa4b55d32ef99a86f06e88c7629b0a3b46cab3a02dd88cd9521c99540"
+    },
+    {
+      "file": "dirac-privacy-policy.html",
+      "batch": "002",
+      "bytes": 288612,
+      "sha256": "2d0372834638f0f4313883393a63377222ff5708e20de04ba50beacd64fdd9c6"
+    },
+    {
+      "file": "dirac-products.html",
+      "batch": "002",
+      "bytes": 292939,
+      "sha256": "3d8afd5bca24ee70d8dd9ce854f232b3636fcb167133c65926c4fcb3313e9cca"
+    },
+    {
+      "file": "dirac-security.png",
+      "batch": "002",
+      "bytes": 671959,
+      "sha256": "ab8c31e1ae79bbdebbc29303964921364054161dbdb59ae92159f566885556fb"
+    },
+    {
+      "file": "dirac-services.html",
+      "batch": "002",
+      "bytes": 296048,
+      "sha256": "674a9cec2531884523e05b69714bc50f049294869c34d760e7df1d9d28c92e70"
+    },
+    {
+      "file": "dirac-terms-and-conditions.html",
+      "batch": "002",
+      "bytes": 288337,
+      "sha256": "b4d6197ca083aa40f0de81c19b0893385bd38314896eadfd5498a00eab286ca0"
+    },
+    {
+      "file": "dish.webp",
+      "batch": "002",
+      "bytes": 32606,
+      "sha256": "abce87b63a63c96902618d680d85935f6df468a9c2667103b7b812ccbf84cb37"
+    },
+    {
+      "file": "doctor-detail.html",
+      "batch": "002",
+      "bytes": 47876,
+      "sha256": "59f3565319cc5d516940f23ac1c91878e74c3097f613c7ca26b4c8d4ddcc9b30"
+    },
+    {
+      "file": "doctor-portrait.svg",
+      "batch": "002",
+      "bytes": 2728,
+      "sha256": "3d077f651a61ab8fde368cf4f9a209d3630a3d69fe75e0d20b2941fee0bb3905"
+    },
+    {
+      "file": "doctors.html",
+      "batch": "002",
+      "bytes": 47537,
+      "sha256": "5cecd135e5363755975b76c85aea292fecb485d3b161c6560df6cb360fa506e8"
+    },
+    {
+      "file": "domain.html",
+      "batch": "002",
+      "bytes": 7428,
+      "sha256": "d97e71b3000d19d0aaec0a678601a26d26d800f5a0aee6661faad2f9cde168fb"
+    },
+    {
+      "file": "donate-demo.html",
+      "batch": "002",
+      "bytes": 46929,
+      "sha256": "e23e66978d3061f182b38ca06602c04106e2bdbb40d48aacc4bc764c31dc85e0"
+    },
+    {
+      "file": "economy.html",
+      "batch": "002",
+      "bytes": 49226,
+      "sha256": "e1cad564c21c0c8e08a1fb08236e3d9bf5e4d4925a1846989ce142a6e503f6d0"
+    },
+    {
+      "file": "editorial-standards.html",
+      "batch": "002",
+      "bytes": 48196,
+      "sha256": "184b1237f56093a1a07378e164de9950856da62aeda9b808feb266b1a0599d13"
+    },
+    {
+      "file": "editorial.html",
+      "batch": "002",
+      "bytes": 46308,
+      "sha256": "2282fb4a4b7b414ffa4dd7012fe54f654bc026c819745b017431a1ac4aa15bb6"
+    },
+    {
+      "file": "editorial.svg",
+      "batch": "003",
+      "bytes": 2488,
+      "sha256": "fafb3fd9afb1bc93e29cb02ffe01466662e1482cbf7658dd2b62127b56e405fd"
+    },
+    {
+      "file": "emberline-404.html",
+      "batch": "003",
+      "bytes": 37852,
+      "sha256": "e96ef07895f9e54b36dd468788a4f8ffc37a15da691df8494e021cc784354074"
+    },
+    {
+      "file": "emberline-about.html",
+      "batch": "003",
+      "bytes": 38037,
+      "sha256": "adc7418802c4bdee95f20dc00723269922186d57444b0b2b3c664c13a507e822"
+    },
+    {
+      "file": "emberline-bill-reading-guide.html",
+      "batch": "003",
+      "bytes": 38867,
+      "sha256": "49f5e9c5711884e3704ca4a7395741f61bd274ed1cdab790a8600e89c8e4b7a9"
+    },
+    {
+      "file": "emberline-billing-information.html",
+      "batch": "003",
+      "bytes": 38039,
+      "sha256": "d53228657f095e72279d089a95e109429cf3afca37b3227e2ad7bd195b745bb0"
+    },
+    {
+      "file": "emberline-business-energy.html",
+      "batch": "003",
+      "bytes": 38076,
+      "sha256": "b648b480a9b2edafc23748c096d85b1e20416b2bb51688936e64915eb5282daa"
+    },
+    {
+      "file": "emberline-contact.html",
+      "batch": "003",
+      "bytes": 38461,
+      "sha256": "48f61f2004d6b53fa6571c9280e787647b601a7ad53e70f97d189ad0713fa824"
+    },
+    {
+      "file": "emberline-emberline-grid-preview.svg",
+      "batch": "003",
+      "bytes": 3409,
+      "sha256": "6e059bdb58f3c5c358734722b4333c2c5d8431f384b352db66cbc1424b3ecad5"
+    },
+    {
+      "file": "emberline-energy-saving.html",
+      "batch": "003",
+      "bytes": 38943,
+      "sha256": "1a020a325ba8924f4cdb2891381397660ada50f7ea537cf03a5631d728f7d227"
+    },
+    {
+      "file": "emberline-ev-charging.html",
+      "batch": "003",
+      "bytes": 38048,
+      "sha256": "1d1a3dbe470a8fcab5ac1f2183542653682a7c20e7e363af38fdc60a318c6382"
+    },
+    {
+      "file": "emberline-help.html",
+      "batch": "003",
+      "bytes": 37994,
+      "sha256": "3ec8c22234079799e58824b6b734a60b6aaa45c0e1bf8720fe814750844792c2"
+    },
+    {
+      "file": "emberline-home-energy-audit.html",
+      "batch": "003",
+      "bytes": 38801,
+      "sha256": "bf1b4fdb24ec3aeb27b69b163510c0c307f4748b826f035c2b2cec870a446866"
+    },
+    {
+      "file": "emberline-index.html",
+      "batch": "003",
+      "bytes": 39047,
+      "sha256": "2768bbe3846ed31454a94042ec5fba3d1d40931adeced566aa2764e10f4925a2"
+    },
+    {
+      "file": "emberline-infrastructure.html",
+      "batch": "003",
+      "bytes": 38071,
+      "sha256": "c5922602f0c49f374b80967f1c09ea52b5492e90c322ab99b17636fe096856c9"
+    },
+    {
+      "file": "emberline-move-checklist.html",
+      "batch": "003",
+      "bytes": 38811,
+      "sha256": "c789cc3e624869305790c450d2a8bc81d4c4de868c2e1fee8eb8572a91663085"
+    },
+    {
+      "file": "emberline-move-service.html",
+      "batch": "003",
+      "bytes": 38573,
+      "sha256": "73e254298fced21eb86d7b083e292e59638da11b8e013b369c90f47e39db22ed"
+    },
+    {
+      "file": "emberline-my-energy.html",
+      "batch": "003",
+      "bytes": 37931,
+      "sha256": "ffa24c5fb8e17f8db60d4defbd510dd6ed40ff3b6927be626eb4cbb82367803c"
+    },
+    {
+      "file": "emberline-outage-detail.html",
+      "batch": "003",
+      "bytes": 38002,
+      "sha256": "27cf0b8d0ceeb4025420b5985408368c54c3999f575616c0e1ab15e516ff6efc"
+    },
+    {
+      "file": "emberline-outage-map.html",
+      "batch": "003",
+      "bytes": 38572,
+      "sha256": "bc093280df2e98edf6c41bd638cdae12b19c28426dc5f3d4715422c823172b8a"
+    },
+    {
+      "file": "emberline-payment-information.html",
+      "batch": "003",
+      "bytes": 38577,
+      "sha256": "d587e85d2b4eec450da4e2ebb8196488e9a1ca72b953fc4a7e596d29604d44f9"
+    },
+    {
+      "file": "emberline-plan-comparison.html",
+      "batch": "003",
+      "bytes": 38043,
+      "sha256": "42510aa29182716ea3051188495aa26d50ecdc52507c82e20c6cbf974ed9d3ab"
+    },
+    {
+      "file": "emberline-planned-work.html",
+      "batch": "003",
+      "bytes": 38833,
+      "sha256": "358891d70136ff2006b7d0a070eb84d33847e4cfd4792377b278a46eec9ae035"
+    },
+    {
+      "file": "emberline-plans.html",
+      "batch": "003",
+      "bytes": 38004,
+      "sha256": "46f4bd0183975c170ddc8a425813b2acbccfa2f6502e2061c0f94924a8b202f9"
+    },
+    {
+      "file": "emberline-privacy.html",
+      "batch": "003",
+      "bytes": 37986,
+      "sha256": "79bf43f3b87cc39e789984deef0f733e2840e4570034ef12a5df8bfe906c9591"
+    },
+    {
+      "file": "emberline-renewable-energy.html",
+      "batch": "003",
+      "bytes": 37970,
+      "sha256": "ed0975e4ace82986d74056e91ffba550bd991a2a43c89af056330bd5a16f085c"
+    },
+    {
+      "file": "emberline-safety.html",
+      "batch": "003",
+      "bytes": 38038,
+      "sha256": "bc4d614a3f81ff560c9b1e33d2febe7f21b35551f75afd36e3ae3ea46cafca88"
+    },
+    {
+      "file": "emberline-service-status.html",
+      "batch": "003",
+      "bytes": 38103,
+      "sha256": "2a30dd65caa97d08d93640b9847fd1462e254b8f854a6f452192805848f9a9b4"
+    },
+    {
+      "file": "emberline-sitemap.html",
+      "batch": "003",
+      "bytes": 40009,
+      "sha256": "35275858ae3289c38cad3a49d644d70f4d577df9cdcfed3d719f937e3137da88"
+    },
+    {
+      "file": "emberline-smart-meter.html",
+      "batch": "003",
+      "bytes": 37933,
+      "sha256": "32250d6a3abb399db332da6cf1338103b7f126e0976906ea14abf75212207779"
+    },
+    {
+      "file": "emberline-solar.html",
+      "batch": "003",
+      "bytes": 38976,
+      "sha256": "e3bb9438d398f0bdddf0af28eac23f4e515fde713cdd3957bf494865a381f2f5"
+    },
+    {
+      "file": "emberline-start-service.html",
+      "batch": "003",
+      "bytes": 38641,
+      "sha256": "c38ebbeca4ba5924ebf418c4c255dab23a2fc457a7d9eaea3cf4c36a4544682a"
+    },
+    {
+      "file": "emberline-tariffs.html",
+      "batch": "003",
+      "bytes": 37937,
+      "sha256": "a61150e9a512576dbc61eb655f725298cdc23d5d2cc511c7d37edd943b03bede"
+    },
+    {
+      "file": "emberline-terms.html",
+      "batch": "003",
+      "bytes": 37858,
+      "sha256": "1bb3d76892191fe4a3db4b30a8509e59e4e294fc84992d416e3853dd4f66b686"
+    },
+    {
+      "file": "emberline-usage-dashboard.html",
+      "batch": "003",
+      "bytes": 38940,
+      "sha256": "9d515e790d39ddd3bc8c34bab8a5107232037f1c1fe8fe923cd7eb1824f921a6"
+    },
+    {
+      "file": "emberline-usage-detail.html",
+      "batch": "003",
+      "bytes": 38840,
+      "sha256": "be8f36907bc5b05343d2a1f94e1bfad57486a8b4902cfd29365677e2f020d193"
+    },
+    {
+      "file": "emergency.html",
+      "batch": "003",
+      "bytes": 46813,
+      "sha256": "cd0f3291aa70fcce1995d8943d170649f0849eae112641cbefbf014785bb617a"
+    },
+    {
+      "file": "engineering.html",
+      "batch": "003",
+      "bytes": 40980,
+      "sha256": "eb3dc00368c04c3defc51377e79447b578f5244f43034defee4ad3a3328855ae"
+    },
+    {
+      "file": "environment.html",
+      "batch": "003",
+      "bytes": 49239,
+      "sha256": "961fe40c68f543978e7ca96f5b53a16a186e8fea8faec71908a5b30d7c363ba5"
+    },
+    {
+      "file": "event-detail.html",
+      "batch": "003",
+      "bytes": 46124,
+      "sha256": "50b604c155c8af0a4f42e0b14e68a2021854d8155e9ea8f04017396129b706fa"
+    },
+    {
+      "file": "experience-detail.html",
+      "batch": "003",
+      "bytes": 42681,
+      "sha256": "fc1f637548527feaee824ebf88db36f1a58600ec4de1b5f5e1cf7c319741abdc"
+    },
+    {
+      "file": "experiences.html",
+      "batch": "003",
+      "bytes": 42555,
+      "sha256": "36ea2e4e68836c0d91f411a98c76c2e19d7facfe265c66e5a0b5c07ddb6e02a7"
+    },
+    {
+      "file": "facilities.html",
+      "batch": "003",
+      "bytes": 48114,
+      "sha256": "dd6599f1a8faa7138e4faaece66ac067af485dfdfd7796bc92924a2c714987f7"
+    },
+    {
+      "file": "faculty-profile.html",
+      "batch": "003",
+      "bytes": 46115,
+      "sha256": "8a0efb956b31d3dabbf3325221c9e17c3d4eff527d6577d09f4d42b4aca5ec56"
+    },
+    {
+      "file": "faculty.html",
+      "batch": "003",
+      "bytes": 45235,
+      "sha256": "1a3baf8320056dc6bd6e879967ca563f4a3305425910c151084b4146b3b89a5a"
+    },
+    {
+      "file": "fashion-404.html",
+      "batch": "003",
+      "bytes": 45724,
+      "sha256": "0e31c6ca2a4180b9896c179fcdc666ebade1e0e5f942da37d95b4277fce5c7c3"
+    },
+    {
+      "file": "fashion-about.html",
+      "batch": "003",
+      "bytes": 46097,
+      "sha256": "38a1fd817d40775dfbdceb07ee30d8e49660fb70a7377db162a69f665c785101"
+    },
+    {
+      "file": "fashion-care.html",
+      "batch": "003",
+      "bytes": 46748,
+      "sha256": "c8bd95ca68c154409616a368eff8538e9fe99fa636a9a50e0fd46ac86642295c"
+    },
+    {
+      "file": "fashion-construction.html",
+      "batch": "003",
+      "bytes": 46677,
+      "sha256": "07ef0146510d0786c180c57f40c73add2e3bc9b3ab6d74a4af7a052c2838e67b"
+    },
+    {
+      "file": "fashion-contact.html",
+      "batch": "003",
+      "bytes": 46408,
+      "sha256": "6c5b6b265308ae9bab98da36470329d3cbc280615996287c0f749d1a36b1025d"
+    },
+    {
+      "file": "fashion-faq.html",
+      "batch": "003",
+      "bytes": 46209,
+      "sha256": "73d320af378070120d8f0b0d495994b0f69f98fa39f9d444d1d91fdc75fcbb9d"
+    },
+    {
+      "file": "fashion-fit-notes.html",
+      "batch": "003",
+      "bytes": 46644,
+      "sha256": "74cbbe6334e3bd2dd0e9a85af1200dd134101bb0a74753503a158f3047c18bb7"
+    },
+    {
+      "file": "fashion-index.html",
+      "batch": "003",
+      "bytes": 48228,
+      "sha256": "5b7e3d4de2fdb289933ce7c541a1b5c72adf0ff3b909cc6bb3939402a1ae583b"
+    },
+    {
+      "file": "fashion-mark.svg",
+      "batch": "003",
+      "bytes": 189,
+      "sha256": "60dd7e4cb3bcd5ec41ed2af4cd1d84451c3073f4ccef1b92dfbf8d26519e064d"
+    },
+    {
+      "file": "fashion-privacy.html",
+      "batch": "003",
+      "bytes": 45747,
+      "sha256": "6be3a5a6f5970b728ff0c2f87b4080980cb9ffe1ab437c46118eef1a421dc120"
+    },
+    {
+      "file": "fashion-search.html",
+      "batch": "003",
+      "bytes": 47064,
+      "sha256": "316c45e17af67b01e11db1435d79d2922d97e992f18336f5d2b9a3c0e49b0ff7"
+    },
+    {
+      "file": "fashion-signal-study.html",
+      "batch": "003",
+      "bytes": 46576,
+      "sha256": "a74dc89f6d85c6d2d9bde10313bb6b5620f18cb7ed96fbb38c619f1a4633a487"
+    },
+    {
+      "file": "fashion-studio-visit.html",
+      "batch": "003",
+      "bytes": 46722,
+      "sha256": "a5befaa041bfc48661affd895578f18d7231c03c2639ba1cead5f815059f25a6"
+    },
+    {
+      "file": "fashion-styling.html",
+      "batch": "003",
+      "bytes": 46643,
+      "sha256": "e41f68755fbe72701d335d655fdd305ada36edd5569d7cf5097dbf2bbdccbf74"
+    },
+    {
+      "file": "fashion-terms.html",
+      "batch": "003",
+      "bytes": 45756,
+      "sha256": "1442a014f9d6ef5be457694559612d85f8b1b4a8580eab205ef7b8b02482398d"
+    },
+    {
+      "file": "field-map.svg",
+      "batch": "003",
+      "bytes": 3650,
+      "sha256": "91c005f77100dc9b42a24c76bf3e462ccc4763e9b612bc97e719959c27035501"
+    },
+    {
+      "file": "financial-transparency.html",
+      "batch": "003",
+      "bytes": 46793,
+      "sha256": "ba355b026938b3090b14c697bccc25122d383db9e7ed7f95a4d7ce3d2c2b285f"
+    },
+    {
+      "file": "firm.html",
+      "batch": "003",
+      "bytes": 49228,
+      "sha256": "8ef3f0fadf4f3128ed32f65e3c6ed7952d3bd1aa2b0caf2cd4a2c8a377a18c15"
+    },
+    {
+      "file": "food.webp",
+      "batch": "003",
+      "bytes": 35808,
+      "sha256": "2fd0e0b70bcd8325b5bd638ae21c312edf218ad89c582937e99d8033d6b62367"
+    },
+    {
+      "file": "forest.jpg",
+      "batch": "003",
+      "bytes": 71202,
+      "sha256": "652a9f24f83f5457a5b269fa24457256308c1f634c700e4ab1a3c971bbbc4481"
+    },
+    {
+      "file": "garment-01.svg",
+      "batch": "003",
+      "bytes": 2488,
+      "sha256": "875850bfa3860b2af56ecb7677a356a00e098c0a8fd9075c52e715d575100411"
+    },
+    {
+      "file": "gift.html",
+      "batch": "003",
+      "bytes": 42427,
+      "sha256": "b8cf6995185021f21367f2669913801695fdfaf0bb92cb85c298afaa68f1af15"
+    },
+    {
+      "file": "governance.html",
+      "batch": "003",
+      "bytes": 46579,
+      "sha256": "03c40f27a39923b004ba966d893cfed7f38f603993e8e432e58562451008eba2"
+    },
+    {
+      "file": "gridora-404.html",
+      "batch": "003",
+      "bytes": 44694,
+      "sha256": "7e63d859a2d3c327f978d69ab30020b3d39c06fa1a1eb815da399db2b7ebfd61"
+    },
+    {
+      "file": "gridora-about.html",
+      "batch": "003",
+      "bytes": 44996,
+      "sha256": "0b254e179cc0b5e05f8ba7835ae328ad2c8f865708706d9634538761549d44c6"
+    },
+    {
+      "file": "gridora-affordability-calculator.html",
+      "batch": "003",
+      "bytes": 45305,
+      "sha256": "6f3ca22c028ebef5ff7d7a02e3c88d48856dd8b7bece56c1ded6600053a0acf3"
+    },
+    {
+      "file": "gridora-agent-profile.html",
+      "batch": "003",
+      "bytes": 45288,
+      "sha256": "19a705801aa102dc101dd13920539af2cd1d0060555d30e01bf557f71abba033"
+    },
+    {
+      "file": "gridora-agents.html",
+      "batch": "003",
+      "bytes": 45437,
+      "sha256": "b9d1ae77361849676fd925ad6280b543993cdacb9f5ece1fc68ff1bbc08f2c4e"
+    },
+    {
+      "file": "gridora-buy.html",
+      "batch": "003",
+      "bytes": 47123,
+      "sha256": "303533935d826c2d70c2b64aa4ce1a1b1d9de57f5f77119d7ea2593e765dff80"
+    },
+    {
+      "file": "gridora-buyer-questions.html",
+      "batch": "003",
+      "bytes": 45755,
+      "sha256": "7f594bf71975482f1a4a5742c64370cf8b123608f8b8d2dc0a548cde05468217"
+    },
+    {
+      "file": "gridora-compare.html",
+      "batch": "003",
+      "bytes": 45314,
+      "sha256": "cec6a817a40de7f3cf78e08a181d16eb80d4902de454aa0eca4c8288df18234c"
+    },
+    {
+      "file": "gridora-contact.html",
+      "batch": "003",
+      "bytes": 45128,
+      "sha256": "219d77ca28dd9520d997e890b9fe5117de12ff3be639024aa4164f282197416d"
+    },
+    {
+      "file": "gridora-development-detail.html",
+      "batch": "003",
+      "bytes": 45309,
+      "sha256": "a1cd1f32a016c0221268f00f8c0237c61dbe2185d488ae40bc9180348506b3ec"
+    },
+    {
+      "file": "gridora-gridora-preview.svg",
+      "batch": "003",
+      "bytes": 6111,
+      "sha256": "3b634833d669e316871dc113066aef5849a1bf5e523da2574a0e96035e64f93f"
+    },
+    {
+      "file": "gridora-guide-detail.html",
+      "batch": "003",
+      "bytes": 45222,
+      "sha256": "550461f698d679c3f133d7ff6d717fde850aa0114288df405809cc325322f7c0"
+    },
+    {
+      "file": "gridora-help.html",
+      "batch": "003",
+      "bytes": 45068,
+      "sha256": "2cebea90588e530031a98cd82c8b942c2551637d8520fa6c5078d15b2676211f"
+    },
+    {
+      "file": "gridora-index.html",
+      "batch": "003",
+      "bytes": 47274,
+      "sha256": "501ad245026843b31ed69301d1c6edd2d1dfbf71f17dfb671b1c331b1c59a70a"
+    },
+    {
+      "file": "gridora-insight-detail.html",
+      "batch": "003",
+      "bytes": 45410,
+      "sha256": "bb47df4c12c4a3bf31af08f114b022f85845b2448fdae7f997afc7346674d847"
+    },
+    {
+      "file": "gridora-map-search.html",
+      "batch": "003",
+      "bytes": 45684,
+      "sha256": "ac3f0ca213bf3444487daf0615b7d34d3b085d1a5815436187a4a6fd33e8cfc7"
+    },
+    {
+      "file": "gridora-market-insights.html",
+      "batch": "003",
+      "bytes": 45208,
+      "sha256": "09d681860007f97e92a9f576c0ea3efb5707b3caec56ded71fad5d3a499423d8"
+    },
+    {
+      "file": "gridora-mortgage-estimate.html",
+      "batch": "003",
+      "bytes": 45744,
+      "sha256": "7220bf38081f9da5234c5cc4dc38f102716d48fb2b9e082837b49d553e597045"
+    },
+    {
+      "file": "gridora-neighborhood-detail.html",
+      "batch": "003",
+      "bytes": 45611,
+      "sha256": "0aff67bb3fc3adbd60aec08d0e61c49563164bae32e1623671a002512de9256f"
+    },
+    {
+      "file": "gridora-neighborhood-walk.html",
+      "batch": "003",
+      "bytes": 45730,
+      "sha256": "1c777ef36c70d70792dfb2693c1eec497cf9b6ee7f3623fceb24994e13f1899a"
+    },
+    {
+      "file": "gridora-neighborhoods.html",
+      "batch": "003",
+      "bytes": 46167,
+      "sha256": "f221864c8193a28e73a07a9dfc9d9f1b02d85dc0e486f2137b8e971a2f6e8681"
+    },
+    {
+      "file": "gridora-new-developments.html",
+      "batch": "003",
+      "bytes": 45607,
+      "sha256": "55f12f5db93c37cd1d7c916c1802cb1192922e3b4cc5eb36e8461f9f45605aa3"
+    },
+    {
+      "file": "gridora-ownership-costs.html",
+      "batch": "003",
+      "bytes": 45818,
+      "sha256": "a911c7d4e78456ef14c1a078eefead5a0ef7be4509d19666446dec9335310a95"
+    },
+    {
+      "file": "gridora-privacy.html",
+      "batch": "003",
+      "bytes": 44858,
+      "sha256": "bc6deea6b7410c80f79703061ee72dbdc7169aca9ad1c161345f95aabd65270d"
+    },
+    {
+      "file": "gridora-property-detail.html",
+      "batch": "003",
+      "bytes": 46105,
+      "sha256": "30193358062529d56409031118d980bf55473b833eca1ee732d2d092af933231"
+    },
+    {
+      "file": "gridora-property-guides.html",
+      "batch": "003",
+      "bytes": 45329,
+      "sha256": "38c49674f369f9a7b2c7944a4ef7fdc353d439df93c51db28e5de728e90d0381"
+    },
+    {
+      "file": "gridora-rent-out-property.html",
+      "batch": "003",
+      "bytes": 44938,
+      "sha256": "ee1dbf4b8f065486f563408e58b5ed5380fa49db8222ae76757076cd7d27b447"
+    },
+    {
+      "file": "gridora-rent.html",
+      "batch": "003",
+      "bytes": 48023,
+      "sha256": "1cb85059775fe66136aeb576764f55752197385ed68cd88f491f6ba1258fbcc0"
+    },
+    {
+      "file": "gridora-rental-handover.html",
+      "batch": "003",
+      "bytes": 45675,
+      "sha256": "f8d90b15b4263cfd8320c6288da2026fad392d914d321071b58ccaa16d391ba1"
+    },
+    {
+      "file": "gridora-saved-properties.html",
+      "batch": "003",
+      "bytes": 44894,
+      "sha256": "2719faafcfdccea9bc8f095c1caf003efc36a54c238fa7510773971354d29a86"
+    },
+    {
+      "file": "gridora-search-results.html",
+      "batch": "003",
+      "bytes": 46870,
+      "sha256": "81d4a5c215b5e550de6a1573dabf8b9f487aefa65a4ad2a023ddebc060d23190"
+    },
+    {
+      "file": "gridora-sell-property.html",
+      "batch": "003",
+      "bytes": 45283,
+      "sha256": "77d935f8b0d767766dbd217a2afb6d70243ae3b09f983eb128392545fdbd31d2"
+    },
+    {
+      "file": "gridora-terms.html",
+      "batch": "003",
+      "bytes": 44799,
+      "sha256": "2e887e56f5a2840513c4b7cfae750331ffad199b76f08c982fd9442a16f94abe"
+    },
+    {
+      "file": "gridora-viewing-checklist.html",
+      "batch": "004",
+      "bytes": 45944,
+      "sha256": "2d9e6cd71bb8ddd3810afe09a7f08703ee15ef4a49e5b515076e5414b6118a85"
+    },
+    {
+      "file": "health-screening.html",
+      "batch": "004",
+      "bytes": 48177,
+      "sha256": "bcdf46e06707bdbf339e97fb874e208ad2db1c0bbac69af3e5d2de48cd9b2952"
+    },
+    {
+      "file": "healthcare-sitemap.html",
+      "batch": "004",
+      "bytes": 50137,
+      "sha256": "961a702ef038ce5f19853a13ef647149f70a7c7d333ed8ffa360b633b503560a"
+    },
+    {
+      "file": "hero.jpg",
+      "batch": "004",
+      "bytes": 131514,
+      "sha256": "24e33a6f1cc92c6b585f84822ff887f9e1fc567433fe18f437c6629b3b7617b3"
+    },
+    {
+      "file": "history.html",
+      "batch": "004",
+      "bytes": 49189,
+      "sha256": "2cf3b50e2434c5cf63629603d198c51448eb366e01df1bb2ae2f9521d21bf73d"
+    },
+    {
+      "file": "impact-404.html",
+      "batch": "004",
+      "bytes": 46217,
+      "sha256": "78cb40ec5b8d819adeb4cbe69c5deabc13539c8ad5a3719e4834a352386529b1"
+    },
+    {
+      "file": "impact-careers.html",
+      "batch": "004",
+      "bytes": 46428,
+      "sha256": "c0dd4e8ad5c0adb1826702dc8202d660502d4578dee6765d086bf65125834925"
+    },
+    {
+      "file": "impact-contact.html",
+      "batch": "004",
+      "bytes": 46672,
+      "sha256": "0cd6fb1c55c44005ccae8474315c0f98bbcc0c4f24c26c444181c86cf54924e2"
+    },
+    {
+      "file": "impact-data.html",
+      "batch": "004",
+      "bytes": 46955,
+      "sha256": "9c325a7f1f26d9e04350f3457f277c5b11bdf2cb968aa1cf82d377fcbc998b99"
+    },
+    {
+      "file": "impact-faq.html",
+      "batch": "004",
+      "bytes": 46433,
+      "sha256": "331682c67e504462752ea1ece0234596245607846f504ea4971618d48e3b8aaa"
+    },
+    {
+      "file": "impact-feedback.html",
+      "batch": "004",
+      "bytes": 46886,
+      "sha256": "014802fc024b9e39464cd01680c1a47891b2eb558341a0b426d2b67c7f09d4fb"
+    },
+    {
+      "file": "impact-field-notes.html",
+      "batch": "004",
+      "bytes": 46889,
+      "sha256": "43c2dd4458127555dbecaf12e02bf5d1eb6986846d5c38acacde4433084168b8"
+    },
+    {
+      "file": "impact-index.html",
+      "batch": "004",
+      "bytes": 48344,
+      "sha256": "8be58479ccc2d03b7e3bfab6d69748b3b5c9444797c2a3888ed92f848a94a0e6"
+    },
+    {
+      "file": "impact-indicator-guide.html",
+      "batch": "004",
+      "bytes": 46885,
+      "sha256": "b38a2dbc6bee1ac521618dc764b4b47695f2915210603b4a2100fe73e5f73b6f"
+    },
+    {
+      "file": "impact-methodology.html",
+      "batch": "004",
+      "bytes": 46942,
+      "sha256": "c7fa3b6ff6cb1e8c4aa306dd1c664a2391ea894261c06168b013e1b2c1373b30"
+    },
+    {
+      "file": "impact-partners.html",
+      "batch": "004",
+      "bytes": 46549,
+      "sha256": "93bd8c76a73eb040b5e1dc3d18228a73a3f3e278f47b83244fbd74b81f88a26e"
+    },
+    {
+      "file": "impact-privacy.html",
+      "batch": "004",
+      "bytes": 46276,
+      "sha256": "f0a00a658d3d9d6abda9511022c5dd8f3c7faa6e2215ac1138a00f18450943ce"
+    },
+    {
+      "file": "impact-program-detail.html",
+      "batch": "004",
+      "bytes": 46864,
+      "sha256": "83d9752b907e3a8f3497c27fffc44d6265ad18b75f5df0344beb1fdb9e07c1de"
+    },
+    {
+      "file": "impact-programs.html",
+      "batch": "004",
+      "bytes": 46914,
+      "sha256": "9c406eb2b15f97aa3f604b7fb1abc0fb57a8e1b5360acf01363afeddeceb0b57"
+    },
+    {
+      "file": "impact-reports.html",
+      "batch": "004",
+      "bytes": 46619,
+      "sha256": "064003af71f98f5c01081b873a54071f10ee7210549c9870a7c44fdd6768b4bd"
+    },
+    {
+      "file": "impact-sitemap.html",
+      "batch": "004",
+      "bytes": 48107,
+      "sha256": "3ef0396cad381f6e865215b68d5185e0b83dea69e530ffbb67ceba2a64627738"
+    },
+    {
+      "file": "impact-stories.html",
+      "batch": "004",
+      "bytes": 46608,
+      "sha256": "b7e2aaf580b92758658c3210fb834fe953a36750adf57612930bf612ecc915a1"
+    },
+    {
+      "file": "impact-story-detail.html",
+      "batch": "004",
+      "bytes": 46785,
+      "sha256": "5246b04c65e2ab942557cf9c8423570d7bd01656c386aabbc8b91d05b49ae610"
+    },
+    {
+      "file": "impact-terms.html",
+      "batch": "004",
+      "bytes": 46204,
+      "sha256": "ea2c3f1df226566e4a7663faccb1a8b1c2d4093597e48f5c00021c16f7111cb2"
+    },
+    {
+      "file": "impact.html",
+      "batch": "004",
+      "bytes": 46929,
+      "sha256": "9a2be0b66850d0cc894d48c50e95d000daa76dfb5b79ba0353abe789550f4b53"
+    },
+    {
+      "file": "index.html",
+      "batch": "004",
+      "bytes": 61654,
+      "sha256": "fde858980d1be5dae5c2682aa5756af42a3eed9ea412566d105291f249821a45"
+    },
+    {
+      "file": "industries.html",
+      "batch": "004",
+      "bytes": 49489,
+      "sha256": "fab3eb12871cbeb7b2353898a1f7f42eb80519845c8e5c1c44ee4353f3b097eb"
+    },
+    {
+      "file": "industry-consumer.html",
+      "batch": "004",
+      "bytes": 49701,
+      "sha256": "c3288824723db56076a3f98e2f90d28f19036d8a344297060b49026d7e44330b"
+    },
+    {
+      "file": "industry-energy.html",
+      "batch": "004",
+      "bytes": 49737,
+      "sha256": "23c79485a83d22de7edff47381b00e22dc4dba8a180df551bd3c7208cbddb196"
+    },
+    {
+      "file": "industry-financial-services.html",
+      "batch": "004",
+      "bytes": 49667,
+      "sha256": "c05a6c80f0f6cd0bee56eee02c1c2ce932606c1ad2af4bca906859b51fbae119"
+    },
+    {
+      "file": "industry-healthcare.html",
+      "batch": "004",
+      "bytes": 49722,
+      "sha256": "d25a717cf52d269be5d8c7cbe6604f6a127902005db5c5bf6d21c8c4089067df"
+    },
+    {
+      "file": "industry-technology.html",
+      "batch": "004",
+      "bytes": 49704,
+      "sha256": "37d082fff0a5e6bdda7ecfd2cc6bb744d14b2bac4dc8e7a4608b9c06e049fedd"
+    },
+    {
+      "file": "ingredients.html",
+      "batch": "004",
+      "bytes": 42508,
+      "sha256": "6636649b63ef55d8a80c64541b56f1ac5684f9ecb2294e80b751ad02ef5bdf1c"
+    },
+    {
+      "file": "ingredients.webp",
+      "batch": "004",
+      "bytes": 40922,
+      "sha256": "dc120759c0c43be6903cc5e882fbbe1bb7c2614fe818680336a3b7ee86e711af"
+    },
+    {
+      "file": "insight-arbitration.html",
+      "batch": "004",
+      "bytes": 49801,
+      "sha256": "b04c1c81119bf380e09f3cd691b47dca1f8a0b316eceaae715586b8d3d144a83"
+    },
+    {
+      "file": "insight-digital-evidence.html",
+      "batch": "004",
+      "bytes": 49693,
+      "sha256": "1b69549b90a6a94c978fcd729605a0e8cfdbdf719897acbf796a0b0e0a40cbf8"
+    },
+    {
+      "file": "insight-energy-transition.html",
+      "batch": "004",
+      "bytes": 49795,
+      "sha256": "ff4c0912695cd27059faf4d39b88e0965462949ec1171e9efc6380d91961a152"
+    },
+    {
+      "file": "insight-regulatory-response.html",
+      "batch": "004",
+      "bytes": 49782,
+      "sha256": "ed0e2316fd9b0631e90f0818c87d3c032189d852cd6a094b11dc9fa88c4be999"
+    },
+    {
+      "file": "insurance-payment.html",
+      "batch": "004",
+      "bytes": 48191,
+      "sha256": "a426caab9e527bc6db9dfe77712ce8d2a029d353e3c97c7d471b2c7a74955e90"
+    },
+    {
+      "file": "interior-404.html",
+      "batch": "004",
+      "bytes": 109532,
+      "sha256": "d0d38e33c38e38071ba1fcd71aeb71c0aa4a8854dc9ef4d2be9c88002c79fbb9"
+    },
+    {
+      "file": "interior-articles-alur-pengunjung-toko.html",
+      "batch": "004",
+      "bytes": 117532,
+      "sha256": "3e239da966c2b32f0c713178536d2711fb4b1e15a828cb9a94163c4f68cd8fed"
+    },
+    {
+      "file": "interior-articles-membaca-sampel-material.html",
+      "batch": "004",
+      "bytes": 117526,
+      "sha256": "820c4372098e535a22e75430776ceab586eb4ad486faa29f32da4ca1eeba5409"
+    },
+    {
+      "file": "interior-articles-menata-prioritas-anggaran-interior.html",
+      "batch": "004",
+      "bytes": 117449,
+      "sha256": "7522841fe0a81d46dc0aa97206a0cbddd57618642fc30dc074ea001fb80525c8"
+    },
+    {
+      "file": "interior-articles-menyusun-brief-rumah.html",
+      "batch": "004",
+      "bytes": 117350,
+      "sha256": "89ece581cf956ac4648cb94e55e5d84f9fff6bbf2b367f202569295c19cc31cb"
+    },
+    {
+      "file": "interior-articles-merancang-lemari-dari-isinya.html",
+      "batch": "004",
+      "bytes": 117462,
+      "sha256": "0a4400a3204b8da22612e1cb969eed71e0d85b8b9655f60285157ce468efdbb1"
+    },
+    {
+      "file": "interior-articles-persiapan-renovasi-rumah-dihuni.html",
+      "batch": "004",
+      "bytes": 117702,
+      "sha256": "bd0e8ce4d6bd208be063851f13e41faa670c32f9b47caac67f7fe3f8c1896067"
+    },
+    {
+      "file": "interior-artikel.html",
+      "batch": "004",
+      "bytes": 118270,
+      "sha256": "d605e618bb5ed644d569deb42a929b00902dff7c1cbc6817591e6ccbbb8ac1ca"
+    },
+    {
+      "file": "interior-careers-junior-interior-designer.html",
+      "batch": "004",
+      "bytes": 111895,
+      "sha256": "0eae1cd4e3e8524d0d910240e8cfabd9b7f35153504f0707f0b06344e1a49eb6"
+    },
+    {
+      "file": "interior-careers-project-coordinator.html",
+      "batch": "004",
+      "bytes": 111897,
+      "sha256": "d8051e2748927a05a02218d84d7b45176e6168d8471a71d633b9c8664d945a4f"
+    },
+    {
+      "file": "interior-careers-visualization-artist.html",
+      "batch": "004",
+      "bytes": 111915,
+      "sha256": "ee06c9e3d4049ca5b696a10a523e0d897f482e3d0e58af0ae32adfb7ebe098c4"
+    },
+    {
+      "file": "interior-index.html",
+      "batch": "004",
+      "bytes": 123000,
+      "sha256": "0c4f2e62e604a405facef527e46a2427471798e15da95021afda7a01dfe59e3d"
+    },
+    {
+      "file": "interior-karier.html",
+      "batch": "004",
+      "bytes": 111859,
+      "sha256": "1625e1eec63ff04974eb12cbbe69d5b40da563ad5c5d458e6b6049bc75dc6eaa"
+    },
+    {
+      "file": "interior-kebijakan-privasi.html",
+      "batch": "004",
+      "bytes": 112180,
+      "sha256": "256a513e3d18fce71d9abff88cd45d86ebb2ea5dafcf98d086e0e353377cc5e1"
+    },
+    {
+      "file": "interior-klien.html",
+      "batch": "004",
+      "bytes": 110727,
+      "sha256": "1a4a60e32539515079f12359b4ca7e408bb69b048e5c485b1054432bd227bcf3"
+    },
+    {
+      "file": "interior-kontak.html",
+      "batch": "004",
+      "bytes": 113791,
+      "sha256": "d276f62dc915b1697f55cfedacfb85e44b1e1cb72329c3c39bf87eab0583ea10"
+    },
+    {
+      "file": "interior-layanan.html",
+      "batch": "004",
+      "bytes": 112994,
+      "sha256": "39f3563a8b48d95519491990cd07092fa262f5701f9adbd619ad11b16c3747dd"
+    },
+    {
+      "file": "interior-portfolio.html",
+      "batch": "004",
+      "bytes": 115825,
+      "sha256": "71951c4c9c271b88aca2020ceba9c07b062dcb85d298775eaa1b01b5ad1e9b10"
+    },
+    {
+      "file": "interior-projects-hotel-nala.html",
+      "batch": "004",
+      "bytes": 114650,
+      "sha256": "b8c3aa1591de2c3b803147e535bd24b42c5f6e7eed60fded8f15369c26927350"
+    },
+    {
+      "file": "interior-projects-kantor-ruang-antara.html",
+      "batch": "004",
+      "bytes": 114608,
+      "sha256": "62984d1b98073d4d2fecd241bac149669e9755efeed18fa035e335780c05e45c"
+    },
+    {
+      "file": "interior-projects-koleksi-laras.html",
+      "batch": "004",
+      "bytes": 114653,
+      "sha256": "c5cbc45f5b324578a33cc3a4f44cef74917c5383e1df23ff26bb1647c6cbdca5"
+    },
+    {
+      "file": "interior-projects-restoran-ranting.html",
+      "batch": "004",
+      "bytes": 114694,
+      "sha256": "ecbe273934e05bdc39616f4bb13db776be19d4a5348d49c0e1149bc20c1e200b"
+    },
+    {
+      "file": "interior-projects-rumah-sela.html",
+      "batch": "004",
+      "bytes": 114590,
+      "sha256": "1e438d0e60231af01bcfc077b762250b74928be101e0174f5d7a6fabbcfafaf6"
+    },
+    {
+      "file": "interior-projects-toko-temu.html",
+      "batch": "004",
+      "bytes": 114634,
+      "sha256": "cf6c606c1e7c9cd7cbf58d3a881772fedcbf7371c8793e0f00e882dffd61e5e2"
+    },
+    {
+      "file": "interior-syarat-ketentuan.html",
+      "batch": "004",
+      "bytes": 112109,
+      "sha256": "8bddb286293280f47602fe51f0114bb1aea0bc8bb2029f4920c30e26d62b2d28"
+    },
+    {
+      "file": "interior-tentang.html",
+      "batch": "004",
+      "bytes": 113207,
+      "sha256": "bc8af467ceda9e2019357ca84a0a7b100b414112905a3e22527d31708616905a"
+    },
+    {
+      "file": "journal-detail-02.html",
+      "batch": "004",
+      "bytes": 42702,
+      "sha256": "994ebd3e3c3e158c2c19bf0fbe7bf72c3e556bec5c6c2c625288044e38f8cc5c"
+    },
+    {
+      "file": "journal-detail-03.html",
+      "batch": "004",
+      "bytes": 42693,
+      "sha256": "ffd193d2ce083cd0941f4f38f0fce90d6a1eb3f4f03591b97872089f351d5e77"
+    },
+    {
+      "file": "journal-detail-04.html",
+      "batch": "004",
+      "bytes": 42690,
+      "sha256": "b569d5e7f97069ab7c57681507d83bd976c03156d5413a745e3c18994eabf634"
+    },
+    {
+      "file": "keamanan.html",
+      "batch": "004",
+      "bytes": 7390,
+      "sha256": "57ed500e31ed18c21c298fb70086f34835ea18c89eb1c5ed910c1ba7ea112b9a"
+    },
+    {
+      "file": "kitchen.webp",
+      "batch": "004",
+      "bytes": 31522,
+      "sha256": "8fcefc62d36546832d7fd25f41f6bb4da69ca2cda128ba579477d93feb6e1445"
+    },
+    {
+      "file": "konsultan-404.html",
+      "batch": "004",
+      "bytes": 115348,
+      "sha256": "5120051e64302ee78c3e211faa71ec064c5b685b2f38a0a47b57c935389b2adb"
+    },
+    {
+      "file": "konsultan-articles-memilih-prioritas-dari-banyak-peluang.html",
+      "batch": "004",
+      "bytes": 123085,
+      "sha256": "93735c548a8967217d8b064ecba1716b1e39308432fc0fc078b9f2b22d878caa"
+    },
+    {
+      "file": "konsultan-articles-memperbaiki-serah-terima-pekerjaan.html",
+      "batch": "004",
+      "bytes": 123291,
+      "sha256": "76d13ae78ae3b6f28554593c7bcee0ff330f0c95a0da1ede68bded21aba945b3"
+    },
+    {
+      "file": "konsultan-articles-meninjau-rencana-90-hari.html",
+      "batch": "004",
+      "bytes": 123337,
+      "sha256": "f3251e547caeb2fd5779256ebab6d95b107f73f781dac98c5f7fffda32cbd6e0"
+    },
+    {
+      "file": "konsultan-articles-pelatihan-yang-berlanjut-di-tempat-kerja.html",
+      "batch": "004",
+      "bytes": 123333,
+      "sha256": "3031fa774608fc7b2e3a7507766dc14fb44da83ef75a1e8ae6a3bae8afc62723"
+    },
+    {
+      "file": "konsultan-articles-rapat-yang-menghasilkan-keputusan.html",
+      "batch": "004",
+      "bytes": 123323,
+      "sha256": "79c989d6cd8199f20fc9893caa86ca7a49ddf5e6fdcc8a50c4203a7441e9d398"
+    },
+    {
+      "file": "konsultan-articles-wawancara-pelanggan-tanpa-mengarahkan-jawaban.html",
+      "batch": "004",
+      "bytes": 123291,
+      "sha256": "86022a43c5f685172786f5f822146d71f270183d652d5c0613b5f32b5611dc9f"
+    },
+    {
+      "file": "konsultan-artikel.html",
+      "batch": "004",
+      "bytes": 124582,
+      "sha256": "974dcf509491788060fa8baff3f798fec58b31f627a9d6f2e8d68fdbb769755d"
+    },
+    {
+      "file": "konsultan-careers-associate-consultant.html",
+      "batch": "004",
+      "bytes": 117777,
+      "sha256": "385b87d07d6232fd3136c6b93e033da7a924e79431c6a44481a17b710501f0f0"
+    },
+    {
+      "file": "konsultan-careers-learning-program-coordinator.html",
+      "batch": "004",
+      "bytes": 117816,
+      "sha256": "f0b8e4cf7694ffeb851fd9527122eb57a1a148265092d697ca82887a23b2f8fc"
+    },
+    {
+      "file": "konsultan-careers-research-analyst.html",
+      "batch": "004",
+      "bytes": 117679,
+      "sha256": "1ac25e20f560086bbc59fca657661055ce78df311ed7adb6ae23bc85f5042838"
+    },
+    {
+      "file": "konsultan-index.html",
+      "batch": "004",
+      "bytes": 129528,
+      "sha256": "1b649f81d89748c0048fd8a862823914bff291f881a1ebe1f9e11233a2c4dcf4"
+    },
+    {
+      "file": "konsultan-karier.html",
+      "batch": "004",
+      "bytes": 117644,
+      "sha256": "8a63fb7a8d86d96146d8087ab19d733ae055130cf73c9ceb5bcc2ec842bab8f3"
+    },
+    {
+      "file": "konsultan-kebijakan-privasi.html",
+      "batch": "004",
+      "bytes": 117997,
+      "sha256": "8ffd11c5289ff43aebec5571875e23207b032fc0bf21f5959461aff88e6d9e34"
+    },
+    {
+      "file": "konsultan-klien.html",
+      "batch": "004",
+      "bytes": 116564,
+      "sha256": "208f92b062581adc02fcee1a886390e1a2ff050601d66e76cbbea6204e238246"
+    },
+    {
+      "file": "konsultan-kontak.html",
+      "batch": "004",
+      "bytes": 119574,
+      "sha256": "e699ede9fc31ee0c6718aea4bd75a23afc84c33b601e4c55a9fc28e792b81d1c"
+    },
+    {
+      "file": "konsultan-layanan.html",
+      "batch": "004",
+      "bytes": 120060,
+      "sha256": "ddaf4be82f87ac315fcde51e3a289b6a9e83a2517eea790118a2f8d2938394f4"
+    },
+    {
+      "file": "konsultan-portfolio.html",
+      "batch": "004",
+      "bytes": 122427,
+      "sha256": "cc5832a3cd43df06b4a2f299c48eec440832ba0e49b202134936fc128b639c2e"
+    },
+    {
+      "file": "konsultan-projects-alur-produksi-karya-presisi.html",
+      "batch": "004",
+      "bytes": 120534,
+      "sha256": "d3da011a3eca689ad9e5385b3087393355cf93899d694b248932c6a286b66e29"
+    },
+    {
+      "file": "konsultan-projects-arah-pertumbuhan-ritel-arunika.html",
+      "batch": "004",
+      "bytes": 120598,
+      "sha256": "21021c6cc5e919a5cdf7c754ca2c28e349648156d22843bbbc2f9e579fc313b7"
+    },
+    {
+      "file": "konsultan-projects-kolaborasi-tim-jasa-nawasena.html",
+      "batch": "004",
+      "bytes": 120473,
+      "sha256": "06e506dfa832c841441d978919f253ddeccf9a32219269fa523ece95a08fbbd3"
+    },
+    {
+      "file": "konsultan-projects-peta-jalan-startup-ruangrintis.html",
+      "batch": "004",
+      "bytes": 120530,
+      "sha256": "79957489787f71a368b930d8d67767dc78c00931b515ebe83b0a6869dfa105b6"
+    },
+    {
+      "file": "konsultan-projects-suara-pelanggan-distribusi-lintas.html",
+      "batch": "004",
+      "bytes": 120508,
+      "sha256": "442c5c8f88bc3d441cb34fa354ac165dd72ac13b2ab968c3332ea559cc34bd4c"
+    },
+    {
+      "file": "konsultan-projects-supervisor-hospitality-pesisir.html",
+      "batch": "004",
+      "bytes": 120573,
+      "sha256": "5d78c5ffe5a5dafdd253bdbc54d41aa9d34948585ed3ee42af121f5739d29f44"
+    },
+    {
+      "file": "konsultan-syarat-ketentuan.html",
+      "batch": "004",
+      "bytes": 117926,
+      "sha256": "ae8119d9c9519e4372a1d4983febd5181f8afb646e2b7b4e2cb9a5ac20f5200e"
+    },
+    {
+      "file": "konsultan-tentang.html",
+      "batch": "004",
+      "bytes": 119216,
+      "sha256": "bfe98b78cacd3c6216187d10039ee3ad06fa76da6fbbc1a745074754411894d4"
+    },
+    {
+      "file": "kyntra-mono.ttf",
+      "batch": "004",
+      "bytes": 343140,
+      "sha256": "c805f9436dbc268644c1d9584f01a601a653e028e08fd74b9b949f6cf8304d88"
+    },
+    {
+      "file": "kyntra-sans.ttf",
+      "batch": "004",
+      "bytes": 759720,
+      "sha256": "ae7b7855e115a5966d8b1b3f80f254ccc117ec86f9965e202ee2940453837280"
+    },
+    {
+      "file": "laboratory.html",
+      "batch": "004",
+      "bytes": 48170,
+      "sha256": "fb53101b0da7b7b164b276726ab496b863357c78cf4afc683f39ed9286229ffa"
+    },
+    {
+      "file": "lagoon.jpg",
+      "batch": "004",
+      "bytes": 98916,
+      "sha256": "00843081990a6368cbed6c721a5807fbbf8255304f108c5fa3320649ad12ac50"
+    },
+    {
+      "file": "latest.html",
+      "batch": "005",
+      "bytes": 50383,
+      "sha256": "fcdb33b3fbbf7eb8d6499a41a559e91c2b470b6081657687bb570e5890fbc985"
+    },
+    {
+      "file": "lawyer-1.webp",
+      "batch": "005",
+      "bytes": 11510,
+      "sha256": "126a7b01e49a715d583dca04182b53db714c9a3b40ceb7bb04114744e418f49d"
+    },
+    {
+      "file": "lawyer-2.webp",
+      "batch": "005",
+      "bytes": 12460,
+      "sha256": "a2a8cdda687cc6bc1586892aa844230e259900c221c1c43aa7b6543745607583"
+    },
+    {
+      "file": "lawyer-3.webp",
+      "batch": "005",
+      "bytes": 5868,
+      "sha256": "c14867d871b78132a8cd71a606072db75cf98cfb351bf9b0790f863f83425918"
+    },
+    {
+      "file": "lawyer-4.webp",
+      "batch": "005",
+      "bytes": 11736,
+      "sha256": "c62ad376f3fe210dbf3ae2c710b2102a4469553790e06fddb1453153368a20fe"
+    },
+    {
+      "file": "lawyer-profile.html",
+      "batch": "005",
+      "bytes": 49803,
+      "sha256": "d8af756a7fc081ed31b739fbec1acc038de9c8b1d67cc07be78e5979f7a34a2c"
+    },
+    {
+      "file": "leaf.svg",
+      "batch": "005",
+      "bytes": 19339,
+      "sha256": "ebcea766bf12975a785244644f755c65b46219a9aa02d5dbc072fa8ed7f7720e"
+    },
+    {
+      "file": "legacy-academy-404.html",
+      "batch": "005",
+      "bytes": 44999,
+      "sha256": "78f2a4c373b67e314ef0bb937a0f053363548a9e02cd25162676fb1b89530da2"
+    },
+    {
+      "file": "legacy-academy-NimbusSans-Regular.woff",
+      "batch": "005",
+      "bytes": 60912,
+      "sha256": "c217d870c29d7d44384140cf2ba3acab427f716c4d29ce5662e6fa8928a15662"
+    },
+    {
+      "file": "legacy-academy-about.html",
+      "batch": "005",
+      "bytes": 46149,
+      "sha256": "13cdcd16a46b075d6c0f9f0e00d35e3c3ba8dffe11ab0160c41342d019395288"
+    },
+    {
+      "file": "legacy-academy-contact.html",
+      "batch": "005",
+      "bytes": 45911,
+      "sha256": "c9547f72bbc7de6815fb342ae2572331d510431220782f5823797d96bfd9c5e6"
+    },
+    {
+      "file": "legacy-academy-creative-technology.html",
+      "batch": "005",
+      "bytes": 46682,
+      "sha256": "d9eeba9194b2aa69e37ab99952155c7ac55fa5f90b38de7cf83f8632d52e487b"
+    },
+    {
+      "file": "legacy-academy-events.html",
+      "batch": "005",
+      "bytes": 46068,
+      "sha256": "545a7182542c821801a30967697c183508a3f9599f9d73978458485231271e96"
+    },
+    {
+      "file": "legacy-academy-faq.html",
+      "batch": "005",
+      "bytes": 45586,
+      "sha256": "41118707b5e354b2c21ad9d71b03560e6172fdab35d1ecd32af4cffe04db861c"
+    },
+    {
+      "file": "legacy-academy-film-story.html",
+      "batch": "005",
+      "bytes": 46627,
+      "sha256": "245984095b7b5747a9e05f7359f829c5b1e69816c554fff3b2513afbc870d3c4"
+    },
+    {
+      "file": "legacy-academy-index.html",
+      "batch": "005",
+      "bytes": 49055,
+      "sha256": "ea26a81da8bef91a5da9f4e5ea2a4dd7b3f23f22e51794da194c1c68328f08c5"
+    },
+    {
+      "file": "legacy-academy-material-lab.html",
+      "batch": "005",
+      "bytes": 46661,
+      "sha256": "32667fa9c91508e171ede04c38f0a6ec32bb97ecc49b88333ac0aa0811991608"
+    },
+    {
+      "file": "legacy-academy-open-studio-guide.html",
+      "batch": "005",
+      "bytes": 46678,
+      "sha256": "b77a44d542e1439555da79bc03dda216f2e3ad5ab0d51ea2a58a1be793709dc7"
+    },
+    {
+      "file": "legacy-academy-portfolio-guide.html",
+      "batch": "005",
+      "bytes": 46648,
+      "sha256": "934334e6883855afb39d5d8940030352841dced0027f1cd0b1032a16b80bca7e"
+    },
+    {
+      "file": "legacy-academy-privacy.html",
+      "batch": "005",
+      "bytes": 45836,
+      "sha256": "17cc9ae78401a3a3291188142766c347a94c1f9dbced46ec46445da2573e2efc"
+    },
+    {
+      "file": "legacy-academy-program-detail.html",
+      "batch": "005",
+      "bytes": 46685,
+      "sha256": "385ccf24f193a693f2663924f66bc6780623157889427d03d4c79e17c217ae08"
+    },
+    {
+      "file": "legacy-academy-programs.html",
+      "batch": "005",
+      "bytes": 45885,
+      "sha256": "d6b645ce14f972a9cbec151add2f4d452b7c40f90016976334b5be892b618c47"
+    },
+    {
+      "file": "legacy-academy-project-city-notes.html",
+      "batch": "005",
+      "bytes": 46807,
+      "sha256": "b81409bb5d44e29c08eed57f1924630d1a4cf87427760d613c931ff09529c682"
+    },
+    {
+      "file": "legacy-academy-stories.html",
+      "batch": "005",
+      "bytes": 45553,
+      "sha256": "1f383aba50b6356725d04f7592d524f8c965aab4dbe004d72714754212b07e66"
+    },
+    {
+      "file": "legacy-academy-story-detail.html",
+      "batch": "005",
+      "bytes": 45648,
+      "sha256": "55c2e1ef9b889ebc4caf291ce67f14144f9ca222e2afa0cab217889f609957c0"
+    },
+    {
+      "file": "legacy-academy-studio-critique.html",
+      "batch": "005",
+      "bytes": 46682,
+      "sha256": "fb4230d08a15b496f70955d93eb7b85746e78b8c6694a0a3f0169519585dd894"
+    },
+    {
+      "file": "legacy-academy-terms.html",
+      "batch": "005",
+      "bytes": 45032,
+      "sha256": "0db98dce760cade339826e30fb60d253e50e257e17a14b642c23b0d7673d4d98"
+    },
+    {
+      "file": "legacy-catalog-index.html",
+      "batch": "005",
+      "bytes": 7489,
+      "sha256": "e822ed2265374ac6511790288ac0977f4771561f0056c83e9d0f31a9a6815bab"
+    },
+    {
+      "file": "legacy-culinary-404.html",
+      "batch": "005",
+      "bytes": 41063,
+      "sha256": "002d654bb1a2ac3536b54f7132dd781eed4e21d009449604ff03c6d80ecb4539"
+    },
+    {
+      "file": "legacy-culinary-allergy-notes.html",
+      "batch": "005",
+      "bytes": 43178,
+      "sha256": "f5f496529f4a0eb138aa7d68d8d79350d72a1e1489ad257ef614bd50cb00e5fb"
+    },
+    {
+      "file": "legacy-culinary-dish-coastal-fish.html",
+      "batch": "005",
+      "bytes": 43163,
+      "sha256": "77061707f66cd5ceee440697ece4bbacc40e7e3444b44d3b09d8bdd23b6242da"
+    },
+    {
+      "file": "legacy-culinary-dish-cocoa-smoke.html",
+      "batch": "005",
+      "bytes": 43085,
+      "sha256": "690cc0dd18807fd8ea72ff51ed9c49bf4dee5321813f709a51ba767d02a3ca99"
+    },
+    {
+      "file": "legacy-culinary-dish-garden-tomato.html",
+      "batch": "005",
+      "bytes": 43234,
+      "sha256": "4e606ed8b317933e31581150fd3f39f4cb2755ba595f8d5037ecb9d7c8662b51"
+    },
+    {
+      "file": "legacy-culinary-events.html",
+      "batch": "005",
+      "bytes": 42497,
+      "sha256": "423ebeea5c2d50045cec567f729c512c50cbadb2162ab5cd51c97b54c2516b5d"
+    },
+    {
+      "file": "legacy-culinary-faq.html",
+      "batch": "005",
+      "bytes": 41995,
+      "sha256": "698b89ca003182ed7067d1dd1e037cbec96df119c9ad94958a49d7637d183a80"
+    },
+    {
+      "file": "legacy-culinary-first-evening.html",
+      "batch": "005",
+      "bytes": 43243,
+      "sha256": "b22048351e7cc95b8720b7281b9b4dcc5243f02c7739d9182692010989e3a6db"
+    },
+    {
+      "file": "legacy-culinary-gallery.html",
+      "batch": "005",
+      "bytes": 42125,
+      "sha256": "8e5366c7f601b0e32cc75e9449dee849426348f0b292230f35b81259952d1860"
+    },
+    {
+      "file": "legacy-culinary-group-table.html",
+      "batch": "005",
+      "bytes": 43279,
+      "sha256": "b7c8360b7adb283b8048dd5c8a459d4a36946f783e463720b1adb1e3fa2a8e80"
+    },
+    {
+      "file": "legacy-culinary-index.html",
+      "batch": "005",
+      "bytes": 44421,
+      "sha256": "49f4756346e6dc86b5d94f4eccbf8527bc54412d7d52ea0663b77447878478e1"
+    },
+    {
+      "file": "legacy-culinary-ingredient-citrus.html",
+      "batch": "005",
+      "bytes": 43270,
+      "sha256": "d44dad767ec1d46bc623a3f31046405d9baf6305c91e490251cc341e9056a092"
+    },
+    {
+      "file": "legacy-culinary-ingredient-cocoa.html",
+      "batch": "005",
+      "bytes": 43371,
+      "sha256": "1eacd9e849d15eb5dbd2e36ccefae0c032f27d97ab8eb28c0915073ef901b5b8"
+    },
+    {
+      "file": "legacy-culinary-journal-acidity.html",
+      "batch": "005",
+      "bytes": 43306,
+      "sha256": "a30d4b648b52eeb965760deb0269cef079f541106d4b1f025c1d54e5f85e14ac"
+    },
+    {
+      "file": "legacy-culinary-journal-detail.html",
+      "batch": "005",
+      "bytes": 41729,
+      "sha256": "6e25b1de663498c71d7fb6feb1f4cfe2f70c058c65d574af9f754809e985dbc1"
+    },
+    {
+      "file": "legacy-culinary-journal-table-rhythm.html",
+      "batch": "005",
+      "bytes": 43318,
+      "sha256": "6b52402d060496347470fb465d98388537ab3bcef206c6f4e11c0bfcca7315c9"
+    },
+    {
+      "file": "legacy-culinary-journal.html",
+      "batch": "005",
+      "bytes": 41919,
+      "sha256": "b5cc3f52ff2ca8bbacd3e3cbd9e48ec7e44288f3271da466fd77ac4885cbed06"
+    },
+    {
+      "file": "legacy-culinary-nonalcoholic-pairing.html",
+      "batch": "005",
+      "bytes": 43320,
+      "sha256": "7dbf9a2e8aef8d33bd284dc50639dcc1d4b1de2c297ce6309803660debb4c201"
+    },
+    {
+      "file": "legacy-culinary-privacy.html",
+      "batch": "005",
+      "bytes": 41468,
+      "sha256": "59ba7c5addb7cc2b044bc2c5172e1da6ef243ea2f8890dbb6b1b6a3d63f602f5"
+    },
+    {
+      "file": "legacy-culinary-terms.html",
+      "batch": "005",
+      "bytes": 41425,
+      "sha256": "e650e41164fe8231dee8c8568e74e06934b57228bee6fc647c3deb17306d35cc"
+    },
+    {
+      "file": "legacy-dirac-index.html",
+      "batch": "005",
+      "bytes": 7498,
+      "sha256": "9e6f20056f35d90c1213ed0546fdc6e0177951bc0d5957708fb8b3d70b92876f"
+    },
+    {
+      "file": "legacy-extra-index.html",
+      "batch": "005",
+      "bytes": 7462,
+      "sha256": "33b5794b550f25541bb32ffc83a002d75f332f017196d4df1b3709efda5ef316"
+    },
+    {
+      "file": "legacy-healthcare-404.html",
+      "batch": "005",
+      "bytes": 46310,
+      "sha256": "7e1108df73420737dd17bea666c34660365f5289948e8b1902e8cbd513262be6"
+    },
+    {
+      "file": "legacy-healthcare-about.html",
+      "batch": "005",
+      "bytes": 47579,
+      "sha256": "9248f1a1c3a942919d52177a1b1a0be5d3860efa4b8916f16c4e77f42b4757bb"
+    },
+    {
+      "file": "legacy-healthcare-accessibility.html",
+      "batch": "005",
+      "bytes": 48872,
+      "sha256": "b1cc53011d0883dc31da0961bd015170725285206b9404129d8eb255ae27fce5"
+    },
+    {
+      "file": "legacy-healthcare-billing-guide.html",
+      "batch": "005",
+      "bytes": 48746,
+      "sha256": "1e43af9011f23e8e9cb48bd80da0ac580f5a8c9c43d97a54893278260d947cc1"
+    },
+    {
+      "file": "legacy-healthcare-companion-guide.html",
+      "batch": "005",
+      "bytes": 48867,
+      "sha256": "41bf9d780b019739cae725144aae3451db9fba884fec110a43c9d507f662d457"
+    },
+    {
+      "file": "legacy-healthcare-contact.html",
+      "batch": "005",
+      "bytes": 47923,
+      "sha256": "9bc4a4a515c468af19f79fd6ebc80b082a8a637ddca025184efec125ada3d342"
+    },
+    {
+      "file": "legacy-healthcare-dermatology.html",
+      "batch": "005",
+      "bytes": 48364,
+      "sha256": "e7e5544f35d5927173d13594709abec07f31dc40445907211ede8560ccc8abe9"
+    },
+    {
+      "file": "legacy-healthcare-doctor-arga.html",
+      "batch": "005",
+      "bytes": 48573,
+      "sha256": "48a2de9da4ef81f23d804597333bef674d642aaa2602e7ee7a37c3272ed61f3d"
+    },
+    {
+      "file": "legacy-healthcare-doctor-bima.html",
+      "batch": "005",
+      "bytes": 48506,
+      "sha256": "2af2aa0fde4b69f198b508fce224dfedc50a30bff52ecd658cf93e998af03563"
+    },
+    {
+      "file": "legacy-healthcare-doctor-nadine.html",
+      "batch": "005",
+      "bytes": 48598,
+      "sha256": "792664d1f120bdb09a62d6ae66bc302bf80d49b60a4ef6f678bca84a1dd48316"
+    },
+    {
+      "file": "legacy-healthcare-faq.html",
+      "batch": "005",
+      "bytes": 47388,
+      "sha256": "1dbce68b75fcb22dcf4ce0e2e8216eb76c1dd69ccff726ad0879006f25bb35e3"
+    },
+    {
+      "file": "legacy-healthcare-first-visit.html",
+      "batch": "005",
+      "bytes": 48901,
+      "sha256": "b7ec6e0b239f60e14f45cd8bb4f868fbddfd40588d20115e4dc3a8cf1426fb2d"
+    },
+    {
+      "file": "legacy-healthcare-follow-up.html",
+      "batch": "005",
+      "bytes": 48845,
+      "sha256": "7dda37f99d85f811dae93393da6496ee28af7e8146a234fcc0609950a32b9bb4"
+    },
+    {
+      "file": "legacy-healthcare-index.html",
+      "batch": "005",
+      "bytes": 50140,
+      "sha256": "99a117afdb1343e373531b1f19e99d1cda085673e3cad6e453bea5e5a38ca14b"
+    },
+    {
+      "file": "legacy-healthcare-insights.html",
+      "batch": "005",
+      "bytes": 47277,
+      "sha256": "c4ab16c180c0b02356cb4074d0d646d530f9f6a3e15832da68c515d18ce415ce"
+    },
+    {
+      "file": "legacy-healthcare-medication-list.html",
+      "batch": "005",
+      "bytes": 48907,
+      "sha256": "77184ef762003ac28ce187c4255cc36e80821b9a8dfc24635fc3a893d3004f37"
+    },
+    {
+      "file": "legacy-healthcare-neurology.html",
+      "batch": "005",
+      "bytes": 48369,
+      "sha256": "ae2ab4c8d0a94dd5a626f78492934e1d677ae1c39d7a992a9ce77c84603c35fe"
+    },
+    {
+      "file": "legacy-healthcare-patient-feedback.html",
+      "batch": "005",
+      "bytes": 48680,
+      "sha256": "3fc5f627ffed3b704bd80197f77ba7978115ae33ab91e6358387406c8cb9dde1"
+    },
+    {
+      "file": "legacy-healthcare-privacy.html",
+      "batch": "005",
+      "bytes": 46824,
+      "sha256": "ac5cc83c3f73a47bdaa7ca8821a4e5e8d5f601a339918856450c4b680fcc4ff4"
+    },
+    {
+      "file": "legacy-healthcare-referrals.html",
+      "batch": "005",
+      "bytes": 48890,
+      "sha256": "388500b155b053484678feea72cafb784b91edb8993fe742ca4be5fb89890251"
+    },
+    {
+      "file": "legacy-healthcare-results-guide.html",
+      "batch": "005",
+      "bytes": 48890,
+      "sha256": "8be552495c7f6f4fd92aab2094dd7dedb114bcea4674b0459da905265ce4f055"
+    },
+    {
+      "file": "legacy-healthcare-terms.html",
+      "batch": "005",
+      "bytes": 46835,
+      "sha256": "c3d67566d4a398727964645f0b313f6f159649f08e1a72cb979133fdd59148a5"
+    },
+    {
+      "file": "legacy-healthcare-visit-checklist.html",
+      "batch": "005",
+      "bytes": 48526,
+      "sha256": "652c89952efed09ef8cff27528783a732530c98208efdffd6dcc06321328f693"
+    },
+    {
+      "file": "legacy-interior-index.html",
+      "batch": "005",
+      "bytes": 7438,
+      "sha256": "a36bf7929a86383cf2db517d3b2f0eb272993d2468f7e70930d5ead12f94774d"
+    },
+    {
+      "file": "legacy-konsultan-index.html",
+      "batch": "005",
+      "bytes": 7442,
+      "sha256": "9126b4096a522e21f6b2dc05fa85919365b392e85af9804d279795a00ac2340a"
+    },
+    {
+      "file": "legacy-legal-404.html",
+      "batch": "005",
+      "bytes": 48035,
+      "sha256": "8a7397a266f4348d6e20479ac3f65c993b6eacb412fb88497c5f2bd6270ae3d0"
+    },
+    {
+      "file": "legacy-legal-careers.html",
+      "batch": "005",
+      "bytes": 49219,
+      "sha256": "cf79741603bdbdf83821e0967b7c11e1d8fb2f70ac58ebfa2356d4b87cd9c110"
+    },
+    {
+      "file": "legacy-legal-contact.html",
+      "batch": "005",
+      "bytes": 49109,
+      "sha256": "788e011eeb7052fa8c9f29d77d16633c3c3604f2ad2ce3ed0a216d1aa9524869"
+    },
+    {
+      "file": "legacy-legal-index.html",
+      "batch": "005",
+      "bytes": 51763,
+      "sha256": "8febce88ae8c219803613d7d18ae9d6750217e6bf2944269eee53c3a5e0b8e01"
+    },
+    {
+      "file": "legacy-legal-insights.html",
+      "batch": "005",
+      "bytes": 49242,
+      "sha256": "87ea68164a9d14f117deb6e5dbd824489844bfb15e68665214d9c567ea22ab6f"
+    },
+    {
+      "file": "legacy-legal-news.html",
+      "batch": "005",
+      "bytes": 48858,
+      "sha256": "d8dc4086075352326ec6760b67cb9e43efaacdbb91e6270a0f2f9a40f57ae666"
+    },
+    {
+      "file": "legacy-legal-privacy.html",
+      "batch": "005",
+      "bytes": 49119,
+      "sha256": "ccb9aef5cf831dca45f4f59909cefd87238d5def0cb04b2c280ef30cffe3e9db"
+    },
+    {
+      "file": "legacy-legal-profile-maya.html",
+      "batch": "005",
+      "bytes": 49928,
+      "sha256": "c150b0db53dc35a9e02493d56783ae604f53edcf452a07ce86c4dc69549d31ca"
+    },
+    {
+      "file": "legacy-legal-profile-nadine.html",
+      "batch": "005",
+      "bytes": 49885,
+      "sha256": "1741f5ead0b79594ac15f73d8e6d10ac3f6b97094e24f4a3b2d51807e74e6230"
+    },
+    {
+      "file": "legacy-legal-profile-raka.html",
+      "batch": "005",
+      "bytes": 49912,
+      "sha256": "332347b7feb89528ca13f6278ec778be7362c981bc3878273321bba678d684ba"
+    },
+    {
+      "file": "legacy-legal-terms.html",
+      "batch": "005",
+      "bytes": 49047,
+      "sha256": "b097454559c12694cc3c7779f9f13f3d4d504590b222fbeb6ccfbe9ecd589d5f"
+    },
+    {
+      "file": "legacy-mum-index.html",
+      "batch": "005",
+      "bytes": 7517,
+      "sha256": "aad3b9bed90024f07909e605dd2ab961316703fba46174761a796a58af7ece62"
+    },
+    {
+      "file": "legacy-resort-404.html",
+      "batch": "005",
+      "bytes": 42013,
+      "sha256": "6ad0d26c006fa7b528bc09b5c716609e8c9c51738c99537cd02b93aff255ae7d"
+    },
+    {
+      "file": "legacy-resort-arrival-guide.html",
+      "batch": "005",
+      "bytes": 43262,
+      "sha256": "b9a796551d79d44ceb7f7836ca2b8570f2c707ae82621a2c42321f788efd7078"
+    },
+    {
+      "file": "legacy-resort-contact.html",
+      "batch": "005",
+      "bytes": 42388,
+      "sha256": "9185b22b537f4fafd85488bda3d595a1b9d8f4757cc3dc5ef76472d9d77f55a2"
+    },
+    {
+      "file": "legacy-resort-faq.html",
+      "batch": "005",
+      "bytes": 42542,
+      "sha256": "17b2b198e196fc403712b1f64725f2f8e4c73d9917f6bd522dc4ce7510b3099b"
+    },
+    {
+      "file": "legacy-resort-gallery.html",
+      "batch": "005",
+      "bytes": 42397,
+      "sha256": "5c91b3ae98969a03a0f184afff11ec4feedaa16cce213ae5b9b52e031272b21a"
+    },
+    {
+      "file": "legacy-resort-index.html",
+      "batch": "005",
+      "bytes": 45870,
+      "sha256": "ee9656537d41cf98bfbff350012f45e96459ac009b25830cdb558c2e5a0a8e58"
+    },
+    {
+      "file": "legacy-resort-journal-detail.html",
+      "batch": "005",
+      "bytes": 42664,
+      "sha256": "d0cbb926c780be2d4fffae9ad889fc9d1643176087ff0e06b1b2ed5eb75a56ab"
+    },
+    {
+      "file": "legacy-resort-journal.html",
+      "batch": "005",
+      "bytes": 42469,
+      "sha256": "8e535a52374c4ed49480fe42768f298a7bf6500d421d9607b41302d8c0b19c48"
+    },
+    {
+      "file": "legacy-resort-privacy.html",
+      "batch": "005",
+      "bytes": 42481,
+      "sha256": "7103b8ea83eb8787e216b2f5cca289418ee3255e0fbecab33a70aa4913f5f1ab"
+    },
+    {
+      "file": "legacy-resort-slow-weekend.html",
+      "batch": "005",
+      "bytes": 43300,
+      "sha256": "bf3ffd9a6a6c01e02501c5a17fd6ffd89e67f38e946732b57325e818893e68fe"
+    },
+    {
+      "file": "legacy-resort-terms.html",
+      "batch": "005",
+      "bytes": 42433,
+      "sha256": "97678192941808964723de23cb2aeebb8526625cc944c1e163fc859be8f6fa0e"
+    },
+    {
+      "file": "legal-disclaimer.html",
+      "batch": "005",
+      "bytes": 49207,
+      "sha256": "df631a5bfa4a4185e5926059d01bcc1b893bc535994c6504869d076d2af05283"
+    },
+    {
+      "file": "legal-sitemap.html",
+      "batch": "005",
+      "bytes": 51747,
+      "sha256": "ab711bd838f2263e820257befae74c0e0ed11534d434151a8659f682d0b8d60c"
+    },
+    {
+      "file": "live.html",
+      "batch": "006",
+      "bytes": 50612,
+      "sha256": "9851ba82c422c24557893c71bb24bb181794dbf1e9c149fed2aebdb8990af872"
+    },
+    {
+      "file": "locations.html",
+      "batch": "006",
+      "bytes": 40925,
+      "sha256": "12664db154c7c540f15a06c6c990cbe09ab9622f073a14dcb3ad87e95b29bd2a"
+    },
+    {
+      "file": "logo1.webp",
+      "batch": "006",
+      "bytes": 401048,
+      "sha256": "91d086ec5b402a6032701f7aa2f4c02d4f265362228ebdc3248da3e1919e2609"
+    },
+    {
+      "file": "logo2.webp",
+      "batch": "006",
+      "bytes": 46748,
+      "sha256": "358940606edd67c537f9b3f68a4eb6861c2fa494578564dbcebdc20ef3420e0e"
+    },
+    {
+      "file": "longform.html",
+      "batch": "006",
+      "bytes": 50328,
+      "sha256": "a8a5a936edff55925486b6a7b61abe2cc793a34230a779e3d2ab34a7a7b82234"
+    },
+    {
+      "file": "lookbook.html",
+      "batch": "006",
+      "bytes": 46482,
+      "sha256": "04b3c889233155120fa5078d532de0f15786cbd0e9b4704a002b63534672d3dd"
+    },
+    {
+      "file": "lookbook.svg",
+      "batch": "006",
+      "bytes": 2488,
+      "sha256": "81948501af7c0cabe14110e5e731d85bd1c57a9c5f62bc96739acc899ed9ef52"
+    },
+    {
+      "file": "lumenfold-404.html",
+      "batch": "006",
+      "bytes": 38383,
+      "sha256": "bd92bdc399096bc40539c1908b4664ebbd0bfefb81a17593bd1750c71e79214d"
+    },
+    {
+      "file": "lumenfold-about.html",
+      "batch": "006",
+      "bytes": 38588,
+      "sha256": "b8bbed4905fe1b1615ec80f63a928558e475b8a650e2d78ce68c01e9a3295852"
+    },
+    {
+      "file": "lumenfold-assay-development.html",
+      "batch": "006",
+      "bytes": 39173,
+      "sha256": "96f27ac84f5c66652c800586a2674b6ba7f731efd6d34f65872f6af0410c2107"
+    },
+    {
+      "file": "lumenfold-careers.html",
+      "batch": "006",
+      "bytes": 38376,
+      "sha256": "f22f26cde0eb70dc2561222b0f3b33c93749c8c385becb16562515dc43be5dac"
+    },
+    {
+      "file": "lumenfold-clinical-research.html",
+      "batch": "006",
+      "bytes": 38575,
+      "sha256": "ef35850cbe449cd02df417b3d4dffda46391d4dc11b0d844648b6d36dcf0bd3d"
+    },
+    {
+      "file": "lumenfold-collaborations.html",
+      "batch": "006",
+      "bytes": 38464,
+      "sha256": "2d8e0452bf63d8a4781f1257c64f0cb1cf743b5c1798e2aa035ca10995f267c4"
+    },
+    {
+      "file": "lumenfold-contact.html",
+      "batch": "006",
+      "bytes": 38877,
+      "sha256": "03ec98f4fea03fa7660c7d39d04b5fbbc438e3651f7fef83c78fecdad74667af"
+    },
+    {
+      "file": "lumenfold-data-methods.html",
+      "batch": "006",
+      "bytes": 38977,
+      "sha256": "7105c9286d009c81c3b34881f7e096a9e0abd8ee3241e7508250ac2d1ad609fd"
+    },
+    {
+      "file": "lumenfold-discovery.html",
+      "batch": "006",
+      "bytes": 39227,
+      "sha256": "f3da0b8b19e339a3a86e161b4bae0e41b444103c90ae7e79a8bf98687894e006"
+    },
+    {
+      "file": "lumenfold-ethics.html",
+      "batch": "006",
+      "bytes": 38376,
+      "sha256": "744779b94421c91e86c437f7ceba9ce202c60aad5f469be77a056cf501570219"
+    },
+    {
+      "file": "lumenfold-index.html",
+      "batch": "006",
+      "bytes": 39611,
+      "sha256": "e7a6e979790e3d6a189a09962c576fd32a6ea3ea0ea200d11bd8e0a6b6f976fc"
+    },
+    {
+      "file": "lumenfold-investors.html",
+      "batch": "006",
+      "bytes": 38640,
+      "sha256": "3280c4094ea62a38a8cb1c2b3d2c87ccc35f2d28e077c1ff68ee3ee4d90a857a"
+    },
+    {
+      "file": "lumenfold-leadership.html",
+      "batch": "006",
+      "bytes": 38377,
+      "sha256": "6e536d3d335a076c3d741ed8dc173ce4a02864e5c78d71f3a3a43beca8be8984"
+    },
+    {
+      "file": "lumenfold-lumenfold-preview.svg",
+      "batch": "006",
+      "bytes": 2728,
+      "sha256": "c63b6bb0c8384bb1162c1d9def974c43e120eca26ed9e7e4f55f837c6334c0e0"
+    },
+    {
+      "file": "lumenfold-molecular-platform.html",
+      "batch": "006",
+      "bytes": 38430,
+      "sha256": "62050b5e274f68f596dc5e7d79a2b92d459a197c4c58660434d702c4c6f35abc"
+    },
+    {
+      "file": "lumenfold-news-detail.html",
+      "batch": "006",
+      "bytes": 38376,
+      "sha256": "c3d23fe6da79fdab052b63b9cc400f591620dc99df04cc45b9665c7095ff89a4"
+    },
+    {
+      "file": "lumenfold-news.html",
+      "batch": "006",
+      "bytes": 38320,
+      "sha256": "ba82aa7d6262f704251ac5f6a5edfb3c270a9a782c8a2375e14666693754c02d"
+    },
+    {
+      "file": "lumenfold-partnerships.html",
+      "batch": "006",
+      "bytes": 38975,
+      "sha256": "f7ac5a3d1642b5d9c4c96fb0a68bbbb918dcd1e83766e082dce1335aa76d838a"
+    },
+    {
+      "file": "lumenfold-pipeline.html",
+      "batch": "006",
+      "bytes": 39236,
+      "sha256": "cded6e3e2195e9f305ccfe3cd8d8b70ddb73a8007ab576ea66a1368a92df0d06"
+    },
+    {
+      "file": "lumenfold-preclinical-research.html",
+      "batch": "006",
+      "bytes": 38381,
+      "sha256": "8628a3889685e049b59acf857e5add7ba7a0dfd04920995ebc0aa0eadb84a2cc"
+    },
+    {
+      "file": "lumenfold-privacy.html",
+      "batch": "006",
+      "bytes": 38429,
+      "sha256": "2a66bd4f9afc577eb9135101d7d3362b13463fe5e2f7390aaf00cbdb3f3fdac1"
+    },
+    {
+      "file": "lumenfold-program-detail.html",
+      "batch": "006",
+      "bytes": 38518,
+      "sha256": "2d7a960c7bb1d6a8477d13cb712b0ce65b568987f7b2db158b55f5286fc5d5bf"
+    },
+    {
+      "file": "lumenfold-publication-detail.html",
+      "batch": "006",
+      "bytes": 38506,
+      "sha256": "dffdb7324bef8d47b928211da870c1c71cf1eacaaed411f02fb0d87aa15c78a7"
+    },
+    {
+      "file": "lumenfold-publications.html",
+      "batch": "006",
+      "bytes": 38973,
+      "sha256": "7434dae3f3e341505e70407af5419182a3f968aecf88d2d27d9628f130f50cfc"
+    },
+    {
+      "file": "lumenfold-reproducibility.html",
+      "batch": "006",
+      "bytes": 39232,
+      "sha256": "aa61c65d055e7b2c8a9c52fd92b0b201e6c3c14f28b103c7f61e0cb96c748e51"
+    },
+    {
+      "file": "lumenfold-research-platform.html",
+      "batch": "006",
+      "bytes": 38506,
+      "sha256": "a711b5dcd8560cd3243a763f9870687764ae5162d80222e3336b1889d0a9a0b6"
+    },
+    {
+      "file": "lumenfold-sample-provenance.html",
+      "batch": "006",
+      "bytes": 39092,
+      "sha256": "52da3e4ae87e5eb5eb26f6c5fa06ef498d463597d8e6b12fe8eef792de4512d6"
+    },
+    {
+      "file": "lumenfold-scientific-glossary.html",
+      "batch": "006",
+      "bytes": 39229,
+      "sha256": "d301ff238a689653b54b467ecd064b8db5999a7b52b6f89a025aea251b11dc5e"
+    },
+    {
+      "file": "lumenfold-scientific-posters.html",
+      "batch": "006",
+      "bytes": 38922,
+      "sha256": "d5247a0746422141dcb8ca4acdd097d23550b4e7a1a4663ccb39ba71c99af31d"
+    },
+    {
+      "file": "lumenfold-scientific-team.html",
+      "batch": "006",
+      "bytes": 38446,
+      "sha256": "6c9c21b804e96a7b828c0e89f7cc5753e9562fb61bca12d8d4553ee691b8a198"
+    },
+    {
+      "file": "lumenfold-sitemap.html",
+      "batch": "006",
+      "bytes": 40389,
+      "sha256": "76700757e86ff27b5559a34b0a18957c3976b095d3fa338ca69e00df5ad69879"
+    },
+    {
+      "file": "lumenfold-technology.html",
+      "batch": "006",
+      "bytes": 38485,
+      "sha256": "d126c4558a6c45010fa6302a3dc28cb03fb08f558140385ebf974f81b0f7b035"
+    },
+    {
+      "file": "lumenfold-terms.html",
+      "batch": "006",
+      "bytes": 38403,
+      "sha256": "1fcb95336ecfaaac3a3cfb6fe8e177c77934df4c35b40a5b9ac2ed1b6143d709"
+    },
+    {
+      "file": "lumenfold-therapeutic-areas.html",
+      "batch": "006",
+      "bytes": 39304,
+      "sha256": "ce3f13b137617375571bb724ea2ad6289448e87815ba392d81912c3bbce2a443"
+    },
+    {
+      "file": "lumora-404.html",
+      "batch": "006",
+      "bytes": 47063,
+      "sha256": "eb2694e6bf8076853065efffc15a69437913190f426eb46697a5f257ec4d3ce5"
+    },
+    {
+      "file": "lumora-about.html",
+      "batch": "006",
+      "bytes": 47381,
+      "sha256": "ef545b2ed96dac44770a45d2e20d40edddc638303855b146278fffb1825216d4"
+    },
+    {
+      "file": "lumora-accessibility.html",
+      "batch": "006",
+      "bytes": 48766,
+      "sha256": "74e08ae32995f0177efd691e53a7d0c73fd1f7153fbc9aadc622c87dffc901cf"
+    },
+    {
+      "file": "lumora-budgeting-workbook.html",
+      "batch": "006",
+      "bytes": 48776,
+      "sha256": "f3ad6e5a41d11839b8acfaa99969a4fb15ef475c893fbcdce51d673ef41c822c"
+    },
+    {
+      "file": "lumora-calculator.html",
+      "batch": "006",
+      "bytes": 47789,
+      "sha256": "2fcde1e5490fdb02d53469494ac7333888f98aae09fe6d68bda24d258b9e306a"
+    },
+    {
+      "file": "lumora-cards.html",
+      "batch": "006",
+      "bytes": 48056,
+      "sha256": "8c9657ae4f39076686c0758108ab8196bd80a4d3e2ae972d93e65d2cd384f670"
+    },
+    {
+      "file": "lumora-careers.html",
+      "batch": "006",
+      "bytes": 47431,
+      "sha256": "344583e1c7e65e5992f2cdb15bf4ee91e3a78a8c26cbe8af454eb2033111e63e"
+    },
+    {
+      "file": "lumora-compare.html",
+      "batch": "006",
+      "bytes": 48371,
+      "sha256": "a9178a3dfdcae7ef6469e9225ac386a21f713d90a71eb39812acd5da147992e9"
+    },
+    {
+      "file": "lumora-complaints-process.html",
+      "batch": "006",
+      "bytes": 48721,
+      "sha256": "63d7c82a373f95514970e205b71e8eaecba2478849fd94795d8e9541593c7856"
+    },
+    {
+      "file": "lumora-contact.html",
+      "batch": "006",
+      "bytes": 47658,
+      "sha256": "f1f775b08f8ee4b90ac415747300c85b6e1c15d81bb28487c1c6b40d689258bf"
+    },
+    {
+      "file": "lumora-deposit-maturity.html",
+      "batch": "006",
+      "bytes": 48750,
+      "sha256": "a42742af93d97019c4764a1fe8db9d2b2174c7a48dc0a8e5667018449f953001"
+    },
+    {
+      "file": "lumora-digital.html",
+      "batch": "006",
+      "bytes": 47550,
+      "sha256": "f4a52782f72275623cd2e0f13ff3044b9540f226cf716322f8d11d67c747345a"
+    },
+    {
+      "file": "lumora-fees.html",
+      "batch": "006",
+      "bytes": 47359,
+      "sha256": "edcd1956954ce1d142709a488329d327ffb8b2a03aba64050c677ab35188a957"
+    },
+    {
+      "file": "lumora-fraud.html",
+      "batch": "006",
+      "bytes": 47470,
+      "sha256": "28ff3ad940c22dcfcbffac3c8754be7e7d29684d6f4a7f20b18c0a992847a1cb"
+    },
+    {
+      "file": "lumora-goals.html",
+      "batch": "006",
+      "bytes": 47520,
+      "sha256": "bee543774b4b2b1cdae0ca36c099cb2c0da24d4a6ea9e7c9a2ccc83c5ae2c79b"
+    },
+    {
+      "file": "lumora-governance.html",
+      "batch": "006",
+      "bytes": 47644,
+      "sha256": "a1b5f61337f094988706a2d7bc769d91956062182558e5a06b08ce84f6612075"
+    },
+    {
+      "file": "lumora-help.html",
+      "batch": "006",
+      "bytes": 47678,
+      "sha256": "7b32d127535289f72d4cc2175bdeb9d0ac50e01ce8a0330f50e9bea7104b273c"
+    },
+    {
+      "file": "lumora-index.html",
+      "batch": "006",
+      "bytes": 49737,
+      "sha256": "35ae6f41053e1be7527eae2785b3c10ff1cf64bafa3291536c4167e4fe07e9e1"
+    },
+    {
+      "file": "lumora-insight-detail.html",
+      "batch": "006",
+      "bytes": 47902,
+      "sha256": "6515974404213bd86ad317303397f0426da7a869c75a02dd9b7ab7db949b45ba"
+    },
+    {
+      "file": "lumora-insights.html",
+      "batch": "006",
+      "bytes": 47667,
+      "sha256": "61c26b42483c2d06477a33c8101cd4685fa0edd2857bd69d57c100561bf751a5"
+    },
+    {
+      "file": "lumora-investment.html",
+      "batch": "006",
+      "bytes": 48311,
+      "sha256": "67878ac7ebbadaf568a483ceea684d4f41247b8b9bbd048052ac370fc2b5077b"
+    },
+    {
+      "file": "lumora-locations.html",
+      "batch": "006",
+      "bytes": 47339,
+      "sha256": "fd057a55d81ecae07c548257b903ef86217fe963973a242bb835b23349874da8"
+    },
+    {
+      "file": "lumora-lumora-preview.svg",
+      "batch": "006",
+      "bytes": 4247,
+      "sha256": "6fe77ca823078b90e49a048ff47a56993c47213b0f35ee14baa69be8faf27e47"
+    },
+    {
+      "file": "lumora-personal.html",
+      "batch": "006",
+      "bytes": 48043,
+      "sha256": "ba8de0871fc741140a3b11f80ef0d5b8193baabc8d989a557dea18b3609a9c73"
+    },
+    {
+      "file": "lumora-privacy.html",
+      "batch": "006",
+      "bytes": 47232,
+      "sha256": "aa43b61ed1e1f0ead03328df18a36846fb3b47beefd39e3d7efcb3feb19fbb1f"
+    },
+    {
+      "file": "lumora-rate-methodology.html",
+      "batch": "006",
+      "bytes": 48743,
+      "sha256": "288d46a92384f27e52d01c294b220b21abdf19fa07bc4f3236de453df44f9da2"
+    },
+    {
+      "file": "lumora-savings.html",
+      "batch": "006",
+      "bytes": 48271,
+      "sha256": "a2ef9300ecfbf28d623e180d9063f5ee9059aac16f3accc2af5a3a5b10fdee88"
+    },
+    {
+      "file": "lumora-security.html",
+      "batch": "006",
+      "bytes": 47331,
+      "sha256": "f31ae83622ac3670ecbb6850863be8de44ba1011343000023fa4da63da493b7d"
+    },
+    {
+      "file": "lumora-sitemap.html",
+      "batch": "006",
+      "bytes": 49266,
+      "sha256": "b4709c91e5aac2760add24202000aa552e02df615b2bc75704d2f7106e352c40"
+    },
+    {
+      "file": "lumora-statement-guide.html",
+      "batch": "006",
+      "bytes": 48700,
+      "sha256": "598ff9aeb56e8d468004684aabea0588d680e7ff8e4f0dadedb6f48692bcbb13"
+    },
+    {
+      "file": "lumora-term-deposit.html",
+      "batch": "006",
+      "bytes": 47931,
+      "sha256": "80870b93ac7b90ee713e5688d60b9e621292c65a7981cd155ad9154146acfd48"
+    },
+    {
+      "file": "lumora-terms.html",
+      "batch": "006",
+      "bytes": 47182,
+      "sha256": "c29695dd511a18975bf034542317ddb3bb48f1b4561709c924a947af99169231"
+    },
+    {
+      "file": "lumora-transfer-preview.html",
+      "batch": "006",
+      "bytes": 48590,
+      "sha256": "6da760725ba572b829ccdc52c4bd47c60ebcd565efa1b2a6858f31df7e53e6f5"
+    },
+    {
+      "file": "lumora-wealth.html",
+      "batch": "006",
+      "bytes": 48119,
+      "sha256": "748f5f0b2e067cda753147a9eefcb2bbb380148c119ae32833ea8192b234bc5a"
+    },
+    {
+      "file": "masuk.html",
+      "batch": "006",
+      "bytes": 7387,
+      "sha256": "998fd25ba6483ba688cb73a538da7082b81cafbf6870a1be3a93459d6360cf7c"
+    },
+    {
+      "file": "materials.html",
+      "batch": "006",
+      "bytes": 46143,
+      "sha256": "9fa13e6a21b004dba8ea2c72b8d54ff2d82acf1ac3acc449f79a50d16c35f552"
+    },
+    {
+      "file": "matters.html",
+      "batch": "006",
+      "bytes": 49346,
+      "sha256": "4e3c4968c3f4d22d8d7b4ab7ace71526721985ce917b6a8f967cdf5291563cd0"
+    },
+    {
+      "file": "menu.html",
+      "batch": "006",
+      "bytes": 42832,
+      "sha256": "933f0b68b715c51ebe0b2a0f0f7f7957a1bcb869b0644a1be15e3cd7326e554e"
+    },
+    {
+      "file": "mission.html",
+      "batch": "006",
+      "bytes": 46764,
+      "sha256": "1aa9f546dcbeac2a52978f0497573b7e1737842df448f9d9832b501e943330f8"
+    },
+    {
+      "file": "models.html",
+      "batch": "006",
+      "bytes": 41772,
+      "sha256": "387b8ead6eb7c5983aa7be6c5fe3212ec53c81743288c9b5c27b5ef5d69147d2"
+    },
+    {
+      "file": "mum-404.html",
+      "batch": "006",
+      "bytes": 285945,
+      "sha256": "6389ecc2997cd7abd56eef0cbf39526e7c60ae2ea2384fdccb2ca52ae54fbe44"
+    },
+    {
+      "file": "mum-about.html",
+      "batch": "006",
+      "bytes": 290513,
+      "sha256": "aea462bd82576333eee2c25a7facdf8a4622f40a27a07dc9a6ce2a73b66f895f"
+    },
+    {
+      "file": "mum-blog-checklist-penerimaan-barang-untuk-tim-gudang.html",
+      "batch": "006",
+      "bytes": 293539,
+      "sha256": "7e471a1702a8ec9fcfbc0c1ca47e574bb6b22ab426d0f585c431aea2880067e7"
+    },
+    {
+      "file": "mum-blog-lima-langkah-menjaga-proyek-tetap-sesuai-jadwal.html",
+      "batch": "006",
+      "bytes": 293553,
+      "sha256": "152128dc8c957309d60717194a465a434d48d726a1ee93208d3c56d07ab2709a"
+    },
+    {
+      "file": "mum-blog-memilih-mitra-supplier-untuk-pertumbuhan-jangka-panjang.html",
+      "batch": "006",
+      "bytes": 293605,
+      "sha256": "39a58bed30136207f1c680a13e0eaf1a259db145dadfcf7aa65c46f3cbd95820"
+    },
+    {
+      "file": "mum-blog-mengapa-suku-cadang-kritis-perlu-ditinjau-berkala.html",
+      "batch": "006",
+      "bytes": 293595,
+      "sha256": "0e66c53c635cfe01b82c61e229346c30885a51119a05fb8d6bc78261c1ebaebf"
+    },
+    {
+      "file": "mum-blog-menyiapkan-pengadaan-menjelang-shutdown-pabrik.html",
+      "batch": "006",
+      "bytes": 293543,
+      "sha256": "9a09923f328179f98d50183b17bb825681dd5351c9287a981295f31bac7a5bbf"
+    },
+    {
+      "file": "mum-blog-pengadaan-yang-tepat-dimulai-dari-spesifikasi-yang-jelas.html",
+      "batch": "006",
+      "bytes": 293613,
+      "sha256": "6f2e6158f2475c99120da71155c4dca992c389864e5e162001367bfb53ab1ed3"
+    },
+    {
+      "file": "mum-blog.html",
+      "batch": "006",
+      "bytes": 295724,
+      "sha256": "c4a45667e9b3af74c8d06b7350494685a162ea3771f8a91f634a427d2964d9b8"
+    },
+    {
+      "file": "mum-career-administration.html",
+      "batch": "006",
+      "bytes": 287326,
+      "sha256": "21563e379e4ad6c4d61b4bc8828966e5e3ca3197f2cb46a2b3b3c93b1fffdab6"
+    },
+    {
+      "file": "mum-career-business-development.html",
+      "batch": "006",
+      "bytes": 287389,
+      "sha256": "72978323b63b627bc66743ca99fb849593fce1037c077358cb7d8f5224fa4571"
+    },
+    {
+      "file": "mum-career-procurement-staff.html",
+      "batch": "006",
+      "bytes": 287359,
+      "sha256": "948134c56987ccb34b503215958f177bf15e537ca86674a41367efa575e4fcc7"
+    },
+    {
+      "file": "mum-career-site-coordinator.html",
+      "batch": "006",
+      "bytes": 287348,
+      "sha256": "f6234bf85d527bcfa8c4bda6006c6f53da3993b9aa630f44bc9176fbad525a75"
+    },
+    {
+      "file": "mum-career.html",
+      "batch": "006",
+      "bytes": 289805,
+      "sha256": "18a230b139c13e7d8335cd6441c56396dfe5763fba065ea1c0ccae09a6272056"
+    },
+    {
+      "file": "mum-clients.html",
+      "batch": "006",
+      "bytes": 287386,
+      "sha256": "a7b8383ea914e770b8a5ba13c5d05da9256c1d339422721b104cac770767b0ac"
+    },
+    {
+      "file": "mum-contact.html",
+      "batch": "006",
+      "bytes": 292149,
+      "sha256": "e1101cdf02f708555d9c032c93bd49d8eaf9d6a9b102b5452b02970147d0341e"
+    },
+    {
+      "file": "mum-credits.html",
+      "batch": "006",
+      "bytes": 74704,
+      "sha256": "7df008c2e9e12242030a05fa5bd786bb1282b0c4ee9ed4df557b0cf77ff1784b"
+    },
+    {
+      "file": "mum-index.html",
+      "batch": "006",
+      "bytes": 315119,
+      "sha256": "39be25510d11d24901f612173fbf09244c3c0b81a8caf6b2827f444a7a7e431f"
+    },
+    {
+      "file": "mum-portfolio-distribusi-yang-menjangkau-lebih-jauh.html",
+      "batch": "006",
+      "bytes": 292276,
+      "sha256": "9ded22d0bb425634d5454dda9baaf832ba7ea8589f8c01564e08976784311c7d"
+    },
+    {
+      "file": "mum-portfolio-fasilitas-baru-produktivitas-baru.html",
+      "batch": "007",
+      "bytes": 292269,
+      "sha256": "37f296bc128ccb15448ba6500490fe57e673a4055987090a127cf9b7bb3c7801"
+    },
+    {
+      "file": "mum-portfolio-optimalisasi-pasokan-industri.html",
+      "batch": "007",
+      "bytes": 292212,
+      "sha256": "bdf6a412ba2ea3dd46f8d8c26e2f6e9323a9dfe72e9631ea90f3daa776999ab8"
+    },
+    {
+      "file": "mum-portfolio-pembaruan-workshop-manufaktur.html",
+      "batch": "007",
+      "bytes": 292236,
+      "sha256": "4a605847af31ed6a154868afe437bbcf59dd7e25734bcdce736189eff148bc66"
+    },
+    {
+      "file": "mum-portfolio-perlindungan-tim-di-empat-lokasi.html",
+      "batch": "007",
+      "bytes": 292258,
+      "sha256": "abb1935bd14425c304b5ffa961f378e88c1ef9159cbaf646c015fb1974a2e7b0"
+    },
+    {
+      "file": "mum-portfolio-standardisasi-suku-cadang-gudang.html",
+      "batch": "007",
+      "bytes": 292244,
+      "sha256": "6df7b66ba05645882326e5607ebf0dd749236a1e7c8763508dee33a75af886dc"
+    },
+    {
+      "file": "mum-portfolio.html",
+      "batch": "007",
+      "bytes": 293165,
+      "sha256": "74f44b7a85207c0d94697d03c207febb6e850bd6e42794a2b0a7dd62165777f6"
+    },
+    {
+      "file": "mum-privacy-policy.html",
+      "batch": "007",
+      "bytes": 287638,
+      "sha256": "bd655d2167e15f9ef826bddb689d3fcbc467c0d35bc0f088730e6a4f871e83c4"
+    },
+    {
+      "file": "mum-products.html",
+      "batch": "007",
+      "bytes": 291961,
+      "sha256": "3c5b1a249c47a647103585b8189cbb4873b817854ff84ceeb745d32705c4a977"
+    },
+    {
+      "file": "mum-services.html",
+      "batch": "007",
+      "bytes": 294868,
+      "sha256": "fdd86443a5acf768d3f8181a722d8c64b65d61f6dd65a4df9f35e981c843c615"
+    },
+    {
+      "file": "mum-terms-and-conditions.html",
+      "batch": "007",
+      "bytes": 287359,
+      "sha256": "86d48e1f2569f66f1a55d32e3b5281e835654858884477dc461b7ef36ef91e47"
+    },
+    {
+      "file": "national.html",
+      "batch": "007",
+      "bytes": 49276,
+      "sha256": "e93ec1670434a01999772e446172f78326c1155402636a3ba1da7886e1aadf97"
+    },
+    {
+      "file": "nawasena-404.html",
+      "batch": "007",
+      "bytes": 44721,
+      "sha256": "3f14a802d268b11470e2bd864bb17235343951c430cd9adfe50d9a2bf47cd834"
+    },
+    {
+      "file": "nawasena-about.html",
+      "batch": "007",
+      "bytes": 45031,
+      "sha256": "012e55a060feb2433e91ddab2e5d34d8c7c6fa7b968166278c3912db9ccb0779"
+    },
+    {
+      "file": "nawasena-accessibility.html",
+      "batch": "007",
+      "bytes": 45251,
+      "sha256": "6aee32fc5648a248023ee7b6f8b3062606116a6d81695f250a19ee4d1ba68744"
+    },
+    {
+      "file": "nawasena-announcement-detail.html",
+      "batch": "007",
+      "bytes": 45895,
+      "sha256": "2b17453c1f1cd8a483c0bf0d6907c5b4e8956823c717e3af8e6c101bf3c85ee4"
+    },
+    {
+      "file": "nawasena-announcements.html",
+      "batch": "007",
+      "bytes": 45195,
+      "sha256": "38aa24511ff02a64bc24dc6d2930812808eb39bda75aea9c25be1125733c25fb"
+    },
+    {
+      "file": "nawasena-application-guide.html",
+      "batch": "007",
+      "bytes": 46136,
+      "sha256": "909b32d993e1dd7ff8c919ec062c3931e13f1a59caad849c97b6982f675bb18c"
+    },
+    {
+      "file": "nawasena-application-status.html",
+      "batch": "007",
+      "bytes": 45462,
+      "sha256": "e365d62596e12cc7d4732974fb03be7153576fe2611753bd0ec953cb725d14ac"
+    },
+    {
+      "file": "nawasena-birth-registration.html",
+      "batch": "007",
+      "bytes": 46521,
+      "sha256": "05eafc1867939e4d6af9cd720edc2c64386beec25a300291b2a94e3b532750e1"
+    },
+    {
+      "file": "nawasena-business-checklist.html",
+      "batch": "007",
+      "bytes": 46558,
+      "sha256": "41342d8514c7df824b0071773b669c5ee8ae7a992ab6749f2106aa8b63070548"
+    },
+    {
+      "file": "nawasena-business-services.html",
+      "batch": "007",
+      "bytes": 45913,
+      "sha256": "bdb6d174f75e9cd4c4936d3d48e17eecfc5c8cae5497336bdd792f22e42a4e89"
+    },
+    {
+      "file": "nawasena-category-documents.html",
+      "batch": "007",
+      "bytes": 45889,
+      "sha256": "f9656e428d76b38a5b1e230e075d4f4e784f52e8d89910122d4d0743170a0a8e"
+    },
+    {
+      "file": "nawasena-complaints.html",
+      "batch": "007",
+      "bytes": 45368,
+      "sha256": "a25b24362a8864ffd45ad0ab59fd948f4c8cf847356063775f044929646a3ed8"
+    },
+    {
+      "file": "nawasena-consultation.html",
+      "batch": "007",
+      "bytes": 46148,
+      "sha256": "4e63a8d613268ae8f8ae7eb806366ede6fbf567b40d90be1687d51be9bea5501"
+    },
+    {
+      "file": "nawasena-contact.html",
+      "batch": "007",
+      "bytes": 45333,
+      "sha256": "b750a736521dd534ea0bc3b10be967abaa627f7788387fa248e1246484a72a8f"
+    },
+    {
+      "file": "nawasena-corrections.html",
+      "batch": "007",
+      "bytes": 46488,
+      "sha256": "dd2273b0ab34a5f26e0dbb918494071d2c04490a42aa3855bca0673aa961b723"
+    },
+    {
+      "file": "nawasena-documents.html",
+      "batch": "007",
+      "bytes": 46009,
+      "sha256": "25a75bb01ac072a0474109e90f27611df4cfde8bb30fe7a67c1ad922b82baa2f"
+    },
+    {
+      "file": "nawasena-emergency.html",
+      "batch": "007",
+      "bytes": 45299,
+      "sha256": "0beb35970a49e9f370ecc41713b381b65d98f047ace9d90ed5e413a90df17403"
+    },
+    {
+      "file": "nawasena-environment-services.html",
+      "batch": "007",
+      "bytes": 45932,
+      "sha256": "fef5179a6392cc78539c41e4686e154672fcdc936122177ba55bbe9763ef20de"
+    },
+    {
+      "file": "nawasena-facilities.html",
+      "batch": "007",
+      "bytes": 45849,
+      "sha256": "d3d8aed5d9b90f9efeeff9db927fb0e1131254bdd4aaa52a9a25aa79086c0bb2"
+    },
+    {
+      "file": "nawasena-family-services.html",
+      "batch": "007",
+      "bytes": 45897,
+      "sha256": "1c2ce9c5f04ff3d426369bf08a8ee8ad46bfa50ba7e55b3a73ec2240ca6b30db"
+    },
+    {
+      "file": "nawasena-finder.html",
+      "batch": "007",
+      "bytes": 46056,
+      "sha256": "72400bcc165c9baa78f517eb7ff831acb1a529fef5be0ae9decfeaeee46c8b50"
+    },
+    {
+      "file": "nawasena-index.html",
+      "batch": "007",
+      "bytes": 46918,
+      "sha256": "26a61749fdbd10b6d738bcb7cf14019aa2c12b741ece06e5d47685c8c4409522"
+    },
+    {
+      "file": "nawasena-language.html",
+      "batch": "007",
+      "bytes": 45998,
+      "sha256": "d1a14170d4da0616c4c0ab780cb78a18fc416b9c26f054225d4ed589a965ab34"
+    },
+    {
+      "file": "nawasena-payments.html",
+      "batch": "007",
+      "bytes": 45926,
+      "sha256": "957090fa6912d36ecd35e9374238085b07716122e7a6fefc0f35a4f343383006"
+    },
+    {
+      "file": "nawasena-privacy.html",
+      "batch": "007",
+      "bytes": 45004,
+      "sha256": "e69eb1b2dd26c92fb5e08389dcf0a238c2997be14eb5a10afe6a2a4f1912af30"
+    },
+    {
+      "file": "nawasena-search.html",
+      "batch": "007",
+      "bytes": 49484,
+      "sha256": "3ea0ec5c44e889781e6ae6b5896a6479770f668488bce28c72bae7c4e9aa7fac"
+    },
+    {
+      "file": "nawasena-service-center.html",
+      "batch": "007",
+      "bytes": 46451,
+      "sha256": "301bbbf089d875889ff6a65c05960e92764f85e1b45676cff86cae63fc0cc7ca"
+    },
+    {
+      "file": "nawasena-service-detail.html",
+      "batch": "007",
+      "bytes": 45546,
+      "sha256": "ea84ee081c665f8191f5d772b0395db1e16c10535132cfb13222894738b358ba"
+    },
+    {
+      "file": "nawasena-services.html",
+      "batch": "007",
+      "bytes": 46745,
+      "sha256": "d49343564f45a9bc1aedc8d8f8aad3c898b8d39dd5739d466bf0c014555a2c2c"
+    },
+    {
+      "file": "nawasena-sitemap.html",
+      "batch": "007",
+      "bytes": 47385,
+      "sha256": "a24f8ca2283a3e32c3a8093ff7bf1448e46cb7f00305c563c192661e3c062056"
+    },
+    {
+      "file": "nawasena-terms.html",
+      "batch": "007",
+      "bytes": 44957,
+      "sha256": "cf8cd673d5efc755c95bdbf9b6b4597950caef8420f7d56e4fdc63de62e2f01f"
+    },
+    {
+      "file": "nawasena-transport-services.html",
+      "batch": "007",
+      "bytes": 45883,
+      "sha256": "5547e36ce8955e38c9e480850b2b46bb060094c4999146bfe4e73540313629d1"
+    },
+    {
+      "file": "nawasena-waste-collection.html",
+      "batch": "007",
+      "bytes": 46445,
+      "sha256": "3f19efdfe633cf4521dfcd44cf7f8ecf50149e148f64dee6dc1caf3a6bce7cc8"
+    },
+    {
+      "file": "new.html",
+      "batch": "007",
+      "bytes": 47195,
+      "sha256": "b479428c1e94699d27d71ed767ebe050602d72823ba3600e5c186e687f6e606b"
+    },
+    {
+      "file": "news-ai-ethics.html",
+      "batch": "007",
+      "bytes": 49774,
+      "sha256": "8217740ee4dda7661292866e6ad9a95453313318baa12a20f0f8056410c2cc3a"
+    },
+    {
+      "file": "news-new-partners.html",
+      "batch": "007",
+      "bytes": 49770,
+      "sha256": "2b027cbeedcc14ec9979cb65d9570080c2849de19ae066ea6749ffedb3e4986e"
+    },
+    {
+      "file": "news-pro-bono.html",
+      "batch": "007",
+      "bytes": 49768,
+      "sha256": "8df9517936accf3ae5d340c55ac56016d2577264d7190defd14c094439b0ec24"
+    },
+    {
+      "file": "newsletter.html",
+      "batch": "007",
+      "bytes": 47765,
+      "sha256": "b26e3043cfff61e4fb0b2f9e41396568126f27662550808cf4ec6c69ebf4a7ce"
+    },
+    {
+      "file": "northline-404.html",
+      "batch": "007",
+      "bytes": 50886,
+      "sha256": "e1afe16d345c413f60e36b6dabec75c4892f7f4625acb549aea3908ea83d80e6"
+    },
+    {
+      "file": "northline-about.html",
+      "batch": "007",
+      "bytes": 51154,
+      "sha256": "9bbe480c1e898366617c0ee2687f275fabac7c564f5a330cceeff9d1939f5942"
+    },
+    {
+      "file": "northline-air-freight.html",
+      "batch": "007",
+      "bytes": 51768,
+      "sha256": "e9d2f6956f5dab32bf251881be2314c6a1aaab2136be2e4283158395022d68db"
+    },
+    {
+      "file": "northline-careers.html",
+      "batch": "007",
+      "bytes": 51102,
+      "sha256": "d98b45688debafe85db1e03fbe4b8ef71fed67bd88dfb56a21b0cc9a80844fd0"
+    },
+    {
+      "file": "northline-contact.html",
+      "batch": "007",
+      "bytes": 51618,
+      "sha256": "ca2f828f94a01d750d5b9481c3cebc610c0b8a6e6340cbf7737e4c3b2f09413f"
+    },
+    {
+      "file": "northline-customs.html",
+      "batch": "007",
+      "bytes": 51868,
+      "sha256": "6a15a4f9a05892ddd91437c312ebe06e3701691271e145a77ae12fbcaee3f1dc"
+    },
+    {
+      "file": "northline-delivery-appointment.html",
+      "batch": "007",
+      "bytes": 51615,
+      "sha256": "cfa94b006c2a757845fd80b468c27e51cc5db1128c69f50a6311cd30c6ef8f6a"
+    },
+    {
+      "file": "northline-documents.html",
+      "batch": "007",
+      "bytes": 51102,
+      "sha256": "fa98854a244d62170030fbd7caf6f1e9b73d8578b899606ebe4ae5b685371a9c"
+    },
+    {
+      "file": "northline-exception-playbook.html",
+      "batch": "007",
+      "bytes": 51662,
+      "sha256": "d37dcacf055f2f5ab1bbe8896752951e8faae50a78b69d35a2f1852dee119d6a"
+    },
+    {
+      "file": "northline-faq.html",
+      "batch": "007",
+      "bytes": 51075,
+      "sha256": "7f57141130730dbda451132c93b9f3d4c5d65d34f894fb83aff796f3c0908ac7"
+    },
+    {
+      "file": "northline-handover-checklist.html",
+      "batch": "007",
+      "bytes": 51650,
+      "sha256": "bc05c5346180cc7d7685c1e4c8411f641e73b3c5c497ca3db624c3bcc2bfcd37"
+    },
+    {
+      "file": "northline-index.html",
+      "batch": "007",
+      "bytes": 52573,
+      "sha256": "b253ec234805527f0b8dfc47a4d8129143a098f577b31b0089fa18f6e50d8465"
+    },
+    {
+      "file": "northline-industries.html",
+      "batch": "007",
+      "bytes": 51094,
+      "sha256": "0168348e230e3eb7ac32d97c8c9597c297118f8e99075fa6a0fe467958d15e4c"
+    },
+    {
+      "file": "northline-locations.html",
+      "batch": "007",
+      "bytes": 51059,
+      "sha256": "da2201607b1fa445928598906baf5e7e836bf04c2807bcbaf559e0751128a160"
+    },
+    {
+      "file": "northline-network.html",
+      "batch": "007",
+      "bytes": 51154,
+      "sha256": "d92b97d2a4eeb5f6983d23a85cb1d465ed0a2e766e236946c433c14f20cbf7ea"
+    },
+    {
+      "file": "northline-northline-route.svg",
+      "batch": "007",
+      "bytes": 3651,
+      "sha256": "dcb6fc29a9f5343567b7fe7cd9d4070ab860db17502dbaa6fae2af03095d5dce"
+    },
+    {
+      "file": "northline-ocean-freight.html",
+      "batch": "007",
+      "bytes": 51822,
+      "sha256": "99c9dee98bab6f53c68df9ffc006db076cd33564f7659ae2303336e2b32408ee"
+    },
+    {
+      "file": "northline-packaging-guide.html",
+      "batch": "007",
+      "bytes": 51604,
+      "sha256": "b2d686b4e41c6fa3b7474fecff89619725ae2d4a7b9d543dc24ced4aa7d6ef70"
+    },
+    {
+      "file": "northline-privacy.html",
+      "batch": "007",
+      "bytes": 51002,
+      "sha256": "cabc9ad474415d6d72f08889a72fca325df9157020108837f4ea3ce6035faab5"
+    },
+    {
+      "file": "northline-rate-estimate.html",
+      "batch": "007",
+      "bytes": 50618,
+      "sha256": "bbab719af337f640ccc6f12546af9db610e87271cf8c7c294378c1c616ba283f"
+    },
+    {
+      "file": "northline-road-freight.html",
+      "batch": "007",
+      "bytes": 51789,
+      "sha256": "a8aa53e505eb55f4b6e505deee6f86f0183ee0065253f4c976654cde118604f5"
+    },
+    {
+      "file": "northline-route-detail.html",
+      "batch": "007",
+      "bytes": 51626,
+      "sha256": "9680cd0a4a73bff43a7d4bb5a98b219220c6f740aca503888fd2b0f1d2b7a4ef"
+    },
+    {
+      "file": "northline-schedule.html",
+      "batch": "007",
+      "bytes": 50645,
+      "sha256": "29c0eb7ec75ce4b9362b5abd84c1721b9891df804ede5e350ba106bfec8ef7de"
+    },
+    {
+      "file": "northline-service-alerts.html",
+      "batch": "007",
+      "bytes": 50375,
+      "sha256": "ab7d4acf6904369327fd19139607c9dcbbefeaf2ef09a62d6687fd47f05d899f"
+    },
+    {
+      "file": "northline-services.html",
+      "batch": "007",
+      "bytes": 51269,
+      "sha256": "109a8aeafa54b371319b4ee9f11daa6a38f1435f1bd69025565b6a63159b833c"
+    },
+    {
+      "file": "northline-shipment-guide.html",
+      "batch": "007",
+      "bytes": 51035,
+      "sha256": "76fd6e3bfc7c603d26faf9bffe4e5c8255bfc424303f5f40ef3553aa12d7a16f"
+    },
+    {
+      "file": "northline-sitemap.html",
+      "batch": "007",
+      "bytes": 52461,
+      "sha256": "04fff3d75b937dd6ebeb99b542e8d95708051265670386047a0107445c33f838"
+    },
+    {
+      "file": "northline-support.html",
+      "batch": "007",
+      "bytes": 51076,
+      "sha256": "18f85adfdf3ddea228c4cad160314a0d7054b797a2b4ebab0154b6c7c9631f8f"
+    },
+    {
+      "file": "northline-sustainability.html",
+      "batch": "007",
+      "bytes": 51083,
+      "sha256": "228f939f21d6db40e4c4d35072267368aea614837496cf67e358afd33b39711f"
+    },
+    {
+      "file": "northline-technology.html",
+      "batch": "007",
+      "bytes": 51109,
+      "sha256": "b6fbb7871902308700f37313a816e470077b4f63fc00a9cf38ddd67bbc324eb6"
+    },
+    {
+      "file": "northline-terms.html",
+      "batch": "007",
+      "bytes": 51070,
+      "sha256": "2c09aed1e873b7cc7cd64030b4f50fabad7f922e6e9561af284f9520bdfe53dd"
+    },
+    {
+      "file": "northline-track-shipment.html",
+      "batch": "007",
+      "bytes": 51286,
+      "sha256": "eb0850d3a1d9c8cff22d80b3b4357c4d72da7a710e0afcbdd35e025566d3903b"
+    },
+    {
+      "file": "northline-tracking-result.html",
+      "batch": "007",
+      "bytes": 51854,
+      "sha256": "23e491ced49ce845afe049ff282273f5da674659e1766321c17fca64955f7cff"
+    },
+    {
+      "file": "northline-warehousing.html",
+      "batch": "007",
+      "bytes": 51836,
+      "sha256": "8531f7d4b67a1a5807e85b991b4f75e0ed9aa5cf85aabfc86a2c884a631d8aa3"
+    },
+    {
+      "file": "notifikasi.html",
+      "batch": "007",
+      "bytes": 7368,
+      "sha256": "e8dcee7538ae485dde20071fb757949483ae09b679827d89e9b6818dee4c63dc"
+    },
+    {
+      "file": "offer-detail.html",
+      "batch": "007",
+      "bytes": 42676,
+      "sha256": "3d0e68c0695f48c8e02bff681d37e665ddcf505007b7be626779d5aba5691dd3"
+    },
+    {
+      "file": "offers.html",
+      "batch": "007",
+      "bytes": 42572,
+      "sha256": "96ea1c6a2eee9183d4897122f7c788b2f3288d6c0c2e3326ca3e4560b00437f3"
+    },
+    {
+      "file": "office.webp",
+      "batch": "007",
+      "bytes": 33980,
+      "sha256": "0030acc6b8e64689765195605dbb51d6e3d3ae2af7a18bd858d2dd96742a732b"
+    },
+    {
+      "file": "offices.html",
+      "batch": "007",
+      "bytes": 49472,
+      "sha256": "859e97226d610db2f8d2b7934b281bfa3152b7d36c6bef37a1b692fae1ef2484"
+    },
+    {
+      "file": "opinion.html",
+      "batch": "007",
+      "bytes": 50338,
+      "sha256": "e556b886649f9247f705622f1890b419334f0c1e79c7be26f54bdbcae3086f27"
+    },
+    {
+      "file": "original-catalog.html",
+      "batch": "007",
+      "bytes": 15128,
+      "sha256": "87a49c5929fb39fa44934bd75b8ebe6af0b2c1ddebb22e76699b55a6739eb4dd"
+    },
+    {
+      "file": "our-kitchen.html",
+      "batch": "007",
+      "bytes": 42609,
+      "sha256": "0ecee0147f0321c455e3b0781325b27cfdc0d5c3217d81917c5278fe47be1d16"
+    },
+    {
+      "file": "our-story.html",
+      "batch": "007",
+      "bytes": 42809,
+      "sha256": "275d20ad47be7af904b38824e88dec420d5d8c759c881f058e19a8a9fc7fd072"
+    },
+    {
+      "file": "ownership.html",
+      "batch": "007",
+      "bytes": 40929,
+      "sha256": "0f62d158080f31efec0de3a697060f0421dc32434f495f823610aac62f178e5f"
+    },
+    {
+      "file": "parfum.html",
+      "batch": "007",
+      "bytes": 7396,
+      "sha256": "518ee149d4d857fdd26091d4b3ebf967e0ec80d8500ef1a755a8046d271ae7e3"
+    },
+    {
+      "file": "patient-guide.html",
+      "batch": "007",
+      "bytes": 47830,
+      "sha256": "a0036a1ecf53ca834ca05733d876696efd13eca0eb3dc9c7ba8659cde0dab77f"
+    },
+    {
+      "file": "performance.html",
+      "batch": "007",
+      "bytes": 40979,
+      "sha256": "bff38839e8613d316638d1d4b4b45f54449ee688c6fdacc6b5b691f51f333f25"
+    },
+    {
+      "file": "pesanan.html",
+      "batch": "007",
+      "bytes": 7405,
+      "sha256": "038fc910e065abb1883d901863f4f441495a4e524f24d051b195f2fdaebf1166"
+    },
+    {
+      "file": "philosophy.html",
+      "batch": "007",
+      "bytes": 42719,
+      "sha256": "28679916f07b35ee4d416dfa9d929f74a0529efba79fa44b9502b37b62d2e1ee"
+    },
+    {
+      "file": "practice-corporate-transactions.html",
+      "batch": "007",
+      "bytes": 49887,
+      "sha256": "923ae4c7634d94736cfe5e882af99ed86dd33aa7af0a092d229ae7c38a37fdd5"
+    },
+    {
+      "file": "practice-dispute-resolution.html",
+      "batch": "007",
+      "bytes": 49724,
+      "sha256": "a49904fdedbedea5449f2c96d93ce3acb7622cbd2647a02e8c8c6545b96e10f7"
+    },
+    {
+      "file": "practice-employment.html",
+      "batch": "008",
+      "bytes": 49760,
+      "sha256": "b501cc7de19209855b6dbfe37b56942ec2ce4185ab2109c2068cafdaa3c16721"
+    },
+    {
+      "file": "practice-investigations.html",
+      "batch": "008",
+      "bytes": 49770,
+      "sha256": "2db3480110786a289599a868bf834551317cdbaab15c59fc576254b1097f5b23"
+    },
+    {
+      "file": "practice-real-estate-projects.html",
+      "batch": "008",
+      "bytes": 49694,
+      "sha256": "bbaed22ab620d037ae5d500254944a438903c9bc9957c2083b45c7244bf5d4b8"
+    },
+    {
+      "file": "practice-regulatory-public-law.html",
+      "batch": "008",
+      "bytes": 49788,
+      "sha256": "249d887d8a02861a58004331133fc21fc238448f31d5cb22841d05f23400e275"
+    },
+    {
+      "file": "practices.html",
+      "batch": "008",
+      "bytes": 49873,
+      "sha256": "8b54df48d3684aaa22fd92e95a5e0eafc9bee5d7d72aaaa933c690435333a72e"
+    },
+    {
+      "file": "press-illustration.svg",
+      "batch": "008",
+      "bytes": 6112,
+      "sha256": "17ace30ea88f521285265409d5d95580593c448fc0a4dbd6e8a87d7648ffecd5"
+    },
+    {
+      "file": "private-dining.html",
+      "batch": "008",
+      "bytes": 42666,
+      "sha256": "669d544fac5028fbd0c0970469332ed533515b2f4d51f0e023f27e19f47025d2"
+    },
+    {
+      "file": "product-1.html",
+      "batch": "008",
+      "bytes": 47907,
+      "sha256": "4085820b2c7d11ab0ad41f52529bbaae5275a7dfa015d86c0d8b1fc049f6c01e"
+    },
+    {
+      "file": "product-2.html",
+      "batch": "008",
+      "bytes": 47860,
+      "sha256": "51888820e77c22c1411c5b506b238048421194e6097f9b3e504beb67e6182b61"
+    },
+    {
+      "file": "product-3.html",
+      "batch": "008",
+      "bytes": 47836,
+      "sha256": "ed1a655e957ac73a603377249dd83c5f8e45587abc2cb9dfd2c8ef9f31fe3ad1"
+    },
+    {
+      "file": "professionals.html",
+      "batch": "008",
+      "bytes": 49456,
+      "sha256": "82ea7c3a73d54c9e5c13a115a52e708e0944c5f7f1daa9edaf8756faa85eb04a"
+    },
+    {
+      "file": "profil.html",
+      "batch": "008",
+      "bytes": 7412,
+      "sha256": "73aafed064d0c224fa4edbf7b9e4068778dba6ca135fe443d75c62138e675813"
+    },
+    {
+      "file": "project-detail.html",
+      "batch": "008",
+      "bytes": 46257,
+      "sha256": "30c3b853b4df0ea7631ddea1cf828528708c8c6fe1a10f2f2ea902d3a4576103"
+    },
+    {
+      "file": "publication-404.html",
+      "batch": "008",
+      "bytes": 47701,
+      "sha256": "d26b8bc25d2e739583bc80a5a973e85c0fb6249ee2217a0b0f59a967636f07ab"
+    },
+    {
+      "file": "publication-about.html",
+      "batch": "008",
+      "bytes": 48014,
+      "sha256": "23497bdaf4244ecc14046fe5fb2c765a119abfdcef6f4bbc2437bbf82dcc7203"
+    },
+    {
+      "file": "publication-contact.html",
+      "batch": "008",
+      "bytes": 48046,
+      "sha256": "4747e6b0c80bd1cca0a871415c24a825d5ca35f335d1da39c06db207b63c7fde"
+    },
+    {
+      "file": "publication-index.html",
+      "batch": "008",
+      "bytes": 55839,
+      "sha256": "2276aa16a5472979323c30127989618677e02bf773b1b5301d7f9815c18df0ab"
+    },
+    {
+      "file": "publication-privacy.html",
+      "batch": "008",
+      "bytes": 47900,
+      "sha256": "0267217f17fafc4dd52abd8428a15332054ed4cd2bf9a34fa93a7addfacb4321"
+    },
+    {
+      "file": "publication-reading-data.html",
+      "batch": "008",
+      "bytes": 48938,
+      "sha256": "9ab2dfd107b201fa7c0aaadc0721b30437283c15e7439100d2194de605bd1f9d"
+    },
+    {
+      "file": "publication-reports.html",
+      "batch": "008",
+      "bytes": 48018,
+      "sha256": "0b9be3e0c28b21bbdaa94ba80bc6484d594a0adba26868416d6fadb1896174c5"
+    },
+    {
+      "file": "publication-search.html",
+      "batch": "008",
+      "bytes": 49597,
+      "sha256": "7df5b502cf5aee7f15364da37b41e232a59df46207b50c4e332af56665df9d8d"
+    },
+    {
+      "file": "publication-sitemap.html",
+      "batch": "008",
+      "bytes": 49203,
+      "sha256": "02c18e6e4545e81fd1554eb69b0de6143911ab6f160260d3cebcbc1d49c13836"
+    },
+    {
+      "file": "publication-source-notes.html",
+      "batch": "008",
+      "bytes": 48933,
+      "sha256": "8846b49e4e34c730c362a142c55f3a56a9113c6416a237fbb6377a75802f936b"
+    },
+    {
+      "file": "publication-terms.html",
+      "batch": "008",
+      "bytes": 47862,
+      "sha256": "7f3bf88f26b5045b7883d737c9476ec0e688e639eb8577671492c1860298dac2"
+    },
+    {
+      "file": "pulse.html",
+      "batch": "008",
+      "bytes": 41737,
+      "sha256": "037b7078ad098862c8e1e95f54d8aa1e00459576b1e2ece9e5b59a7037cc4395"
+    },
+    {
+      "file": "region.html",
+      "batch": "008",
+      "bytes": 46673,
+      "sha256": "3dc87dccc06d1308d12b9f5e3554dbcbe8837e94bd82cf34f1909436da32630c"
+    },
+    {
+      "file": "report-detail.html",
+      "batch": "008",
+      "bytes": 46617,
+      "sha256": "31295797c73893e7b9f69cdecee4a719da58c41cb68c44b541c26baabe4a84dc"
+    },
+    {
+      "file": "research.html",
+      "batch": "008",
+      "bytes": 46668,
+      "sha256": "6cde2ca8f8d5d1ddce95de597bc3fc1b38e8876e6d84e60696ac7dcf50d6df36"
+    },
+    {
+      "file": "reservation-information.html",
+      "batch": "008",
+      "bytes": 42364,
+      "sha256": "b78d6c5b222c1fdc800786e29acdd6b37c672b591a00802306232fb29d46f0d0"
+    },
+    {
+      "file": "reservations.html",
+      "batch": "008",
+      "bytes": 43165,
+      "sha256": "79f049c0587716d68340395ef0fab4bedbea2c1db2902c77b0ee596c16fa2065"
+    },
+    {
+      "file": "restaurant-detail.html",
+      "batch": "008",
+      "bytes": 42692,
+      "sha256": "cab64fd2d87d631c823ad7b2c0ed2707b70e1dd6cb0d9329d0e4cc0cf84cddad"
+    },
+    {
+      "file": "returns.html",
+      "batch": "008",
+      "bytes": 45848,
+      "sha256": "f3a542783bbf6549d67320e34b2670b68628a30189e18c5e7e6e18729d572b48"
+    },
+    {
+      "file": "robots.txt",
+      "batch": "008",
+      "bytes": 94,
+      "sha256": "394e976977d52e98e8c84b6f7c425b7e8bbbf79c2c7cda28b71b436650b2c45d"
+    },
+    {
+      "file": "ruangsela-404.html",
+      "batch": "008",
+      "bytes": 36090,
+      "sha256": "e2391d91c71aaddb2e85a01ee3c2bd509d1792526623a94c08a415ab9be0629b"
+    },
+    {
+      "file": "ruangsela-about.html",
+      "batch": "008",
+      "bytes": 36601,
+      "sha256": "ee2d7f80654e19169aa884ebde1f3600dbe170596863613eac9fec121fbf1a11"
+    },
+    {
+      "file": "ruangsela-accessibility.html",
+      "batch": "008",
+      "bytes": 36396,
+      "sha256": "39db4abf3ddd38b2271b22bc3b8ee7a1f0c6d7f35b54c147dcb17f7d3df7754c"
+    },
+    {
+      "file": "ruangsela-archive.html",
+      "batch": "008",
+      "bytes": 37385,
+      "sha256": "55102e27c525d3298080989365883b8eeb24d408425f825902c5ee5915c6e200"
+    },
+    {
+      "file": "ruangsela-artist-profile.html",
+      "batch": "008",
+      "bytes": 36654,
+      "sha256": "2ffe6c3cbc937c742fc5c5bbb653e46761c432499dfcce6ae82130b772ff2c35"
+    },
+    {
+      "file": "ruangsela-artists.html",
+      "batch": "008",
+      "bytes": 36658,
+      "sha256": "f921ec7d2896c451602e3719f1b4d6dba77b1f997d4c9512c37d757511807a00"
+    },
+    {
+      "file": "ruangsela-artwork.svg",
+      "batch": "008",
+      "bytes": 2433,
+      "sha256": "3e985eac72caff049e79138b4f88d7095e2fa003c4cf5b075e4c0a7ed7e1c5c6"
+    },
+    {
+      "file": "ruangsela-calendar.html",
+      "batch": "008",
+      "bytes": 37290,
+      "sha256": "116d654454da22ae013dcdd19baf53e259bad32a51b337d5682094071cb0d9ce"
+    },
+    {
+      "file": "ruangsela-collection-object.html",
+      "batch": "008",
+      "bytes": 36705,
+      "sha256": "ee16283e25ced81fc8478df1d1ef67fbc25698eeaaf3e8eeef19c6e738573388"
+    },
+    {
+      "file": "ruangsela-collection.html",
+      "batch": "008",
+      "bytes": 37485,
+      "sha256": "355e3925e6ceb827c092fbcf9e1be1aaf0aa53ddce656aef68ab019e90579312"
+    },
+    {
+      "file": "ruangsela-conservation-lab.html",
+      "batch": "008",
+      "bytes": 37858,
+      "sha256": "aa03a64ab18e1425048fd5fb50c56f1be0cea11d2b9e8dd62a45636605f7e99d"
+    },
+    {
+      "file": "ruangsela-contact.html",
+      "batch": "008",
+      "bytes": 36619,
+      "sha256": "cb6878a653f6b0f8d77e655f83acddcbe48d10872cdd40e3e3bb0d9ec334ba18"
+    },
+    {
+      "file": "ruangsela-curatorial-team.html",
+      "batch": "008",
+      "bytes": 36646,
+      "sha256": "846ccdc40431b29b0248ef0d8d76d36c3c58b190bbefc585f5865abbb3ddaa3b"
+    },
+    {
+      "file": "ruangsela-education.html",
+      "batch": "008",
+      "bytes": 36425,
+      "sha256": "b2ccc1d7f15f10a9306ec77248758da508f4b58dd791badfe9c994095abafa8e"
+    },
+    {
+      "file": "ruangsela-exhibition-detail.html",
+      "batch": "008",
+      "bytes": 36980,
+      "sha256": "1d6a16a55669a8534d003d910498612940e26002f8ad367a547bb2401c07a829"
+    },
+    {
+      "file": "ruangsela-exhibitions.html",
+      "batch": "008",
+      "bytes": 37606,
+      "sha256": "3567b2c1245c51556ba70a3f547dd99514b40be5b196248ddedd725cf19b1c40"
+    },
+    {
+      "file": "ruangsela-family-visit.html",
+      "batch": "008",
+      "bytes": 37859,
+      "sha256": "a11859f7b51b1f8510596b04c336a3bcf279dafb97ddd2dfdd210fc6350f2f8f"
+    },
+    {
+      "file": "ruangsela-index.html",
+      "batch": "008",
+      "bytes": 37700,
+      "sha256": "33b24108019effc157494c71e64e30b16d559ae724d3a8c187156b82f9b26a69"
+    },
+    {
+      "file": "ruangsela-map.html",
+      "batch": "008",
+      "bytes": 37307,
+      "sha256": "d0c84883eca664539609b92d4ff8f151b44a610ba1595b1ce984f77144d46023"
+    },
+    {
+      "file": "ruangsela-map.svg",
+      "batch": "008",
+      "bytes": 3650,
+      "sha256": "a5b4faa53bca03819ab082e738b2dcf896f0cbbae5899ea2401da249c967a760"
+    },
+    {
+      "file": "ruangsela-material-study.html",
+      "batch": "008",
+      "bytes": 37796,
+      "sha256": "60fc838f212511831ae61758c30bb61a76ceeddbfdd6349ab92f3d96d56490f7"
+    },
+    {
+      "file": "ruangsela-past-exhibitions.html",
+      "batch": "008",
+      "bytes": 37491,
+      "sha256": "a639ee4b80e19d4e69d87741338f2a0a39ca91e0e381458a36be552868131b55"
+    },
+    {
+      "file": "ruangsela-press.html",
+      "batch": "008",
+      "bytes": 36328,
+      "sha256": "86a95744f68fe89153ce470014f00335457cbd4a0697508e90015408b4d42767"
+    },
+    {
+      "file": "ruangsela-privacy.html",
+      "batch": "008",
+      "bytes": 36105,
+      "sha256": "42dab4a52804ebc4cc8622fc829857942534353ff5091d6c537de9ad520c7058"
+    },
+    {
+      "file": "ruangsela-programs.html",
+      "batch": "008",
+      "bytes": 36471,
+      "sha256": "281a2cb52ba088c40d4321ea63a37c0a886f5ab9657699d5ceeae1a83ecf8725"
+    },
+    {
+      "file": "ruangsela-reading-room.html",
+      "batch": "008",
+      "bytes": 37862,
+      "sha256": "07eddcb53cc8f32b7cf8827e0a9b31c85a7f2f76e255d27a9420b2cc0e90e78a"
+    },
+    {
+      "file": "ruangsela-research.html",
+      "batch": "008",
+      "bytes": 36505,
+      "sha256": "2313a528ce933a598df6fd6b7bad7e2e62081f89df8f8e4223f39402dc21f4f7"
+    },
+    {
+      "file": "ruangsela-support.html",
+      "batch": "008",
+      "bytes": 36396,
+      "sha256": "d9265e9ee406c325ced4600f8e7c0fccd77905313339a34fc9ef9ddd58478671"
+    },
+    {
+      "file": "ruangsela-talks.html",
+      "batch": "008",
+      "bytes": 36534,
+      "sha256": "21317ac51468126cdce9253d41263d75aa251d945c70f95a28912edbd1d81804"
+    },
+    {
+      "file": "ruangsela-terms.html",
+      "batch": "008",
+      "bytes": 36077,
+      "sha256": "cdde1e373bf4008586a17ee2e0095886d4da0bf96122457a88859f405a7d6b7f"
+    },
+    {
+      "file": "ruangsela-tickets.html",
+      "batch": "008",
+      "bytes": 36796,
+      "sha256": "7c1d9628d650de93350eba5d9a2e2f938f54493ebddc965f02bf1902adb31359"
+    },
+    {
+      "file": "ruangsela-upcoming.html",
+      "batch": "008",
+      "bytes": 37495,
+      "sha256": "197b1dd52288616306f2aaf7d9fd9653a65f0cd3b4a8a1df992512c33179e549"
+    },
+    {
+      "file": "ruangsela-visit.html",
+      "batch": "008",
+      "bytes": 36505,
+      "sha256": "8cfbb8fd8ddeb07f592bfd050f84d02121f6ed63be9e63276a27b680393298d3"
+    },
+    {
+      "file": "ruangsela-whats-on.html",
+      "batch": "008",
+      "bytes": 37444,
+      "sha256": "94a0ded2ba0e3f0485438b6bc30e3c4527f00d4106d1514df27ad5cfc2bf72cd"
+    },
+    {
+      "file": "safety.html",
+      "batch": "008",
+      "bytes": 40931,
+      "sha256": "af1eea6aa924870f0ab9d170367e37ea1a04181185b1e0e69c0e263f54c432e5"
+    },
+    {
+      "file": "scholarships.html",
+      "batch": "008",
+      "bytes": 46124,
+      "sha256": "4bb00e2e9ad56bc986dc1ecdff5ffefdaaf2c3e64b7c70ce9615757587168e0f"
+    },
+    {
+      "file": "science.html",
+      "batch": "008",
+      "bytes": 49242,
+      "sha256": "3931f56c0dbb9447367deb3a443a758e0acbce55957bc2a33308eb4d9eb4d18e"
+    },
+    {
+      "file": "seasonal-menu.html",
+      "batch": "008",
+      "bytes": 43015,
+      "sha256": "301dce4536e06425f51274424a21b22ed8a872f9ccc06065d66d6cb35ac63712"
+    },
+    {
+      "file": "service-detail.html",
+      "batch": "008",
+      "bytes": 47434,
+      "sha256": "fd97118b014099413b838eab70e8481e85701821d4c4fa2ad350065823d5732f"
+    },
+    {
+      "file": "service.html",
+      "batch": "008",
+      "bytes": 40948,
+      "sha256": "d29a3b4ddbbc4b287efd8d80c4736986a30cdb9f86d6801cc3a71bc13dd7cd5d"
+    },
+    {
+      "file": "services-dirac-cloud-solutions.html",
+      "batch": "008",
+      "bytes": 295529,
+      "sha256": "ab47c7f0c944983f8e2590b9335c447f4cd27ef9014bbf00ebf0f0d71077bb39"
+    },
+    {
+      "file": "services-dirac-custom-software-development.html",
+      "batch": "008",
+      "bytes": 295666,
+      "sha256": "4c7cd3bfe5fee12799aef8fc815719a69456236c13b0400e936b59f815127b24"
+    },
+    {
+      "file": "services-dirac-cybersecurity.html",
+      "batch": "008",
+      "bytes": 295573,
+      "sha256": "e187e1ead6f428267a62a1bf82aaaa6a574393822b999f2c80599b7c9d9c1079"
+    },
+    {
+      "file": "services-dirac-digital-transformation.html",
+      "batch": "008",
+      "bytes": 295547,
+      "sha256": "3b64a6681410bcac7d4c7277164d78f10f8bd290234d3bd970f61828ec780730"
+    },
+    {
+      "file": "services-dirac-it-consulting.html",
+      "batch": "008",
+      "bytes": 295513,
+      "sha256": "abb822460b7f000eb15eb880773ec906f90b7b4921f6e70a906db4bd06fc7a37"
+    },
+    {
+      "file": "services-dirac-managed-it-services.html",
+      "batch": "008",
+      "bytes": 295482,
+      "sha256": "cf3640de46ccfdbdb1da81a42d8e521427c9b76dec1d7138721f6c5c40cfa09e"
+    },
+    {
+      "file": "services-dirac-system-integration.html",
+      "batch": "008",
+      "bytes": 295570,
+      "sha256": "ae9cda4e100b9077ccdf92398991f7ab1d26c7a8b01fefcc9256964307248d63"
+    },
+    {
+      "file": "services-dirac-web-development.html",
+      "batch": "008",
+      "bytes": 295700,
+      "sha256": "3e7f8ea598b760168b4828ae8bc8bde6319a79340480f56111c8873565df5125"
+    },
+    {
+      "file": "services-interior-architecture-design.html",
+      "batch": "008",
+      "bytes": 114698,
+      "sha256": "0f4f47975e61c406662942b69d65dd62ef20cd31ab0da57c4b952c9e5004d829"
+    },
+    {
+      "file": "services-interior-commercial-space-design.html",
+      "batch": "008",
+      "bytes": 114715,
+      "sha256": "c6c0b70c85dc5cac57c58578a291aaef429d90aae573b08859655610023dd24d"
+    },
+    {
+      "file": "services-interior-design-build.html",
+      "batch": "008",
+      "bytes": 114663,
+      "sha256": "78bd98daf8c7eec900fac263f44781671fcc3b09a710722084913c5400bf0a8a"
+    },
+    {
+      "file": "services-interior-furniture-custom.html",
+      "batch": "008",
+      "bytes": 114671,
+      "sha256": "e0d681ab7433a5be6e642ddb022361ae7df3a6adaf2f3ffa25036d51448c588b"
+    },
+    {
+      "file": "services-interior-interior-design.html",
+      "batch": "008",
+      "bytes": 114569,
+      "sha256": "127610a50caccf4827897bff33fc284554dd02bf7e65b3edbca016efab724cc6"
+    },
+    {
+      "file": "services-interior-renovation.html",
+      "batch": "008",
+      "bytes": 114674,
+      "sha256": "5d193a48182edc51f62a25996b870575de560fd8450aa9747f140d14b5533283"
+    },
+    {
+      "file": "services-konsultan-business-consulting.html",
+      "batch": "008",
+      "bytes": 120497,
+      "sha256": "050276eef2af8e80196a243542308aad7c267449829478a252dd5fc07f796c51"
+    },
+    {
+      "file": "services-konsultan-corporate-training.html",
+      "batch": "008",
+      "bytes": 120442,
+      "sha256": "6561c434943b2bb524ccec9da7efd8994bebed693034a7508219ec2f2ac41df0"
+    },
+    {
+      "file": "services-konsultan-management-consulting.html",
+      "batch": "008",
+      "bytes": 120388,
+      "sha256": "e5ab8cef54aae07cbc090bc9f3618188e73d8bd8559461cbabdf94e3e7914aa4"
+    },
+    {
+      "file": "services-konsultan-market-research.html",
+      "batch": "008",
+      "bytes": 120432,
+      "sha256": "a0c36b124a427ffd28d887417ebaa65c7221725d85bbf57576ddfd9a1081b3c6"
+    },
+    {
+      "file": "services-konsultan-operational-improvement.html",
+      "batch": "008",
+      "bytes": 120504,
+      "sha256": "b5a81a585df39d8a4ed8c589fa9315acd7c2ec9e820a08021ec8a60c941375dd"
+    },
+    {
+      "file": "services-konsultan-strategic-planning.html",
+      "batch": "008",
+      "bytes": 120467,
+      "sha256": "279e0f51e4ecb59f77ea8d13eae3c4c1980190238931cecab925e32536492fed"
+    },
+    {
+      "file": "services-mum-business-support.html",
+      "batch": "008",
+      "bytes": 294511,
+      "sha256": "965e0c9f1b8140c5eb99409f51ae7364e6ab58e7f58b1398fdd461bbf001d0c8"
+    },
+    {
+      "file": "services-mum-distribution.html",
+      "batch": "008",
+      "bytes": 294402,
+      "sha256": "aea4f9cb57cebf534db2843f2654e1b436e58d44853d5188e8aa1dc1f648afc3"
+    },
+    {
+      "file": "services-mum-equipment-supply.html",
+      "batch": "008",
+      "bytes": 294478,
+      "sha256": "9bcea02a778cc9779ca154789429a2d635aedba4e6ec2a76dc61d8aaad127415"
+    },
+    {
+      "file": "services-mum-general-contractor.html",
+      "batch": "008",
+      "bytes": 294549,
+      "sha256": "83cdd6dbb03af434267d6a9efef9782dbe2eaa42fca732a75b59c6619b4f7ad2"
+    },
+    {
+      "file": "services-mum-general-trading.html",
+      "batch": "008",
+      "bytes": 294529,
+      "sha256": "94724591904efe8e7ec286440c5997c2cce8e4f229211e1d16fbbe814151a62e"
+    },
+    {
+      "file": "services-mum-industrial-supplier.html",
+      "batch": "008",
+      "bytes": 294459,
+      "sha256": "cf03c56760bc90d40c3f19caf53758c0527e8dd978f82e7c7039b2b4954d97bf"
+    },
+    {
+      "file": "services-mum-procurement.html",
+      "batch": "008",
+      "bytes": 294493,
+      "sha256": "cb22ced8cb410077f56d1e60508543bbc6977ae432b637aff0b5cc620b845720"
+    },
+    {
+      "file": "services-mum-project-management.html",
+      "batch": "009",
+      "bytes": 294411,
+      "sha256": "68a9bdc384be2dbdd60700bd12cb230407f232f00febd388781f1bb5ea0fa970"
+    },
+    {
+      "file": "services.html",
+      "batch": "009",
+      "bytes": 47740,
+      "sha256": "725ea40170ffa748ac4bbdcd75bdf71589b2f7bc6d6ac8c334091b5fc16d0b5d"
+    },
+    {
+      "file": "shape-studio.svg",
+      "batch": "009",
+      "bytes": 2432,
+      "sha256": "3c30aab76c054e63e288ed815306b08a07c54923c6207efc27d02cb78190db37"
+    },
+    {
+      "file": "shipping.html",
+      "batch": "009",
+      "bytes": 46335,
+      "sha256": "6b6d1229605b71befa6a38e1d86a35a5a0645f4265c05946e6b3062308eb64ae"
+    },
+    {
+      "file": "shop.html",
+      "batch": "009",
+      "bytes": 47420,
+      "sha256": "4a9084bc661875d31608ec2059a4078154558ec6761406cbd8583c979d39f485"
+    },
+    {
+      "file": "sitemap.html",
+      "batch": "009",
+      "bytes": 211192,
+      "sha256": "bd53d68a4b5d8d9022ccce130917afb5d1be91de6bfcdf6cd3684e0d6cc80fcf"
+    },
+    {
+      "file": "size-guide.html",
+      "batch": "009",
+      "bytes": 46460,
+      "sha256": "4b67755b863a7ec390ae08f0caf321c0572b0f69f9f64a3d5b9d6184949ff727"
+    },
+    {
+      "file": "spa.html",
+      "batch": "009",
+      "bytes": 42578,
+      "sha256": "5f73193a55c818e0f5cdd799c5dec918c60b4e25339d242ba19fd149f310fbdc"
+    },
+    {
+      "file": "spa.jpg",
+      "batch": "009",
+      "bytes": 75756,
+      "sha256": "535f32b2f28bdfa8cbf60649b8ed4f0848a947892d86667533326eeec57eb3b5"
+    },
+    {
+      "file": "specialties.html",
+      "batch": "009",
+      "bytes": 47254,
+      "sha256": "a4300f1fe00bb6b0d96c8938681bb5828db0f3620ac6a6905b76b387f2d67cd9"
+    },
+    {
+      "file": "specialty-detail.html",
+      "batch": "009",
+      "bytes": 48246,
+      "sha256": "a40aeb3ba7213dcec0c2da8c900fc3f4b94cbccaf7aa545c58dae2e1d4272a72"
+    },
+    {
+      "file": "stay.html",
+      "batch": "009",
+      "bytes": 42758,
+      "sha256": "af59216e0e3d23639ed725923167b1c60f17397c041952d7191219aa47b89671"
+    },
+    {
+      "file": "stores.html",
+      "batch": "009",
+      "bytes": 46276,
+      "sha256": "1f458fbd82796d1b626e28bd1f49cfc6b3ea2d2fbe0a6e816de5164b84b1786b"
+    },
+    {
+      "file": "student-experience.html",
+      "batch": "009",
+      "bytes": 46218,
+      "sha256": "7ed42ac0101141492dbf32f0c96a1a578ae11b42ca50ad45caee5a41f53a8881"
+    },
+    {
+      "file": "student-film.svg",
+      "batch": "009",
+      "bytes": 6547,
+      "sha256": "ab61b9cd46503362706dd815f64a3cb84313fc7166f4a18e625c4a2932d863dd"
+    },
+    {
+      "file": "student-work.html",
+      "batch": "009",
+      "bytes": 45764,
+      "sha256": "77357bdacb6da0124602263eff8ec4506796a16d46e0996d9c48b60019be6368"
+    },
+    {
+      "file": "suite-detail-01.html",
+      "batch": "009",
+      "bytes": 42644,
+      "sha256": "557d881f000424d34bfbc06adbd73bad80c2430e28ad34f81ecd4bd08c0e336d"
+    },
+    {
+      "file": "suite-detail-02.html",
+      "batch": "009",
+      "bytes": 42610,
+      "sha256": "24ff7bf33b020d4878ea2395d754e7506372c818f756df93ed963c35b9700e01"
+    },
+    {
+      "file": "suite-detail-03.html",
+      "batch": "009",
+      "bytes": 42556,
+      "sha256": "9468c2bb263069bdb0605e99b11828a3502bdd9b27c339eb9b636febfbb6b549"
+    },
+    {
+      "file": "suite.jpg",
+      "batch": "009",
+      "bytes": 96241,
+      "sha256": "12abcf30fdfb81b398c0face2273e69480afebd268e4836f0a513445edb33296"
+    },
+    {
+      "file": "suites.html",
+      "batch": "009",
+      "bytes": 42419,
+      "sha256": "10eb6564cf5f91395a73059e5d9e82f1d222e35c80d0de476a118ba86793121a"
+    },
+    {
+      "file": "tasting-menu.html",
+      "batch": "009",
+      "bytes": 43034,
+      "sha256": "27fa31df969a74bd3c7de8a56bc16cccfd35b9efcfec1bdf9c226b7887cf250f"
+    },
+    {
+      "file": "team.html",
+      "batch": "009",
+      "bytes": 46444,
+      "sha256": "88b14507f494306d3e2a39bacee3c71da06f075d07eb24a944265b5a39515df5"
+    },
+    {
+      "file": "technology.html",
+      "batch": "009",
+      "bytes": 49291,
+      "sha256": "f7e39f01fcb0639800ce749bc4da1574513b6599d85a0259cb71eaa76dc2194f"
+    },
+    {
+      "file": "test-drive.html",
+      "batch": "009",
+      "bytes": 41282,
+      "sha256": "128bc0c5d191d1c0cdaa95399e71571493bf366f0f81f2be06ed682fa6fce172"
+    },
+    {
+      "file": "tiket-bantuan.html",
+      "batch": "009",
+      "bytes": 7395,
+      "sha256": "a5bca760d6715eb60ce85de1b4ba4517e664a1a2f81fb43826719d5d87a462d4"
+    },
+    {
+      "file": "topic.html",
+      "batch": "009",
+      "bytes": 48058,
+      "sha256": "f242d3f0bd4fbf735baed901eb59ed01115de5d35bdb7da7edb77177f6a27f20"
+    },
+    {
+      "file": "tuition.html",
+      "batch": "009",
+      "bytes": 46218,
+      "sha256": "f35c9b8f03836c784984bf00e37608a4a8a8b42045ce5ea6d66f950e7deae8a4"
+    },
+    {
+      "file": "vantara-404.html",
+      "batch": "009",
+      "bytes": 38914,
+      "sha256": "fab723bcf6cef8969709a54ca4211d12c4482b5eccce36e4db060c1492c543f2"
+    },
+    {
+      "file": "vantara-about.html",
+      "batch": "009",
+      "bytes": 39481,
+      "sha256": "1468e267529672d73ce08d10e9422fb06a2bc1e5d701162d3094ab5464b1515b"
+    },
+    {
+      "file": "vantara-applications.html",
+      "batch": "009",
+      "bytes": 39420,
+      "sha256": "ac2823c1f7b2305613feb261c3815dfa463fa3d08afe8d809cdd3260932588d7"
+    },
+    {
+      "file": "vantara-candidate-dashboard.html",
+      "batch": "009",
+      "bytes": 39661,
+      "sha256": "24a8347869373f6514f42c4febe0019dcd28c6684f935155c9dda750884c3853"
+    },
+    {
+      "file": "vantara-candidate-profile.html",
+      "batch": "009",
+      "bytes": 39442,
+      "sha256": "131e2b60d971b3a85602482ce4aff23f9e55a49ec5a7d608e9d75c8f88f7bdc6"
+    },
+    {
+      "file": "vantara-career-insights.html",
+      "batch": "009",
+      "bytes": 39721,
+      "sha256": "0e1bfe070d1018974a5a7bd7f8ad9fd5443806a837548ae3665ad86f9471fdf7"
+    },
+    {
+      "file": "vantara-companies.html",
+      "batch": "009",
+      "bytes": 39693,
+      "sha256": "ff6696e537faf48603936a2252eded68d8d8cfe1782ca07bf5d41800a1898802"
+    },
+    {
+      "file": "vantara-company-profile.html",
+      "batch": "009",
+      "bytes": 39439,
+      "sha256": "c14d5addbfb79bff19e5ecd330a6939d2986fa789fbfdbf03897eddd971fbe71"
+    },
+    {
+      "file": "vantara-contact.html",
+      "batch": "009",
+      "bytes": 39349,
+      "sha256": "a7b8defb631449b62c8262ebffb91667041f0c37cd152b6cb8648eb73d57b40f"
+    },
+    {
+      "file": "vantara-contract-work.html",
+      "batch": "009",
+      "bytes": 39302,
+      "sha256": "113327a6f511738fe5688d90646879d4110240c8f169225471fd26d24f305a3d"
+    },
+    {
+      "file": "vantara-employer-dashboard.html",
+      "batch": "009",
+      "bytes": 39190,
+      "sha256": "2ec4b1f2aee15449e4cb2e57eea0992af39aacf740977bcbac234f529197d8ac"
+    },
+    {
+      "file": "vantara-for-employers.html",
+      "batch": "009",
+      "bytes": 39574,
+      "sha256": "7993b1edbe2d3d893a7d5bb7b88db55e42d34c971e1a9be9027f3e05bd533efc"
+    },
+    {
+      "file": "vantara-graduate-jobs.html",
+      "batch": "009",
+      "bytes": 39611,
+      "sha256": "9ece4c6c9054d4b08ba0561bf5ff3a20c93988b7472e95da115ded3fab4a4089"
+    },
+    {
+      "file": "vantara-help.html",
+      "batch": "009",
+      "bytes": 39467,
+      "sha256": "19ecfaae16d47ef421a28879c6d42205512d7b7d59a456b7f02212af5fd6e95f"
+    },
+    {
+      "file": "vantara-hiring-scorecard.html",
+      "batch": "009",
+      "bytes": 39661,
+      "sha256": "74a2940e5e6a7ab5f9f235f23d18cb1fe0c5693a1843df37216bee1e03fa007a"
+    },
+    {
+      "file": "vantara-index.html",
+      "batch": "009",
+      "bytes": 39716,
+      "sha256": "1db8f6d1bcde5bac6ac277313b11c39ff14352fe183257e498c9f175491d9c7b"
+    },
+    {
+      "file": "vantara-interview-preparation.html",
+      "batch": "009",
+      "bytes": 39927,
+      "sha256": "ec2b9f4f7ac120788f783970b76753cacc3977f8ead83d4e9cffa484e66987dc"
+    },
+    {
+      "file": "vantara-job-detail.html",
+      "batch": "009",
+      "bytes": 39620,
+      "sha256": "27607803412a001598e6c4305e3da9a597e19d46e98b1dc8f9a38886f090906c"
+    },
+    {
+      "file": "vantara-job-search.html",
+      "batch": "009",
+      "bytes": 40763,
+      "sha256": "682c52b096231711c43cc41066a886ffd033cc267d218cfae37a906d40c1e2c2"
+    },
+    {
+      "file": "vantara-jobs.html",
+      "batch": "009",
+      "bytes": 40177,
+      "sha256": "7ddd0c25243bd281ae8aa6d112fdefb3473f51def167f6a5d26bf5b1fec09462"
+    },
+    {
+      "file": "vantara-matching.html",
+      "batch": "009",
+      "bytes": 39297,
+      "sha256": "3a10d4ac246dcfd150b4187757484dd7fdd23ee8b853b77f2d880004451a0741"
+    },
+    {
+      "file": "vantara-offer-checklist.html",
+      "batch": "009",
+      "bytes": 39656,
+      "sha256": "f90c30d5f5235cfcb351ae6f98f63cf2037389e489fde85a8af8e8fd5a40c34b"
+    },
+    {
+      "file": "vantara-portfolio-guide.html",
+      "batch": "009",
+      "bytes": 39717,
+      "sha256": "094410877a548b990907a34bd4473f717676e93075cc10f6911aa4ec1a4382e1"
+    },
+    {
+      "file": "vantara-post-job.html",
+      "batch": "009",
+      "bytes": 39742,
+      "sha256": "a431906a5a1847455cd33d04a90a837355eecbfc2659e13971bd93eb814f70a6"
+    },
+    {
+      "file": "vantara-privacy.html",
+      "batch": "009",
+      "bytes": 39038,
+      "sha256": "f1e041864fedd226597bb8a60320c823f89c0d1cfd208b7a833bdf2b1b2df4be"
+    },
+    {
+      "file": "vantara-remote-work.html",
+      "batch": "009",
+      "bytes": 39492,
+      "sha256": "c17ea8b6c2e013b564dbcbe8d9eccd707a1d7c9014d164d2bc490f4ce9678180"
+    },
+    {
+      "file": "vantara-role-brand-systems.html",
+      "batch": "009",
+      "bytes": 38861,
+      "sha256": "3bb7996ef5b395a57902238855abf747405193ed8a569c6c84a3e83cbfccc9d1"
+    },
+    {
+      "file": "vantara-role-content-strategy.html",
+      "batch": "009",
+      "bytes": 38801,
+      "sha256": "3b6725a2b053efaa3250b7ea05c40f7c0078d7eb3701f020649a0a7ed4de0be9"
+    },
+    {
+      "file": "vantara-role-motion-design.html",
+      "batch": "009",
+      "bytes": 38787,
+      "sha256": "e03bbd8c1fc6288fea342fe7a5c42c89da5a68bc6eac050354c265492aaaf52e"
+    },
+    {
+      "file": "vantara-role-operations.html",
+      "batch": "009",
+      "bytes": 38810,
+      "sha256": "d7805d3df5d2c976d60e987ec5aa71a24f67abe1a2e303f0981c9eb6e4d357f5"
+    },
+    {
+      "file": "vantara-role-people-operations.html",
+      "batch": "009",
+      "bytes": 38828,
+      "sha256": "60370fc219e18a4d0a8e991b2390c9f7617bc25598aec4a8bd76cd2d54a83686"
+    },
+    {
+      "file": "vantara-safety.html",
+      "batch": "009",
+      "bytes": 39147,
+      "sha256": "d4665d5d8d5837ee8d49fd032ff7ce7ad3a567baf33b89e2a43bf4cd132d39a3"
+    },
+    {
+      "file": "vantara-salary-guide.html",
+      "batch": "009",
+      "bytes": 39356,
+      "sha256": "dd193066bb0847319f59744e5402a5bb856a994f6784c2ffd1629c6cf8fb7462"
+    },
+    {
+      "file": "vantara-saved-jobs.html",
+      "batch": "009",
+      "bytes": 39292,
+      "sha256": "12c85109d9bdaad504f13d9c383e568d1ed10e1950c47102d4fe5f00586d7664"
+    },
+    {
+      "file": "vantara-sitemap.html",
+      "batch": "009",
+      "bytes": 41155,
+      "sha256": "b6c5242221e312a03d89ecddeaac1a085699467a350ef6a343b3dfe4652d3de0"
+    },
+    {
+      "file": "vantara-skills.html",
+      "batch": "009",
+      "bytes": 39468,
+      "sha256": "814e57c86407628540c7cbfcd3178381332352e638d8643e897ae5b405f970d2"
+    },
+    {
+      "file": "vantara-talent-search.html",
+      "batch": "009",
+      "bytes": 39874,
+      "sha256": "4530082cd6f8aaa0d551866d5e0d5879e9d00e06a77cb5e8447df91d363913a9"
+    },
+    {
+      "file": "vantara-terms.html",
+      "batch": "009",
+      "bytes": 39128,
+      "sha256": "b6461d5aae15fd1eee46b8a99874dfaca65def485231d5d5b9108199aefb382e"
+    },
+    {
+      "file": "vantara-vantara-preview.svg",
+      "batch": "009",
+      "bytes": 8105,
+      "sha256": "071f706f1c1abfca3ad1d065bc97e2b1fab9a3a911d9ad57a0c51f86d651847c"
+    },
+    {
+      "file": "vector.html",
+      "batch": "009",
+      "bytes": 41663,
+      "sha256": "7ccf42b461eb4b24a09bc34ef8f1daec2818ff041b60101be981c7fa14dbf160"
+    },
+    {
+      "file": "video.html",
+      "batch": "009",
+      "bytes": 50377,
+      "sha256": "7afa0aff3c775e2bc4f1cb10b79ffca9736020f4a8038da8223e77ffb6c42bde"
+    },
+    {
+      "file": "villa-detail.html",
+      "batch": "009",
+      "bytes": 42628,
+      "sha256": "5ebdfdc5ca33d260a98ae81f0d5fc6eee2be0e1bc918845035914663dacb9dfb"
+    },
+    {
+      "file": "villas.html",
+      "batch": "009",
+      "bytes": 42536,
+      "sha256": "fdc014175aaae12bb86a4857f6edabdf825d1cedb699c666a74d7736e09f81c3"
+    },
+    {
+      "file": "visit.html",
+      "batch": "009",
+      "bytes": 42622,
+      "sha256": "c7963228dbd1768ee239cdffdd1df1d4cfbb20a1eb99c590cf7b62b721801f1e"
+    },
+    {
+      "file": "volunteer.html",
+      "batch": "009",
+      "bytes": 46685,
+      "sha256": "dcbd5a53f164a5bc24c6a49e0d59f16d1e6cbe6557eff037458557a2a8a183bd"
+    },
+    {
+      "file": "warranty.html",
+      "batch": "009",
+      "bytes": 40986,
+      "sha256": "f229e9f926360895594830080c75b013be0dce320d292fc6e3f3a3f40a240b9a"
+    },
+    {
+      "file": "website.html",
+      "batch": "009",
+      "bytes": 1778831,
+      "sha256": "76cf8dea22570258eaacce0482fc1f54a09e64a5c92c372b37206a052cdff62e"
+    },
+    {
+      "file": "wellness.html",
+      "batch": "009",
+      "bytes": 42527,
+      "sha256": "1ce35242a02be23659d93337a51c0b8cc6c215e762d38bca2317c45a441c07fc"
+    },
+    {
+      "file": "where-we-work.html",
+      "batch": "009",
+      "bytes": 46704,
+      "sha256": "aacde8a695befef5b96b03c5c1f5603351cf1645aec52c1a561b59c7ee520a76"
+    },
+    {
+      "file": "wine.html",
+      "batch": "009",
+      "bytes": 42716,
+      "sha256": "33d0a6703649ed098820b644688feb71ef5069012aaf89cc87239a36f7ffd304"
+    },
+    {
+      "file": "wishlist.html",
+      "batch": "009",
+      "bytes": 47817,
+      "sha256": "f7051ca4bf99efdc7c9b7188a93bfbb82bb6591711c339293e216171da63fb3c"
+    },
+    {
+      "file": "world.html",
+      "batch": "009",
+      "bytes": 49209,
+      "sha256": "5d1fddb3e48f142e2c296ae9fe7565522a6afb44ef2c426410b3bb7bf713ae58"
+    }
+  ]
+}

@@ -1,0 +1,615 @@
+{
+  "scope": "Static/VM/HTTP evidence, not browser acceptance",
+  "version": "dev",
+  "static": {
+    "files": 869,
+    "html": 736,
+    "bytes": 63018040,
+    "references_checked": 54943,
+    "missing_internal_references": 0,
+    "cross_version_references": 0,
+    "production_integration_references": 0,
+    "external_css_js_references": 0,
+    "duplicate_ids": 0,
+    "broken_static_fragments": 0,
+    "case_mismatches": 0,
+    "malformed_percent_urls": 0,
+    "media_checked": 123,
+    "media_errors": 0,
+    "protected_scripts_checked": 10,
+    "protected_scripts_changed": 0,
+    "csp_documents": 1,
+    "csp_unlisted_scripts": 0,
+    "csp_unlisted_styles": 0,
+    "csp_stale_hashes": 0,
+    "pages_without_title": 0,
+    "pages_without_description": 0,
+    "images_without_alt": 0
+  },
+  "protected_script_comparison": [
+    {
+      "file": "website.html",
+      "id": "dirac-security-boundary-20260905",
+      "equal": true,
+      "baseline_sha256": "567625747e3e2d861ea4462508809fca3da3926985a58aa2e7d1ad8a9073cbfc",
+      "current_sha256": "567625747e3e2d861ea4462508809fca3da3926985a58aa2e7d1ad8a9073cbfc"
+    },
+    {
+      "file": "website.html",
+      "id": "dirac-html-shell-v1",
+      "equal": true,
+      "baseline_sha256": "f35a26ce7132d4542a2554ecaa089a9ec1d1af0b49565f5d3b5da5347f7f08f5",
+      "current_sha256": "f35a26ce7132d4542a2554ecaa089a9ec1d1af0b49565f5d3b5da5347f7f08f5"
+    },
+    {
+      "file": "website.html",
+      "id": "dirac-safe-dom-builder-v1",
+      "equal": true,
+      "baseline_sha256": "f0e75f5f61129090163d8f41c6fc82a2778050fbec4410340eba59e05710f995",
+      "current_sha256": "f0e75f5f61129090163d8f41c6fc82a2778050fbec4410340eba59e05710f995"
+    },
+    {
+      "file": "website.html",
+      "id": "dirac-csrf-fetch-bridge-v2",
+      "equal": true,
+      "baseline_sha256": "2759c38e53917c5ed1e95c4d81d9448039d3a811fb8a22335aeb0a77cd1d6a25",
+      "current_sha256": "2759c38e53917c5ed1e95c4d81d9448039d3a811fb8a22335aeb0a77cd1d6a25"
+    },
+    {
+      "file": "website.html",
+      "id": "dirac-dashboard-session-singleflight-v1",
+      "equal": true,
+      "baseline_sha256": "59c69709e8cfcb0c44d8e690230209efd50f583864a0514285a6061832b84454",
+      "current_sha256": "59c69709e8cfcb0c44d8e690230209efd50f583864a0514285a6061832b84454"
+    },
+    {
+      "file": "website.html",
+      "id": "dirac-global-pref-storage-guard-v2",
+      "equal": true,
+      "baseline_sha256": "c90b7965a0ec7bfaab63b60e8a3530934719e2659f2e827d01a6d11c74ebc75d",
+      "current_sha256": "c90b7965a0ec7bfaab63b60e8a3530934719e2659f2e827d01a6d11c74ebc75d"
+    },
+    {
+      "file": "website.html",
+      "id": "dirac-product-gate-js",
+      "equal": true,
+      "baseline_sha256": "3a6c122099938519b83ced3d329fc2d9336f67e9f7449ac25d65c4b8e5be20e1",
+      "current_sha256": "3a6c122099938519b83ced3d329fc2d9336f67e9f7449ac25d65c4b8e5be20e1"
+    },
+    {
+      "file": "website.html",
+      "id": "dirac-protected-page-session-lock-js",
+      "equal": true,
+      "baseline_sha256": "4979d07a72c79bf2f651d3efb08781bc5c16bae880d0bb143a58a7a778a6a63c",
+      "current_sha256": "4979d07a72c79bf2f651d3efb08781bc5c16bae880d0bb143a58a7a778a6a63c"
+    },
+    {
+      "file": "website.html",
+      "id": "dirac-checkout-final-security-js",
+      "equal": true,
+      "baseline_sha256": "190ea1364ff14aa7fe2b6c22c0ae7f1cefba5cb31bba756857149606a5598ab1",
+      "current_sha256": "190ea1364ff14aa7fe2b6c22c0ae7f1cefba5cb31bba756857149606a5598ab1"
+    },
+    {
+      "file": "website.html",
+      "id": "dirac-dashboard-shell-runtime-v4",
+      "equal": true,
+      "baseline_sha256": "c93d7a87b2f650df524d87474f64fd9388fdcb60faec8384adf699b1d7ec16cb",
+      "current_sha256": "c93d7a87b2f650df524d87474f64fd9388fdcb60faec8384adf699b1d7ec16cb"
+    }
+  ],
+  "csp": [
+    {
+      "file": "website.html",
+      "kind": "dynamic",
+      "hash_tokens": 83,
+      "unlisted_scripts": [],
+      "unlisted_styles": [],
+      "stale_hashes": [],
+      "scripts_before_or_installing_policy": [
+        {
+          "id": "dirac-security-boundary-20260905",
+          "line": 4
+        },
+        {
+          "id": "dirac-dynamic-csp-v1",
+          "line": 319
+        }
+      ],
+      "unsafe_inline": false,
+      "unsafe_eval": false,
+      "frame_ancestors_meta_limitation": true
+    }
+  ],
+  "javascript": {
+    "unique_sources": 166,
+    "errors": [],
+    "occurrences_checked": 4492
+  },
+  "runtime_controller": {
+    "kind": "Node vm execution of actual runtime scripts against DOM mocks",
+    "started": "2026-10-11T05:07:52.820Z",
+    "tests": [
+      {
+        "name": "dev production catalog exposes complete records",
+        "pass": true
+      },
+      {
+        "name": "dev independent preview availability http://127.0.0.1:8766/index.html",
+        "pass": true
+      },
+      {
+        "name": "dev independent preview availability http://localhost:8766/index.html",
+        "pass": true
+      },
+      {
+        "name": "dev independent preview availability https://demo.github.io/repo/index.html",
+        "pass": true
+      },
+      {
+        "name": "dev independent preview availability https://project.pages.dev/index.html",
+        "pass": true
+      },
+      {
+        "name": "dev independent preview availability https://project.netlify.app/index.html",
+        "pass": true
+      },
+      {
+        "name": "dev independent preview availability file:///tmp/demo/index.html",
+        "pass": true
+      },
+      {
+        "name": "dev route domain https://dev.example.co.id/index.html undefined",
+        "pass": true
+      },
+      {
+        "name": "dev route domain https://dev1.www.shop.example.com/index.html undefined",
+        "pass": true
+      },
+      {
+        "name": "dev route domain https://preview.github.io/project/index.html EXAMPLE.CO.ID.",
+        "pass": true
+      },
+      {
+        "name": "dev route domain https://preview.github.io/index.html https://example.com",
+        "pass": true
+      },
+      {
+        "name": "dev route domain https://preview.github.io/index.html evil.com/path",
+        "pass": true
+      },
+      {
+        "name": "dev route domain https://preview.github.io/index.html co.id",
+        "pass": true
+      },
+      {
+        "name": "dev route domain https://preview.github.io/index.html 127.0.0.1",
+        "pass": true
+      },
+      {
+        "name": "dev route domain https://preview.github.io/index.html project.vercel.app",
+        "pass": true
+      },
+      {
+        "name": "dev route domain https://preview.github.io/index.html javascript:alert(1)",
+        "pass": true
+      },
+      {
+        "name": "dev invalid dynamic demo links remain disabled",
+        "pass": true
+      },
+      {
+        "name": "dev click rehydrates URL and disabled click cannot navigate",
+        "pass": true
+      },
+      {
+        "name": "dev text search normalizes accents, case, whitespace",
+        "pass": true
+      },
+      {
+        "name": "dev category and query intersect; reset restores catalog",
+        "pass": true
+      },
+      {
+        "name": "dev URL query and category initialization",
+        "pass": true
+      },
+      {
+        "name": "dev invalid URL category and query maximum",
+        "pass": true
+      },
+      {
+        "name": "dev form submit remains local and reset prevents native overwrite",
+        "pass": true
+      },
+      {
+        "name": "dev refinement reruns when routing availability changes",
+        "pass": true
+      },
+      {
+        "name": "dev main catalog owner map resolves all42 real records",
+        "pass": true
+      },
+      {
+        "name": "dev main catalog local routes and cross-host explanation",
+        "pass": true
+      },
+      {
+        "name": "dev main discovery initialized after DOMContentLoaded once",
+        "pass": true
+      },
+      {
+        "name": "dev main discovery debounced text and empty reset",
+        "pass": true
+      },
+      {
+        "name": "dev main discovery category states and reset",
+        "pass": true
+      },
+      {
+        "name": "dev main discovery sort stable and curated order restored",
+        "pass": true
+      },
+      {
+        "name": "dev main discovery cancelled debounce cannot undo reset",
+        "pass": true
+      },
+      {
+        "name": "dev1 production catalog exposes complete records",
+        "pass": true
+      },
+      {
+        "name": "dev1 independent preview availability http://127.0.0.1:8766/index.html",
+        "pass": true
+      },
+      {
+        "name": "dev1 independent preview availability http://localhost:8766/index.html",
+        "pass": true
+      },
+      {
+        "name": "dev1 independent preview availability https://demo.github.io/repo/index.html",
+        "pass": true
+      },
+      {
+        "name": "dev1 independent preview availability https://project.pages.dev/index.html",
+        "pass": true
+      },
+      {
+        "name": "dev1 independent preview availability https://project.netlify.app/index.html",
+        "pass": true
+      },
+      {
+        "name": "dev1 independent preview availability file:///tmp/demo/index.html",
+        "pass": true
+      },
+      {
+        "name": "dev1 route domain https://dev.example.co.id/index.html undefined",
+        "pass": true
+      },
+      {
+        "name": "dev1 route domain https://dev1.www.shop.example.com/index.html undefined",
+        "pass": true
+      },
+      {
+        "name": "dev1 route domain https://preview.github.io/project/index.html EXAMPLE.CO.ID.",
+        "pass": true
+      },
+      {
+        "name": "dev1 route domain https://preview.github.io/index.html https://example.com",
+        "pass": true
+      },
+      {
+        "name": "dev1 route domain https://preview.github.io/index.html evil.com/path",
+        "pass": true
+      },
+      {
+        "name": "dev1 route domain https://preview.github.io/index.html co.id",
+        "pass": true
+      },
+      {
+        "name": "dev1 route domain https://preview.github.io/index.html 127.0.0.1",
+        "pass": true
+      },
+      {
+        "name": "dev1 route domain https://preview.github.io/index.html project.vercel.app",
+        "pass": true
+      },
+      {
+        "name": "dev1 route domain https://preview.github.io/index.html javascript:alert(1)",
+        "pass": true
+      },
+      {
+        "name": "dev1 invalid dynamic demo links remain disabled",
+        "pass": true
+      },
+      {
+        "name": "dev1 click rehydrates URL and disabled click cannot navigate",
+        "pass": true
+      },
+      {
+        "name": "dev1 text search normalizes accents, case, whitespace",
+        "pass": true
+      },
+      {
+        "name": "dev1 category and query intersect; reset restores catalog",
+        "pass": true
+      },
+      {
+        "name": "dev1 URL query and category initialization",
+        "pass": true
+      },
+      {
+        "name": "dev1 invalid URL category and query maximum",
+        "pass": true
+      },
+      {
+        "name": "dev1 form submit remains local and reset prevents native overwrite",
+        "pass": true
+      },
+      {
+        "name": "dev1 refinement reruns when routing availability changes",
+        "pass": true
+      },
+      {
+        "name": "dev1 main catalog owner map resolves all42 real records",
+        "pass": true
+      },
+      {
+        "name": "dev1 main catalog local routes and cross-host explanation",
+        "pass": true
+      },
+      {
+        "name": "dev1 main discovery initialized after DOMContentLoaded once",
+        "pass": true
+      },
+      {
+        "name": "dev1 main discovery debounced text and empty reset",
+        "pass": true
+      },
+      {
+        "name": "dev1 main discovery category states and reset",
+        "pass": true
+      },
+      {
+        "name": "dev1 main discovery sort stable and curated order restored",
+        "pass": true
+      },
+      {
+        "name": "dev1 main discovery cancelled debounce cannot undo reset",
+        "pass": true
+      }
+    ],
+    "sources": {
+      "dev": {
+        "catalog-refinement.js": {
+          "sha256": "3a497442f1e4ae2e0f485b43803a6a0e3ab37ff87b055e65337f83be0fd7b6c5",
+          "inlined": true
+        },
+        "catalog-shards.js": {
+          "sha256": "4e9c3ecf2f90f78cbd93f9e55a89bbc56ee045292c78c1fa4ac71a2d14646550",
+          "inlined": true
+        },
+        "discovery": {
+          "sha256": "bf7e828042c7899d514d2e32ac63913d9537fc50167b50f03f10cf88b07de94b",
+          "inlined": true
+        },
+        "corporateFooter": {
+          "sha256": "8e387330cdb6b2b4813f3795e0c9b780128d4108e676e06164b267f231f7fc72",
+          "inlined": true
+        }
+      },
+      "dev1": {
+        "catalog-refinement.js": {
+          "sha256": "3a497442f1e4ae2e0f485b43803a6a0e3ab37ff87b055e65337f83be0fd7b6c5",
+          "inlined": true
+        },
+        "catalog-shards.js": {
+          "sha256": "9e03de1628406ebb944452aa48459142bbd2354d53bee64794c8151035cfceee",
+          "inlined": true
+        },
+        "discovery": {
+          "sha256": "bf7e828042c7899d514d2e32ac63913d9537fc50167b50f03f10cf88b07de94b",
+          "inlined": true
+        },
+        "corporateFooter": {
+          "sha256": "491bdb4969f378f7659f7e694a3371b47e3151b1eddcbf1a0f3d3623c17f4687",
+          "inlined": true
+        }
+      }
+    },
+    "limitations": [
+      "Only selectors and DOM methods needed by the tested scripts are mocked. This does not emulate layout, CSS, browser parsing, request timing, CSP enforcement, or assistive technology.",
+      "Authentication, payment, backend sessions, network integrations, rendering, Lighthouse, axe, and Core Web Vitals are outside this test.",
+      "No production endpoint, network operation, or persisted browser state is used."
+    ],
+    "passed": 62,
+    "failed": 0,
+    "finished": "2026-10-11T05:07:52.934Z"
+  },
+  "legacy_guard": {
+    "kind": "Isolated execution of actual source with explicit DOM mocks; no browser/layout/backend claim",
+    "tests": [
+      {
+        "name": "dev original failure reproduced with absent storefront",
+        "pass": true,
+        "details": {
+          "error": "Cannot read properties of null (reading 'addEventListener')",
+          "stack": [
+            "evalmachine.<anonymous>:2107",
+            "    $('#searchInput').addEventListener('input', renderProducts);",
+            "                     ^",
+            "",
+            "TypeError: Cannot read properties of null (reading 'addEventListener')"
+          ]
+        }
+      },
+      {
+        "name": "dev patched entire anonymous script initializes without storefront DOM",
+        "pass": true,
+        "details": {
+          "listeners": 3,
+          "storage_reads": 1
+        }
+      },
+      {
+        "name": "dev exact guard contracts missing all",
+        "pass": true,
+        "details": {
+          "called": [],
+          "event_bindings": 0
+        }
+      },
+      {
+        "name": "dev exact guard contracts missing productGrid",
+        "pass": true,
+        "details": {
+          "called": [],
+          "event_bindings": 0
+        }
+      },
+      {
+        "name": "dev exact guard contracts missing searchInput",
+        "pass": true,
+        "details": {
+          "called": [],
+          "event_bindings": 0
+        }
+      },
+      {
+        "name": "dev exact guard contracts missing categoryFilter",
+        "pass": true,
+        "details": {
+          "called": [],
+          "event_bindings": 0
+        }
+      },
+      {
+        "name": "dev exact guard contracts missing sortFilter",
+        "pass": true,
+        "details": {
+          "called": [],
+          "event_bindings": 0
+        }
+      },
+      {
+        "name": "dev exact guard contracts missing null",
+        "pass": true,
+        "details": {
+          "called": [
+            "bindCheckoutValidation",
+            "loadCart",
+            "renderCategoryOptions",
+            "updateShippingOptions",
+            "renderProducts",
+            "renderCart"
+          ],
+          "event_bindings": 9
+        }
+      },
+      {
+        "name": "dev renderProducts returns before filter/media work when storefront absent",
+        "pass": true,
+        "details": {
+          "filteredProductsCalled": false
+        }
+      },
+      {
+        "name": "dev1 original failure reproduced with absent storefront",
+        "pass": true,
+        "details": {
+          "error": "Cannot read properties of null (reading 'addEventListener')",
+          "stack": [
+            "evalmachine.<anonymous>:2107",
+            "    $('#searchInput').addEventListener('input', renderProducts);",
+            "                     ^",
+            "",
+            "TypeError: Cannot read properties of null (reading 'addEventListener')"
+          ]
+        }
+      },
+      {
+        "name": "dev1 patched entire anonymous script initializes without storefront DOM",
+        "pass": true,
+        "details": {
+          "listeners": 3,
+          "storage_reads": 1
+        }
+      },
+      {
+        "name": "dev1 exact guard contracts missing all",
+        "pass": true,
+        "details": {
+          "called": [],
+          "event_bindings": 0
+        }
+      },
+      {
+        "name": "dev1 exact guard contracts missing productGrid",
+        "pass": true,
+        "details": {
+          "called": [],
+          "event_bindings": 0
+        }
+      },
+      {
+        "name": "dev1 exact guard contracts missing searchInput",
+        "pass": true,
+        "details": {
+          "called": [],
+          "event_bindings": 0
+        }
+      },
+      {
+        "name": "dev1 exact guard contracts missing categoryFilter",
+        "pass": true,
+        "details": {
+          "called": [],
+          "event_bindings": 0
+        }
+      },
+      {
+        "name": "dev1 exact guard contracts missing sortFilter",
+        "pass": true,
+        "details": {
+          "called": [],
+          "event_bindings": 0
+        }
+      },
+      {
+        "name": "dev1 exact guard contracts missing null",
+        "pass": true,
+        "details": {
+          "called": [
+            "bindCheckoutValidation",
+            "loadCart",
+            "renderCategoryOptions",
+            "updateShippingOptions",
+            "renderProducts",
+            "renderCart"
+          ],
+          "event_bindings": 9
+        }
+      },
+      {
+        "name": "dev1 renderProducts returns before filter/media work when storefront absent",
+        "pass": true,
+        "details": {
+          "filteredProductsCalled": false
+        }
+      }
+    ],
+    "passed": 18,
+    "failed": 0
+  },
+  "prepackage_http": {
+    "scope": "All regular files, served from a temporary local HTTP document root; no production API called",
+    "file_count": 1664,
+    "http_200": 1664,
+    "missing_path_control_status": 404,
+    "failed_count": 0,
+    "failures": [],
+    "limitations": [
+      "This does not measure browser rendering, runtime interaction, deployed hosting headers, authentication, or production endpoints."
+    ]
+  }
+}
